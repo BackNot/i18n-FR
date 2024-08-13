@@ -20,7 +20,7 @@ benefit: Continuous improvement of enterprise architecture based on architecture
 
 #A one sentence description of the activity
 shortDescription: Feed the architecture review results back into the enterprise architecture,
-  organization design principles & patterns, security solutions and reference architectures.
+  organization design principles and patterns, security solutions and reference architectures.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -40,7 +40,8 @@ personnel:
 #Internal notes that might help the author
 notes:
 
-#References to other activities that are prerequesites to implement this one.
-dependencies:
+#References to other activities that are prerequisites to implement this one.
+relatedActivities:
+
 #Type Classification of the Document
 type: Activity

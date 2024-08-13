@@ -19,7 +19,7 @@ title: Verify the application architecture for security methodically
 benefit: Consistent architecture review process across your organization
 
 #A one sentence description of the activity
-shortDescription: Validate the architecture security mechanisms
+shortDescription: Validate the architecture security mechanisms.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -41,7 +41,8 @@ personnel:
 #Internal notes that might help the author
 notes:
 
-#References to other activities that are prerequesites to implement this one.
-dependencies:
+#References to other activities that are prerequisites to implement this one.
+relatedActivities:
+
 #Type Classification of the Document
 type: Activity

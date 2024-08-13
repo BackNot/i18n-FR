@@ -6,7 +6,7 @@
 activity: a9f56795ac84426c9e45f9471e82a8d7
 
 #Link to the answer set that contains the potential answers for this question
-answerset: d096060a4d864133afcbdd1397b95827
+answerSet: d096060a4d864133afcbdd1397b95827
 
 #Unique identifier (GUID) used to refer to this maturity level.
 #Please generate another identifier for your specific maturity level.
@@ -22,7 +22,8 @@ order: 1
 #Qualifying Criterion
 quality:
 - The vendor has a secure SDLC that includes secure build, secure deployment, defect
-  management, and incident management that align with those used in your organization
+  management, and incident management, meets the security expectations of your organization,
+  and is able to demonstrate operating effectiveness of practices.
 - You verify the solution meets quality and security objectives before every major
   release
 - When standard verification processes are not available, you use compensating controls

@@ -19,7 +19,7 @@ title: Test high risk application components manually
 benefit: Detection of manually identifiable vulnerabilities in critical components
 
 #A one sentence description of the activity
-shortDescription: Perform manual security testing of high-risk components
+shortDescription: Perform manual security testing of high-risk components.
 
 #A multi-paragraph description of the activity
 longDescription: |
@@ -43,7 +43,8 @@ personnel:
 #Internal notes that might help the author
 notes:
 
-#References to other activities that are prerequesites to implement this one.
-dependencies:
+#References to other activities that are prerequisites to implement this one.
+relatedActivities:
+
 #Type Classification of the Document
 type: Activity
