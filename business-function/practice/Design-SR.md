@@ -1,7 +1,7 @@
 ---
 title: French Security Requirements
 url: ./model/design/security-requirements/
-business_function: "FRENCHDesign"
+business_function: "FRENCHDesignn"
 business_function_url: "design"
 keywords: ["Business function", "Practice", "French Security Requirements"]
 aliases:

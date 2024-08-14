@@ -2,12 +2,12 @@
 title: French Technology Management
 type: stream
 url: ./model/design/secure-architecture/stream-b/
-business_function: FRENCHDesign
+business_function: FRENCHDesignn
 business_function_url: design
 practice: French Secure Architecture
 stream: B
-description: FRENCHDesign / French Secure Architecture
-keywords: ["Business function", "Practice", "FRENCHDesign", "French Secure Architecture"]
+description: FRENCHDesignn / French Secure Architecture
+keywords: ["Business function", "Practice", "FRENCHDesignn", "French Secure Architecture"]
 aliases:
     - /model/D-SA-B-1
     - /model/D-SA-B-2

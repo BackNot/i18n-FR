@@ -2,12 +2,12 @@
 title: French Software Requirements
 type: stream
 url: ./model/design/security-requirements/stream-a/
-business_function: FRENCHDesign
+business_function: FRENCHDesignn
 business_function_url: design
 practice: French Security Requirements
 stream: A
-description: FRENCHDesign / French Security Requirements
-keywords: ["Business function", "Practice", "FRENCHDesign", "French Security Requirements"]
+description: FRENCHDesignn / French Security Requirements
+keywords: ["Business function", "Practice", "FRENCHDesignn", "French Security Requirements"]
 aliases:
     - /model/D-SR-A-1
     - /model/D-SR-A-2

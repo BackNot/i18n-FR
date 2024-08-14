@@ -2,12 +2,12 @@
 title: Application Risk Profile
 type: stream
 url: ./model/design/threat-assessment/stream-a/
-business_function: FRENCHDesign
+business_function: FRENCHDesignn
 business_function_url: design
 practice: French Threat Assessment
 stream: A
-description: FRENCHDesign / French Threat Assessment
-keywords: ["Business function", "Practice", "FRENCHDesign", "French Threat Assessment"]
+description: FRENCHDesignn / French Threat Assessment
+keywords: ["Business function", "Practice", "FRENCHDesignn", "French Threat Assessment"]
 aliases:
     - /model/D-TA-A-1
     - /model/D-TA-A-2

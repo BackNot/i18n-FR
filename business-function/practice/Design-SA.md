@@ -1,7 +1,7 @@
 ---
 title: French Secure Architecture
 url: ./model/design/secure-architecture/
-business_function: "FRENCHDesign"
+business_function: "FRENCHDesignn"
 business_function_url: "design"
 keywords: ["Business function", "Practice", "French Secure Architecture"]
 aliases:

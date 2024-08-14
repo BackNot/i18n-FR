@@ -1,7 +1,7 @@
 ---
 title: French Threat Assessment
 url: ./model/design/threat-assessment/
-business_function: "FRENCHDesign"
+business_function: "FRENCHDesignn"
 business_function_url: "design"
 keywords: ["Business function", "Practice", "French Threat Assessment"]
 aliases:
