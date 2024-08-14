@@ -1,6 +1,6 @@
 ---
 title: French Secure Architecture
-url: ./model/design/secure-architecture/
+url: ./model/design/secure-architecture1/
 business_function: "FRENCHDesign"
 business_function_url: "design"
 keywords: ["Business function", "Practice", "French Secure Architecture"]
@@ -13,14 +13,14 @@ practice_maturity_2_description: Direct the software design process toward known
 practice_maturity_3_description: Formally control the software design process and validate utilization of secure components.
 
 stream_a: French Architecture Designn
-stream_a_url: model/design/secure-architecture/stream-a
+stream_a_url: model/design/secure-architecture1/stream-a
 
 stream_a_maturity_1_activity: Teams are trained on the use of basic security principles during design.
 stream_a_maturity_2_activity: Establish common design patterns and security solutions for adoption.
 stream_a_maturity_3_activity: Reference architectures are utilized and continuously evaluated for adoption and appropriateness.
 
 stream_b: French Technology Management
-stream_b_url: model/design/secure-architecture/stream-b
+stream_b_url: model/design/secure-architecture1/stream-b
 
 stream_b_maturity_1_activity: Elicit technologies, frameworks and integrations within the overall solution to identify risk.
 stream_b_maturity_2_activity: Standardize technologies and frameworks to be used throughout the different applications.

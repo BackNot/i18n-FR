@@ -1,7 +1,7 @@
 ---
 title: French Architecture Designn
 type: stream
-url: ./model/design/secure-architecture/stream-a/
+url: ./model/design/secure-architecture1/stream-a/
 business_function: FRENCHDesign
 business_function_url: design
 practice: French Secure Architecture

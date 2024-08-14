@@ -1,7 +1,7 @@
 ---
 title: French Technology Management
 type: stream
-url: ./model/design/secure-architecture/stream-b/
+url: ./model/design/secure-architecture1/stream-b/
 business_function: FRENCHDesign
 business_function_url: design
 practice: French Secure Architecture

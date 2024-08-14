@@ -8,7 +8,7 @@ practice_1_url: threat-assessment
 practice_2: French Security Requirements
 practice_2_url: security-requirements
 practice_3: French Secure Architecture
-practice_3_url: secure-architecture
+practice_3_url: secure-architecture1
 
 keywords: ["Business function"]
 ---
