@@ -6,7 +6,7 @@ description: Vérification business function
 practice_1: Évaluation de l'architecture
 practice_1_url: architecture-assessment
 practice_2: Tests axés sur les exigences
-practice_2_url: requirements-testing
+practice_2_url: requirements-driven-testing
 practice_3: Tests de sécurité
 practice_3_url: security-testing
 

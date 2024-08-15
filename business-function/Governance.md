@@ -4,11 +4,11 @@ url: ./model/governance/
 description: Gouvernance business function
 
 practice_1: Stratégie & Métriques
-practice_1_url: strategy-metrics
+practice_1_url: strategy-and-metrics
 practice_2: Politique & Conformité
 practice_2_url: policy-compliance
 practice_3: Éducation & Orientation
-practice_3_url: education-guidance
+practice_3_url: education-and-guidance
 
 keywords: ["Business function"]
 ---
