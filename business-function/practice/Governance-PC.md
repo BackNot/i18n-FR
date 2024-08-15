@@ -1,35 +1,33 @@
 ---
-title: Policy and Compliance
+title: Politique & Conformité
 url: ./model/governance/policy-compliance/
-business_function: "Governance"
+business_function: "Gouvernance"
 business_function_url: "governance"
-keywords: ["Business function", "Practice", "Policy and Compliance"]
+keywords: ["Business function", "Practice", "Politique & Conformité"]
 aliases:
     - /model/G-PC
 type: practice
 
-practice_maturity_1_description: Identify and document governance and compliance drivers relevant to the organization.
-practice_maturity_2_description: Establish application-specific security and compliance baseline.
-practice_maturity_3_description: Measure adherence to policies, standards, and 3rd-party requirements.
+practice_maturity_1_description: Identifier et documenter les facteurs de gouvernance et de conformité pertinents pour l'organisation.
+practice_maturity_2_description: Établir des références de sécurité et de conformité minimales propres à l'application.
+practice_maturity_3_description: Mesurer le respect des politiques, des normes et des exigences des tierces parties.
 
-stream_a: Policy and Standards
-stream_a_url: model/governance/policy-compliance/stream-a
+stream_a: Politique & Normes
 
-stream_a_maturity_1_activity: Determine a security baseline representing organization's policies and standards.
-stream_a_maturity_2_activity: Develop security requirements applicable to all applications.
-stream_a_maturity_3_activity: Measure and report on the status of individual application's adherence to policies and standards.
+stream_a_maturity_1_activity: Déterminer une ligne de base de sécurité représentant les politiques et les normes de l’organisation.
+stream_a_maturity_2_activity: Développer des exigences de sécurité applicables à toutes les applications.
+stream_a_maturity_3_activity: Mesurer et rendre compte du degré d'adhésion d'une application donnée aux politiques et normes.
 
-stream_b: Compliance Management
-stream_b_url: model/governance/policy-compliance/stream-b
+stream_b: Gestion de la Conformité
 
-stream_b_maturity_1_activity: Identify 3rd-party compliance drivers and requirements and map to existing policies and standards.
-stream_b_maturity_2_activity: Publish compliance-specific application requirements and test guidance.
-stream_b_maturity_3_activity: Measure and report on individual application's compliance with 3rd party requirements.
+stream_b_maturity_1_activity: Identifier les facteurs et les exigences de conformité tiers et les faire correspondre aux politiques et aux normes existantes.
+stream_b_maturity_2_activity: Publier les exigences propres à la conformité d'une application et les conseils de test.
+stream_b_maturity_3_activity: Mesurer et rendre compte de la conformité d'une application donnée avec les exigences des tierces parties.
 ---
 
-The Policy and Compliance (PC) practice focuses on understanding and meeting external legal and regulatory requirements while driving internal security standards to ensure compliance in a way that’s aligned with the business purpose of the organization.
+La pratique de la Politique et Conformité (PC) vise à comprendre et à satisfaire aux exigences juridiques et réglementaires externes tout en respectant les normes de sécurité internes dans le but de garantir que la conformité est en phase avec les objectifs commerciaux de l’organisation.
 
-A driving theme for improvement within this practice is describing organization’s standards and 3rd party obligations as application requirements, enabling efficient and automated audits that may be leveraged within the SDLC and continuously demonstrate that all expectations are met.
+Un point important pour progresser dans cette pratique est de décrire les normes de l'organisation et les obligations de tierce partie comme des exigences d'application, permettant des audits efficaces et automatisés qui peuvent être exploités au sein du SDLC et qui démontrent continuellement que toutes les attentes sont satisfaites.
 
-In a sophisticated form, provision of this practice entails an organization-wide understanding of both internal standards and external compliance drivers while also maintaining low-latency checkpoints with project teams to ensure no project is operating outside expectations without visibility.
+De manière élaborée, la mise en œuvre de cette pratique implique une compréhension par l’ensemble de l’organisation à la fois des normes internes et des facteurs de conformité externes, tout en maintenant des points de contrôle à faible latence avec les équipes projet pour s’assurer qu’aucun projet ne se trouve en dehors des attentes de façon invisible.
 

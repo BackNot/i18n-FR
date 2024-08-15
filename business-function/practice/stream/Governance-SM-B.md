@@ -1,13 +1,13 @@
 ---
-title: Measure and Improve
+title: Mesurer et Améliorer
 type: stream
 url: ./model/governance/strategy-metrics/stream-b/
-business_function: Governance
+business_function: Gouvernance
 business_function_url: governance
-practice: Strategy and Metrics
+practice: Stratégie & Métriques
 stream: B
-description: Governance / Strategy and Metrics
-keywords: ["Business function", "Practice", "Governance", "Strategy and Metrics"]
+description: Gouvernance / Stratégie & Métriques
+keywords: ["Business function", "Practice", "Gouvernance", "Stratégie & Métriques"]
 aliases:
     - /model/G-SM-B-1
     - /model/G-SM-B-2
@@ -18,85 +18,85 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Basic insights into your AppSec program's effectiveness and efficiency
+            Des informations de premier niveau sur l'efficacité et la mise en œuvre de votre programme AppSec
         activity: |
-            Define and document metrics to evaluate the effectiveness and efficiency of the application security program. This way improvements are measurable and you can use them to secure future support and funding for the program. Considering the dynamic nature of most development environments, metrics should be comprised of measurements in the following categories
+            Définissez et documentez des métriques dans le but d'évaluer l'efficacité opérationnelle du programme de sécurité applicative. De cette manière, les améliorations sont mesurables et vous pouvez les utiliser pour sécuriser les besoins futurs en support et en budget pour le programme. Prenant en compte la nature dynamique de la plupart des environnements de développement, les métriques devraient comprendre des mesures dans les catégories suivantes :
 
-            * `Effort` metrics measure the effort spent on security. For example training hours, time spent performing code reviews, and number of applications scanned for vulnerabilities.
-            * `Result` metrics measure the results of security efforts. Examples include number of outstanding patches with security defects and number of security incidents involving application vulnerabilities.
-            * `Environment` metrics measure the environment where security efforts take place. Examples include number of applications or lines of code as a measure of difficulty or complexity.
+            * Les métriques sur les 'Actions' mesurent les actions faites sur la sécurité. Par exemple, les heures de formation, le temps passé à faire des revues de code et le nombre d'applications scannées quant aux vulnérabilités.
+            * Les métriques sur les 'Résultats' mesurent les résultats des actions sur la sécurité. Des exemples sont : nombre de correctifs avec des défauts de sécurité significatifs et nombre d'incidents de sécurité impliquant des vulnérabilités dans une application.
+            * Les métriques sur l''Environnement' rapportent des données sur l'environnement dans lequel les actions de sécurité surviennent. Par exemple, nombre d'applications ou de lignes de code mesurant la complexité ou la difficulté.
 
-            Each metric by itself is useful for a specific purpose, but a combination of two or three metrics together helps explain spikes in metrics trends. For example, a spike in a total number of vulnerabilities may be caused by the organization on-boarding several new applications that have not been previously exposed to the implemented application security mechanisms. Alternatively, an increase in the environment metrics without a corresponding increase in the effort or result could be an indicator of a mature and efficient security program.
+            Chaque métrique prise isolément est utile dans un but donné, mais la combinaison de deux ou trois métriques peut aider à expliquer les pics dans les tendances des métriques. Par exemple, un pic dans le nombre total de vulnérabilités peut être causé par le fait que l'organisation a incorporé plusieurs nouvelles applications qui n'ont pas été prises en compte précédemment par les mécanismes de sécurité applicatives en place. Par ailleurs, une augmentation dans la métrique 'Environnement' sans augmentation parallèle des métriques 'Actions' ou 'Résultats' pourrait être un indicateur d'un programme de sécurité mûr et efficace.
 
-            While identifying metrics, it's always recommended to stick to the metrics that meet several criteria
+            Lors de l'identification des métriques, il est toujours recommandé de se tenir aux métriques qui remplissent plusieurs critères :
 
-            * Consistently Measured
-            * Inexpensive to gather
-            * Expressed as a cardinal number or a percentage
-            * Expressed as a unit of measure
+            * Mesurées de façon cohérente,
+            * Peu chères à mesurer,
+            * Exprimées sous la forme de nombres cardinaux ou de pourcentage,
+            * Exprimées en tant qu'unité de mesure.
 
-            Document metrics and include descriptions of best and most efficient methods for gathering data, as well as recommended methods for combining individual measures into meaningful metrics. For example, a number of applications and a total number of defects across all applications may not be useful by themselves but, when combined as a number of outstanding high-severity defects per application, they provide a more actionable metric.
+            Documentez les métriques et incluez des descriptions des méthodes les meilleures et les plus efficaces pour collecter des données, aussi bien que les méthodes recommandées pour combiner des mesures données pour produire des métriques parlantes. Par exemple, le nombre d'applications et le nombre total de défauts dans l'ensemble des applications ne sont peut-être pas utiles en tant que tels mais, lorsqu'on les combine en tant que nombre de défauts impactants de niveau élevé par application, ils fournissent une métrique bien plus exploitable.
 
-        question: Do you use a set of metrics to measure the effectiveness and efficiency of the application security program across applications?
+        question: Utilisez-vous un ensemble de métriques pour mesurer l'efficacité et l'efficience du programme de sécurité applicative à travers les applications?
         quality_criteria:
-            - You document each metric, including a description of the sources, measurement coverage, and guidance on how to use it to explain application security trends
-            - Metrics include measures of efforts, results, and the environment measurement categories
-            - Most of the metrics are frequently measured, easy or inexpensive to gather, and expressed as a cardinal number or a percentage
-            - Application security and development teams publish metrics
+            - Vous documentez chaque métrique avec notamment la description des sources, le périmètre de mesure et des conseils sur la façon de l'utiliser pour expliquer les tendances de la sécurité de l'application
+            - Les métriques incluent les mesures des efforts, des résultats et des catégories de mesure de l'environnement
+            - La plupart des métriques sont souvent mesurées, faciles ou peu coûteuses à rassembler et exprimées en nombre cardinal ou en pourcentage
+            - Les équipes de sécurité des applications et de développement publient des métriques
 
         answers:
             - "No"
-            - Yes, for one metrics category
-            - Yes, for two metrics categories
-            - Yes, for all three metrics categories
+            - Oui, pour une catégorie de métriques
+            - Oui, pour deux catégories de métriques
+            - Oui, pour les trois catégories de métriques
 
     level2:
         level: 2
         benefit: |
-            Transparency on your AppSec program's performance
+            Transparence sur la performance de votre programme AppSec
         activity: |
-            Once the organization has defined its application security metrics, collect enough information to establish realistic goals. Test identified metrics to ensure you can gather data consistently and efficiently over a short period. After the initial testing period, the organization should have enough information to commit to goals and objectives expressed through Key Performance Indicators (KPIs).
+            Une fois que l'organisation a défini ses métriques de sécurité applicative, collectez suffisamment d'informations pour établir des objectifs réalistes. Testez les métriques identifiées pour vous assurer que vous pouvez collecter des données de façon cohérente et efficace sur une courte période. Après la période d'essai initiale, l'organisation devrait disposer de suffisamment d'informations pour s'engager à respecter les buts et les objectifs exprimés au moyen d'indicateurs clés de performance (ICP).
 
-            While several measurements are useful for monitoring the information security program and its effectiveness, KPIs are comprised of the most meaningful and effective metrics. Aim to remove volatility common in application development environments from KPIs to reduce chances of unfavorable numbers resulting from temporary or misleading individual measurements. Base KPIs on metrics considered valuable not only to Information Security professionals but also to individuals responsible for the overall success of the application, and organization's leadership. View KPIs as definitive indicators of the success of the whole program and consider them actionable.
+            Bien que plusieurs mesures soient utiles pour surveiller le programme de sécurité de l'information et son efficacité, les indicateurs clés de performance font partie des métriques les plus significatives et efficaces. Éliminez la volatilité, qui est courante dans les environnements de développement d'applications, des ICP pour réduire les risques d'indicateurs défavorables résultant de mesures isolées temporaires ou trompeuses. Basez les ICP sur les métriques considérées comme précieuses non seulement pour les professionnels de la sécurité de l'information, mais aussi pour les personnes responsables du succès global de l'application et la direction de l’organisation. Voyez les ICP comme des indicateurs définitifs de la réussite de l'ensemble du programme et considérez-les comme applicables.
 
-            Fully document KPIs and distribute them to the teams contributing to the success of the program as well as organization's leadership. Ideally, include a brief explanation of the information sources for each KPI and the meaning if the numbers are high or low. Include short and long-term goals, and ranges for unacceptable measurements requiring immediate intervention. Share action plans with application security and application development teams to ensure full transparency in understanding of the organization's objectives and goals.
+            Documentez entièrement les ICP et distribuez-les aux équipes qui contribuent au succès du programme ainsi qu'au management de l'organisation. Idéalement, incluez une brève explication des sources d'information de chaque ICP et de la signification si les chiffres sont hauts ou bas. Incluez les objectifs à court et à long terme et des fourchettes pour les mesures inacceptables nécessitant une intervention immédiate. Partagez les plans d’action avec les équipes de sécurité des applications et de développement des applications afin d’assurer une transparence totale dans la compréhension des objectifs et des buts de l’organisation.
 
-        question: Did you define Key Performance Indicators (KPI) from available application security metrics?
+        question: Avez-vous défini les indicateurs clés de perfomance (KPI) à partir des métriques disponibles sur la sécurité applicatives?
         quality_criteria:
-            - You defined KPIs after gathering enough information to establish realistic objectives
-            - You developed KPIs with the buy-in from the leadership and teams responsible for application security
-            - KPIs are available to the application teams and include acceptability thresholds and guidance in case teams need to take action
-            - Success of the application security program is clearly visible based on defined KPIs
+            - Vous avez défini les indicateurs clés de performance après avoir recueilli suffisamment d'informations pour établir des objectifs réalistes
+            - Vous avez développé des KPI validés par la direction et les équipes responsables de la sécurité des applications
+            - Des KPI sont disponibles pour les équipes en charge des applications et incluent des seuils d'acceptabilité et des conseils dans le cas où les équipes auraient à prendre des mesures
+            - Le succès du programme de sécurité applicative est sans ambigüité selon les KPIs définis
 
         answers:
             - "No"
-            - Yes, for some of the metrics
-            - Yes, for at least half of the metrics
-            - Yes, for most or all of the metrics
+            - Oui, pour certains métriques
+            - Oui, pour au moins la moitié des métriques
+            - Oui, pour la plupart ou toutes les métriques
 
     level3:
         level: 3
         benefit: |
-            Continuous improvement of your program according to results
+            Amélioration continue de votre programme en fonction des résultats
         activity: |
-            Define guidelines for influencing the Application Security program based on the KPIs and other application security metrics. These guidelines  combine the maturity of the application development process and procedures  with different metrics to make the program more efficient. The following examples show a relationship between measurements and ways of evolving and improving application security
+            Définissez des lignes directrices pour influencer le programme de Sécurité Applicative en vous basant sur des ICP et d'autres métriques de sécurité applicative. Ces lignes directrices combinent la maturité du processus et des procédures de développement d'application avec différentes métriques afin de rendre le programme plus efficace. Les exemples suivants montrent la relation entre les mesures et les façons de faire évoluer et d'améliorer la sécurité dans les applications :
 
-            * Focus on maturity of the development lifecycle makes the relative cost per defect lower by applying security proactively.
-            * Monitoring the balance between effort, result, and environment metrics improves the program's efficiency and justifies additional automation and other methods for improving the overall application security baselines.
-            * Individual Security Practices could provide indicators of success or failure of individual application security initiatives.
-            * Effort metrics helps ensure application security work is directed at the more relevant and important technologies and disciplines.
+            * Se concentrer sur la maturité du cycle de vie de développement réduit le coût relatif par défaut en appliquant la sécurité de manière proactive.
+            * Surveiller l'équilibre entre les métriques concernant les actions, les résultats et l'environnement améliore l'efficacité du programme et permet de justifier toute automatisation supplémentaire et autres méthodes d'amélioration des réferences plancher de la sécurité globale de l'application.
+            * Les pratiques individualisées de sécurité peuvent fournir des indicateurs de réussite ou d'échec des initiatives individualisées de sécurité applicative.
+            * Les métriques sur les actions aident à garantir que les initiatives sur la sécurité des applications sont dirigés vers les technologies et les disciplines les plus pertinentes et les plus importantes.
 
-            When defining the overall metrics strategy, keep the end-goal in mind and define what decisions can be made as a result of changes in KPIs and metrics as soon as possible, to help guide development of metrics.
+            Lors de la définition de la stratégie globale concernant les métriques, gardez à l'esprit l'objectif final et définissez quelles décisions peuvent être prises à la suite de modifications des Indicateurs Clés de Performance et des métriques dès que possible, afin d'aider à guider le développement des métriques.
 
-        question: Do you update the Application Security strategy and roadmap based on application security metrics and KPIs?
+        question: Mettez-vous à jour la stratégie et la feuille de route de sécurité des applications en fonction des indicateurs de sécurité des applications et des indicateurs clés de performance?
         quality_criteria:
-            - You review KPIs at least yearly for their efficiency and effectiveness
-            - KPIs and application security metrics trigger most of the changes to the application security strategy
+            - Vous réexaminez les indicateurs clés de performance au moins une fois par an par rapport à leur efficacité et leur opérationnalité
+            - Les indicateurs clés de performance et les métriques de sécurité applicative sont la cause de la plupart des changements de la stratégie de sécurité applicative
 
         answers:
             - "No"
-            - Yes, but review is ad-hoc
-            - Yes, we review it at regular times
-            - Yes, we review it at least annually
+            - Oui, mais la revue est ad-hoc
+            - Oui, nous le revoyons régulièrement
+            - Oui, nous le revoyons au moins une fois par an
 
 ---

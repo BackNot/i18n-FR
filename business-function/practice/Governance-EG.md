@@ -1,35 +1,33 @@
 ---
-title: Education and Guidance
+title: Éducation & Orientation
 url: ./model/governance/education-guidance/
-business_function: "Governance"
+business_function: "Gouvernance"
 business_function_url: "governance"
-keywords: ["Business function", "Practice", "Education and Guidance"]
+keywords: ["Business function", "Practice", "Éducation & Orientation"]
 aliases:
     - /model/G-EG
 type: practice
 
-practice_maturity_1_description: Offer staff access to resources around the topics of secure development and deployment.
-practice_maturity_2_description: Educate all personnel in the software lifecycle with technology and role-specific guidance on secure development.
-practice_maturity_3_description: Develop in-house training programs facilitated by developers across different teams.
+practice_maturity_1_description: Offrir au personnel un accès aux ressources autour des thèmes du développement et du déploiement sécurisés.
+practice_maturity_2_description: Former tout le personnel au cycle de vie logiciel avec des conseils spécifiques selon les rôles et les technologies lors du développement sécurisé.
+practice_maturity_3_description: Développer des programmes de formation internes auxquels contribuent des développeurs de différentes équipes.
 
-stream_a: Training and Awareness
-stream_a_url: model/governance/education-guidance/stream-a
+stream_a: Formation et Sensibilisation
 
-stream_a_maturity_1_activity: Provide security awareness training for all personnel involved in software development.
-stream_a_maturity_2_activity: Offer technology and role-specific guidance, including security nuances of each language and platform.
-stream_a_maturity_3_activity: Standardized in-house guidance around the organization's secure software development standards.
+stream_a_maturity_1_activity: Fournir une formation de sensibilisation à la sécurité à tous les employés impliqués dans le développement de logiciels
+stream_a_maturity_2_activity: Offrir une technologie et des conseils spécifiques aux rôles, y compris des nuances de sécurité pour chaque langue et plate-forme
+stream_a_maturity_3_activity: Des conseils internes standardisés sur les normes de développement de sécurité logicielle de l’entreprise.
 
-stream_b: Organization and Culture
-stream_b_url: model/governance/education-guidance/stream-b
+stream_b: Organisation et Culture
 
-stream_b_maturity_1_activity: Identify a "Security Champion" within each development team.
-stream_b_maturity_2_activity: Develop a secure software center of excellence promoting thought leadership among developers and architects.
-stream_b_maturity_3_activity: Build a secure software community including all organization people involved in software security.
+stream_b_maturity_1_activity: Identifier un "Champion de la Sécurité" au sein de chaque équipe de développement.
+stream_b_maturity_2_activity: Développer un centre d'excellence en matière de sécurité logicielle qui favorise le leadership par la pensée parmi les développeurs et les architectes.
+stream_b_maturity_3_activity: Construire une communauté de sécurité logicielle incluant toutes les personnes de l'organisation impliquées dans la sécurité des logiciels.
 ---
 
-The Education and Guidance (EG) practice focuses on arming personnel involved in the software lifecycle with knowledge and resources to design, develop, and deploy secure software. With improved access to information, project teams can proactively identify and mitigate the specific security risks that apply to their organization.
+La pratique de l'Education et Orientation (EG) vise à fournir au personnel impliqué dans le cycle de vie du logiciel des connaissances et des ressources pour concevoir, développer et déployer des logiciels sécurisés. Grâce à un meilleur accès à l’information, les équipes projet peuvent identifier et atténuer de manière proactive les risques spécifiques de sécurité qui s’appliquent à leur organisation.
 
-One major theme for improvement across the Objectives is providing training for employees and increasing their security awareness, either through instructor-led sessions or computer-based modules. As an organization progresses, it builds a broad base of training starting with developers and moving to other roles, culminating with the addition of role-based training to ensure applicability and effectiveness.
+Un des principaux thèmes pour la progression à travers les Objectifs est la fourniture de formation aux employés et l'amélioration de leur sensibilisation à la sécurité soit par le biais de sessions menées par un formateur ou de modules informatiques. Au fur et à mesure que l'organisation progresse, elle construit une large base de formations en commençant par les développeurs et en passant à d'autres rôles, le point d'orgue étant l'ajout de formations spécifiques à des fonctions pour garantir la pertinence et l'efficacité.
 
-In addition to training, this practice also requires the organization to make a significant investment in improving organizational culture to promote application security through collaboration between teams. Collaboration tools and increased transparency between technologies and tools support this approach to improve the security of the applications.
+En plus de la formation, cette pratique exige également que l’organisation investisse de manière significative dans l’amélioration de la culture organisationnelle afin de promouvoir la sécurité des applications à travers la collaboration entre les équipes. Les outils collaboratifs et une transparence accrue entre les technologies et les outils soutiennent cette approche d'amélioration de la sécurité des applications.
 

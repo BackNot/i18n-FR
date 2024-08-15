@@ -1,13 +1,13 @@
 ---
-title: Organization and Culture
+title: Organisation et Culture
 type: stream
 url: ./model/governance/education-guidance/stream-b/
-business_function: Governance
+business_function: Gouvernance
 business_function_url: governance
-practice: Education and Guidance
+practice: Éducation & Orientation
 stream: B
-description: Governance / Education and Guidance
-keywords: ["Business function", "Practice", "Governance", "Education and Guidance"]
+description: Gouvernance / Éducation & Orientation
+keywords: ["Business function", "Practice", "Gouvernance", "Éducation & Orientation"]
 aliases:
     - /model/G-EG-B-1
     - /model/G-EG-B-2
@@ -18,73 +18,73 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Basic embedding of security in the development organization
+            Intégration de premier niveau de la sécurité dans l'organisation de développement
         activity: |
-            Implement a program where each software development team has a member considered a "Security Champion" who is the liaison between Information Security and developers. Depending on the size and structure of the team the "Security Champion" may be a software developer, tester, or a product manager. The "Security Champion" has a set number of hours per week for Information Security related activities. They participate in periodic briefings to increase awareness and expertise in different security disciplines. "Security Champions" have additional training to help develop these roles as Software Security subject-matter experts. You may need to customize the way you create and support "Security Champions" for cultural reasons.
+            Implémentez un programme où chaque équipe de développement de logiciels a un membre considéré comme un « Champion de la sécurité » qui fait le lien entre la Sécurité de l'Information et les développeurs. Selon la taille et la structure de l’équipe, le « Champion de la sécurité » peut être un développeur, un testeur ou un gestionnaire de produits. Le « Champion de la sécurité » dispose d'un nombre déterminé d’heures par semaine pour les activités liées à la sécurité de l’information. Il participe à des réunions périodiques pour accroître la sensibilisation et l'expertise dans différentes disciplines de la sécurité. Les « Champions de la sécurité » suivent des formations supplémentaires pour les aider à se développer en tant qu’experts en matière de sécurité logicielle. Vous devrez peut-être personnaliser la façon dont vous créez les rôles de « Champion de la sécurité » et les incluez dans la hiérarchie pour des raisons culturelles.
 
-            The goals of the position are to increase effectiveness and efficiency of application security and compliance and to strengthen the relationship between various teams and Information Security. To achieve these objectives, "Security Champions" assist with researching, verifying, and prioritizing security and compliance related software defects. They are involved in all Risk Assessments, Threat Assessments, and Architectural Reviews to help identify opportunities to remediate security defects by making the architecture of the application more resilient and reducing the attack threat surface.
+            Les objectifs de la fonction sont d'augmenter l'efficacité opérationnelle de la sécurité et de la conformité applicatives et de renforcer la relation entre les différentes équipes et la Sécurité de l'Information. Pour atteindre ces objectifs, les « Champion de la sécurité » aident à la recherche, à la validation et à l'affectation de priorités aux défauts logiciels liés à la sécurité et à la conformité. Ils sont impliqués dans toutes les évaluations des risques, les évaluations des menaces, et revues d'architecture pour aider à identifier les possibilités de corriger les défauts de sécurité en rendant l'architecture de l'application plus résiliente et en réduisant la menace sur la surface de d'attaque.
 
-            In addition to assisting Information Security, "Security Champions" provide periodic reviews of all security-related issues for the project team so everyone is aware of the problems and any current and future remediation efforts. These reviews are leveraged to help brainstorm solutions to more complex problems by engaging the entire development team.
+            En plus d'apporter un soutien à la Sécurité de l'Information, les « Champions de la sécurité » fournissent périodiquement des informations à propos de toutes les questions liées à la sécurité à l’équipe projet afin que tout le monde soit conscient des problèmes et des efforts d'amélioration actuels et futurs. Ces revues sont mises à profit pour aider à la résolution de problèmes plus complexes en engageant toute l'équipe de développement.
 
-        question: Have you identified a Security Champion for each development team?
+        question: Avez-vous identifié un Champion de Sécurité pour chaque équipe de développement?
         quality_criteria:
-            - Security Champions receive appropriate training
-            - Application Security and Development teams receive periodic briefings from Security Champions on the overall status of security initiatives and fixes
-            - The Security Champion reviews the results of external testing before adding to the application backlog
+            - Les Champions de Sécurité reçoivent une formation appropriée
+            - Les équipes de sécurité et de développement des applications reçoivent des informations périodiquement de la part des champions de sécurité sur l'état général des initiatives et des correctifs de sécurité
+            - Le Champion de la Sécurité revoie les résultats des tests effectués en externe avant de les ajouter au backlog de l'application
 
         answers:
             - "No"
-            - Yes, for some teams
-            - Yes, for at least half of the teams
-            - Yes, for most or all of the teams
+            - Oui, pour certaines équipes
+            - Oui, pour au moins la moitié des équipes
+            - Oui, pour la plupart ou toutes les équipes
 
     level2:
         level: 2
         benefit: |
-            Specific security best practices tailored to the organization
+            Bonnes pratiques de sécurité spécifiques adaptées à l'organisation
         activity: |
-            The organization implements a formal secure coding center of excellence, with architects and senior developers representing the different business units and technology stacks. The team has an official charter and defines standards and best practices to improve software development practices. The goal is to mitigate the way velocity of change in technology, programming languages, and development frameworks and libraries makes it difficult for Information Security professionals to be fully informed of all the technical nuances that impact security. Even developers often struggle keeping up with all the changes and new tools intended to make software development faster, better, and safer.
+            L'organisation met en place un centre d'excellence pour le développement sécurisé, avec des architectes et des développeurs expérimentés représentant les différentes lignes d'affaires et les piles technologique. L'équipe a une charte officielle et définit les normes et les bonnes pratiques pour l'amélioration des pratiques de développement de logiciels. L'objectif est d'atténuer la difficulté pour les professionnels de la sécurité de l'information liée à la vitesse des changements dans la technologie, les langages de programmation et les environnements de développement et les bibliothèques associées d'être pleinement informés de toutes les nuances techniques qui ont un impact sur la sécurité. Même les développeurs ont souvent du mal à suivre tous les changements et les nouveaux outils destinés à rendre le développement de logiciels plus rapide, meilleur et plus sûr.
 
-            This ensures all current programming efforts follow industry's best practices and organization's development and implementation standards include all critical configuration settings. It helps identify, train, and support "Product Champions", responsible for assisting different teams with implementing tools that automate, streamline, or improve various aspects of the SDLC. It identifies development teams with higher maturity levels within their SDLC and the practices and tools that enable these achievements, with the goal of replicating them to other teams.
+            Ceci garantit que tous les efforts de programmation actuels suivent les bonnes pratiques de l'industrie et que les normes de développement et de mise en œuvre de l'organisation incluent tous les paramètres de configuration critiques. Ceci aide à identifier, former et soutenir les « Champions de produits », responsable d'aider les différentes équipes à implémenter les outils qui automatisent, rationalisent ou améliorent différents aspects du SDLC. Ceci identifie les équipes de développement avec des niveaux de maturité plus élevés au sein de leur SDLC et les pratiques et outils qui permettent ces réalisations, dans le but de les reproduire pour d'autres équipes.
 
-            The group provides subject matter expertise, helping information security teams evaluate tools and solutions to improve application security, ensuring these tools are not only useful but also compatible with the way different teams develop applications. Teams looking to make significant architectural changes to their software consult with this group to avoid adversely impacting the SDLC lifecycle or established security controls.
+            Le groupe fournit une expertise en la matière, en aidant les équipes de sécurité de l'information à évaluer les outils et les solutions pour améliorer la sécurité des applications et en s'assurant que ces outils sont non seulement utiles mais aussi compatibles avec la façon dont différentes équipes développent des applications. Les équipes cherchant à apporter des changements architecturaux significatifs à leur logiciel consultent ce groupe pour éviter d'avoir un impact négatif sur le SDLC ou sur les contrôles de sécurité en place.
 
-        question: Does the organization have a Secure Software Center of Excellence (SSCE)?
+        question: L'organisation dispose-t-elle d'un centre d'excellence en logiciel sécurisé (SSCE)?
         quality_criteria:
-            - The SSCE has a charter defining its role in the organization
-            - Development teams review all significant architectural changes with the SSCE
-            - The SSCE publishes SDLC standards and guidelines related to Application Security
-            - Product Champions are responsible for promoting the use of specific security tools
+            - Le SSCE a une charte définissant son rôle dans l'organisation
+            - Les équipes de développement passent en revue tous les changements architecturaux importants avec le SSCE
+            - Le SSCE publie les normes et les directives liées au SDLC relatives à la sécurité applicative
+            - Les Champions Produit sont responsables de la promotion de l'utilisation d'outils de sécurité spécifiques
 
         answers:
             - "No"
-            - Yes, we started implementing it
-            - Yes, for part of the organization
-            - Yes, for the entire organization
+            - Oui, nous avons commencé à l'implémenter
+            - Oui, pour une partie de l'organisation
+            - Oui, pour toute l'organisation
 
     level3:
         level: 3
         benefit: |
-            Collective development of security know-how among all product teams
+            Développement collectif du savoir-faire en matière de sécurité parmi toutes les équipes de produits
         activity: |
-            Security is the responsibility of all employees, not just the Information Security team. Deploy communication and knowledge sharing platforms to help developers build communities around different technologies, tools, and programming languages. In these communities employees share information, discuss challenges with other developers, and search the knowledge base for answers to previously discussed issues.
+            La sécurité est la responsabilité de tous les employés, pas seulement de l'équipe de la sécurité de l'information. Déployez des plateformes de communication et de partage des connaissances pour aider les développeurs à construire des communautés autour de différentes technologies, outils et langages de programmation. Dans ces communautés, les employés partagent des informations, discutent des problèmes avec d'autres développeurs et font des recherches dans la base de connaissances pour trouver des réponses à des questions discutées précédemment.
 
-            Form communities around roles and responsibilities. Enable developers and engineers from different teams and business units to communicate freely so they can benefit from each other's expertise. Encourage participation, set up a program to promote those who help the most people as thought leaders, and have management recognize them. In addition to improving application security, this platform may help identify future members of the Secure Software Center of Excellence, or 'Security Champions' based on their expertise and willingness to help others.
+            Formez des communautés autour des rôles et des responsabilités et permettez aux développeurs et aux ingénieurs de différentes équipes et unités commerciales de communiquer librement et de bénéficier de l'expertise de chacun. Encouragez la participation et mettez en place un programme pour promouvoir ceux qui aident le plus de collaborateurs en tant que leaders de pensée et faites en sorte que le management les reconnaisse. En plus d'améliorer la sécurité des applications, cette plateforme peut aider à identifier les futurs membres du Centre d'Excellence en Sécurité Logicielle, ou « Champion de la sécurité », en fonction de leur expertise et de leur volonté d'aider les autres.
 
-            The Secure Software Center of Excellence and Application Security teams review the information portal regularly for insights into the new and upcoming technologies, as well as opportunities to assist the development community with new initiatives, tools, programs, and training resources. Use the portal to disseminate information about new standards, tools, and resources to all developers for the continued improvement of SDLC maturity and application security.
+            Les équipes du Centre d'Excellence en Sécurité Logicielle et de la Sécurité des Applications examinent régulièrement le portail d'information pour avoir un aperçu des nouvelles technologies et de celles à venir, ainsi que des occasions d'aider la communauté du développement par de nouvelles initiatives, outils, programmes et ressources de formation. Utilisez le portail pour diffuser des informations sur les nouvelles normes, outils et ressources vers tous les développeurs afin d'améliorer continuellement la maturité du SDLC et la sécurité des applications.
 
-        question: Is there a centralized portal where developers and application security professionals from different teams and business units are able to communicate and share information?
+        question: Existe-t-il un portail centralisé où les développeurs et les professionnels de la sécurité des applications de différentes équipes et unités opérationnelles peuvent communiquer et partager des informations ?
         quality_criteria:
-            - The organization promotes use of a single portal across different teams and business units
-            - The portal is used for timely information such as notification of security incidents, tool updates, architectural standard changes, and other related announcements
-            - The portal is widely recognized by developers and architects as a centralized repository of the organization-specific application security information
-            - All content is considered persistent and searchable
-            - The portal provides access to application-specific security metrics
+            - L'organisation promeut l'utilisation d'un portail unique entre différentes équipes et unités commerciales
+            - Le portail est utilisé pour diffuser des informations en temps utile telles que la notification d'incidents de sécurité, les mises à jour d'outils, les changements de normes architecturales et autres annonces connexes
+            - Le portail est largement reconnu par les développeurs et les architectes en tant que référentiel central des informations de sécurité des applications spécifiques à l'organisation
+            - Tout le contenu est considéré comme étant persistant et interrogeable
+            - Le portail fournit un accès aux métriques de sécurité spécifiques à une application
 
         answers:
             - "No"
-            - Yes, we started implementing it
-            - Yes, for part of the organization
-            - Yes, for the entire organization
+            - Oui, nous avons commencé à l'implémenter
+            - Oui, pour une partie de l'organisation
+            - Oui, pour toute l'organisation
 
 ---

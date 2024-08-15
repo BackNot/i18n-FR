@@ -1,17 +1,17 @@
 ---
-title: FRENCHDesignn
+title: Conception
 url: ./model/design/
-description: FRENCHDesignn business function
+description: Conception business function
 
-practice_1: French Threat Assessment
+practice_1: Évaluation de la menace
 practice_1_url: threat-assessment
-practice_2: French Security Requirements
+practice_2: Exigences de Sécurité
 practice_2_url: security-requirements
-practice_3: French Secure Architecture
-practice_3_url: secure-architecture
+practice_3: Architecture de Sécurité
+practice_3_url: security-architecture
 
 keywords: ["Business function"]
 ---
 
-Design concerns the processes and activities related to how an organization defines goals and creates software within development projects. In general, this will include requirements gathering, high-level architecture specification and detailed design.
+La conception concerne les processus et les activités liés à la façon dont une organisation définit les objectifs et crée les logiciels dans les projets de développement. En général, cela comprendra la collecte des exigences, la spécification de haut niveau de l'architecture et la conception détaillée.
 

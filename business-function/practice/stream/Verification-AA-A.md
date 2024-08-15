@@ -1,13 +1,13 @@
 ---
-title: Architecture Validation
+title: Validation de l'Architecture
 type: stream
 url: ./model/verification/architecture-assessment/stream-a/
-business_function: Verification
+business_function: Vérification
 business_function_url: verification
-practice: Architecture Assessment
+practice: Évaluation de l'architecture
 stream: A
-description: Verification / Architecture Assessment
-keywords: ["Business function", "Practice", "Verification", "Architecture Assessment"]
+description: Vérification / Évaluation de l'architecture
+keywords: ["Business function", "Practice", "Vérification", "Évaluation de l'architecture"]
 aliases:
     - /model/V-AA-A-1
     - /model/V-AA-A-2
@@ -18,67 +18,67 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Understanding of high-level architecture and sensible security measures
+            Compréhension de l'architecture de haut niveau et des mesures de sécurité adaptées
         activity: |
-            Create a view of the overall architecture and examine it for the correct provision of general security mechanisms such as authentication, authorization, user and rights management, secure communication, data protection, key management and log management. Also consider the support for privacy. Do this based on project artifacts such as architecture or design documents, or interviews with business owners and technical staff. Also consider the infrastructure components - these are all the systems, components and libraries (including SDKs) that are not specific to the application, but provide direct support to use or manage the application(s) in the organisation.
+            Créez une vue d'ensemble de l'architecture et examinez-là pour vérifier la bonne présence de mécanismes de sécurité généraux tels que l'authentification, la gestion des autorisations, des utilisateurs et des droits, la communication sécurisée, la protection des données, la gestion des clés et la gestion des journaux. Considérez également le soutien à la protection de la vie privée. Faites cela en utilisant les artefacts du projet tels que des documents d'architecture ou de conception, ou des entrevues avec les représentants du client et le personnel technique. Pensez également aux composants d'infrastructure - ce sont tous les systèmes, composants et bibliothèques (y compris les SDKs) qui ne sont pas spécifiques à l'application mais fournissent un support direct à l'utilisation ou à la gestion de l'application au sein de l'organisation.
 
-            Note any security-related functionality in the architecture and review its correct provision. Do this in an ad-hoc manner, from the point of view of anonymous users, authorized users, and specific application roles.
+            Mettez en exergue toutes les fonctionnalités liées à la sécurité dans l'architecture et validez sa pertinence. Faites cela de manière ad hoc, du point de vue des utilisateurs anonymes, des utilisateurs authentifiés et des rôles spécifiques à l'application.
 
-        question: Do you review the application architecture for key security objectives on an ad-hoc basis?
+        question: Examinez-vous l'architecture de l'application en fonction des principaux objectifs de sécurité de manière ponctuelle ?
         quality_criteria:
-            - You have an agreed upon model of the overall software architecture
-            - You include components, interfaces, and integrations in the architecture model
-            - You verify the correct provision of general security mechanisms
-            - You log missing security controls as defects
+            - Vous avez un modèle validé de l'architecture globale du logiciel
+            - Vous incluez les composants, les interfaces et les intégrations dans le modèle d'architecture
+            - Vous vérifiez la bonne disposition des mécanismes de sécurité généraux
+            - Vous enregistrez les contrôles de sécurité manquants comme des défauts
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level2:
         level: 2
         benefit: |
-            Consistent architecture review process across your organization
+            Un processus cohérent de revue d'architecture à travers votre organisation
         activity: |
-            Verify that the solution architecture addresses all identified security and compliance requirements. For each interface in the application, iterate through the list of security and compliance requirements and analyze the architecture for their provision. Also perform an interaction or data flow analysis to ensure that the requirements are adequately addressed over different components. Elaborate the analysis to show the design-level features that address each requirement.
+            Vérifiez que l'architecture de la solution répond à toutes les exigences de sécurité et de conformité identifiées. Pour chaque interface de l'application, itérez à travers la liste des exigences de sécurité et de conformité et analysez l'architecture pour valider leur bonne disposition. Effectuez également une analyse interactive ou une analyse du flux de données pour vous assurer que les exigences sont traitées de manière adéquate à travers les différents composants. Détaillez l'analyse jusqu'à montrer les caractéristiques de conception qui répondent à chaque exigence.
 
-            Perform this type of analysis on both internal interfaces, e.g. between tiers, as well as external ones, e.g. those comprising the attack surface. Also identify and validate important design decisions made as part of the architecture, in particular when they deviate from the available shared security solutions in the organization. Finally, update the findings based on changes made during the development cycle, and note any requirements that are not clearly provided at the design level as assessment findings.
+            Effectuez ce type d'analyse à la fois sur les interfaces internes, par exemple entre les composants, ainsi que sur les interfaces externes, par exemple celles faisant partie de la surface d'attaque. Identifiez et validez également les décisions de conception importantes prises dans le cadre du travail d'architecture, en particulier lorsqu'elles s'écartent des solutions de sécurité partagées disponibles au sein de l'organisation. Enfin, mettez à jour les résultats en fonction des modifications apportées pendant le cycle de développement et prenez note de toutes les exigences qui ne sont pas clairement identifiées au niveau de la conception comme ayant été traitées.
 
-        question: Do you regularly review the security mechanisms of your architecture?
+        question: Examinez-vous régulièrement les mécanismes de sécurité de votre architecture?
         quality_criteria:
-            - You review compliance with internal and external requirements
-            - You systematically review each interface in the system
-            - You use a formalized review method and structured validation
-            - You log missing security mechanisms as defects
+            - Vous examinez la conformité avec les exigences internes et externes
+            - Vous passez en revue systématiquement chaque interface du système
+            - Vous utilisez une méthode de revue formalisée et une validation structurée
+            - Vous enregistrez les mécanismes de sécurité manquants comme des défauts
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level3:
         level: 3
         benefit: |
-            Assurance of effectiveness of architecture controls
+            Garantie de l'efficacité des contrôles d'architecture
         activity: |
-            Review the effectiveness of the architecture components and their provided security mechanisms in terms of alignment with the overall strategy of the organization, and scrutinize the degree of availability, scalability and enterprise-readiness of the chosen security solutions. While tactical choices for a particular application can make sense in specific contexts, it is important to keep an eye on the bigger picture and ensure future readiness of the designed solution.
+            Examinez l'efficacité des composants d'architecture et des mécanismes de sécurité qu'ils fournissent en termes d'alignement sur la stratégie globale de l'organisation et examinez attentivement le degré de disponibilité, de passage à l'échelle et de professionnalisme des solutions de sécurité choisies. Tandis que certains choix tactiques pour une application donnée peuvent avoir un sens dans des contextes spécifiques, Il est important de garder l'œil ouvert sur la situation générale et de garantir la pérennité de la solution conçue.
 
-            Feed any findings back into defect management to trigger further improvements to the architecture.
+            Enregistrez toute anomalie dans le système de gestion des défauts pour contribuer à de futures améliorations de l'architecture.
 
-        question: Do you regularly review the effectiveness of the security controls?
+        question: Examinez-vous régulièrement l'efficacité des contrôles de sécurité?
         quality_criteria:
-            - You evaluate the preventive, detective, and response capabilities of security controls
-            - You evaluate the strategy alignment, appropriate support, and scalability of security controls
-            - You evaluate the effectiveness at least yearly
-            - You log identified shortcomings as defects
+            - Vous évaluez les capacités de prévention, de détection et de réponse des contrôles de sécurité
+            - Vous évaluez l'alignement sur la stratégie, le support approprié et la capacité de mise à l'échelle des contrôles de sécurité
+            - Vous évaluez l'efficacité au moins une fois par an
+            - Vous enregistrez les lacunes identifiées comme des défauts
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
 ---

@@ -1,13 +1,13 @@
 ---
-title: System Decommissioning / Legacy Management
+title: Démantèlement des Systèmes / Gestion de l'Existant
 type: stream
 url: ./model/operations/operational-management/stream-b/
-business_function: Operations
+business_function: Opérations
 business_function_url: operations
-practice: Operational Management
+practice: Gestion opérationnelle
 stream: B
-description: Operations / Operational Management
-keywords: ["Business function", "Practice", "Operations", "Operational Management"]
+description: Opérations / Gestion opérationnelle
+keywords: ["Business function", "Practice", "Opérations", "Gestion opérationnelle"]
 aliases:
     - /model/O-OM-B-1
     - /model/O-OM-B-2
@@ -18,65 +18,65 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Identification of unused of software assets or components
+            Identification des actifs ou composants logiciels inutilisés
         activity: |
-            Identify unused applications on an _ad hoc_ basis, either by chance observation, or by occasionally performing a review. When you identify unused applications, process those findings for further action. If you have established a formal process for decommissioning unused applications, ensure teams are aware of and use it.
+            Identifiez les applications inutilisées d'une façon ad hoc, soit par observation par hasard, soit en effectuant occasionnellement une revue. Lorsque vous identifiez des applications non utilisées, enregistrez ces constatations pour des actions ultérieures. Si vous avez établi un processus formel pour le démantèlement des applications non utilisées, assurez-vous que les équipes en sont informées et l'utilisent.
 
-            Manage customer/user migration from older versions of your products for each product and customer/user group. When a product version is no longer in use by any customer/user group, discontinue support for that version. However, at this level of maturity you may have a large number of product versions in active use across the customer/user base, requiring significant developer effort to back-port product fixes.
+            Gérez la migration client / utilisateur à partir d'anciennes versions de vos produits pour chaque produit et chaque groupe de client / utilisateur. Lorsqu'une version du produit n'est plus utilisée par aucun groupe client / utilisateur, arrêtez le support pour cette version. Cependant, à ce niveau de maturité, il se peut que vous ayez un grand nombre de versions de produits en cours d'utilisation à travers toute la base de clients / utilisateurs, demandant des efforts significatifs aux développeurs pour garantir la compatibilité ascendante des correctifs de produits.
 
-        question: Do you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported?
+        question: Identifiez-vous et supprimez-vous les systèmes, les applications, les dépendances des applications ou les services qui ne sont plus utilisés, ont atteint leur fin de vie ou ne sont plus activement développés ou maintenus?
         quality_criteria:
-            - You do not use unsupported applications or dependencies
-            - You manage customer/user migration from older versions for each product and customer/user group
+            - Vous n'utilisez pas d'applications ou de dépendances non maintenues
+            - Vous gérez la migration des clients / utilisateurs à partir des anciennes versions pour chaque produit et chaque groupe de clients / utilisateurs
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level2:
         level: 2
         benefit: |
-            Standardized decommissioning process decreasing the risk of forgetting components
+            Un processus normalisé de démantèlement réduisant le risque d'oubli de composant
         activity: |
-            As part of decommissioning a system, application, or service, follow an established process for removing all relevant accounts, firewall rules, data, etc. from the operational environment. By removing these unused elements from configuration files, you improve the maintainability of infrastructure-as-code resources.
+            Dans le cadre du démantèlement d'un systèm, d'une application ou d'un service, suivez un processus établi pour supprimer tous les comptes pertinents, les règles du pare-feu, les données, etc. de l'environnement opérationnel. En supprimant ces éléments inutiles des fichiers de configuration, vous améliorez la maintenabilité des ressources infrastructure-en-tant-que-code.
 
-            Follow a consistent process for timely replacement or upgrade of third-party applications, or application dependencies (e.g., operating system, utility applications, libraries), that have reached end of life.
+            Suivez un processus cohérent pour le remplacement ou la mise à jour en temps opportun d'applications tierces ou de dépendances de l'application (par ex., système d'exploitation, applications utilitaires, bibliothèques), qui ont atteint leur fin de vie.
 
-            Engage with customers and user groups for your products at or approaching end of life, to migrate them to supported versions in a timely manner.
+            Rapprochez-vous des clients et des groupes d'utilisateurs de vos produits en fin de vie ou approchant de leur fin de vie afin de les faire migrer en temps voulu vers des versions supportées.
 
-        question: Do you follow an established process for removing all associated resources, as part of decommissioning of unused systems, applications, application dependencies, or services?
+        question: Suivez-vous un processus établi pour la suppression de toutes les ressources associées, dans le cadre du démantèlement des systèmes, des applications, des dépendances des applications ou des services inutilisés?
         quality_criteria:
-            - You document the status of support for all released versions of your products, in an accessible location
-            - The process includes replacement or upgrade of third-party applications, or application dependencies, that have reached end of life
-            - Operating environments do not contain orphaned accounts, firewall rules, or other configuration artifacts
+            - Vous documentez les statuts de prise en charge de toutes les versions publiées de vos produits dans un endroit accessible
+            - Le processus comprend le remplacement ou la mise à jour des applications tierces ou des dépendances d'applications qui ont atteint leur fin de vie
+            - Les environnements d'exploitation ne contiennent pas de comptes, de règles de pare-feu ou autres artefacts de configuration inutiles
 
         answers:
             - "No"
-            - Yes, some of the time
-            - Yes, at least half of the time
-            - Yes, most or all of the time
+            - Oui, une partie du temps
+            - Oui, au moins la moitié du temps
+            - Oui, la majeure partie du temps ou tout le temps
 
     level3:
         level: 3
         benefit: |
-            Full visibility into lifecycle of all software assets
+            Visibilité totale dans le cycle de vie de tous les actifs logiciels
         activity: |
-            Regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end-of-life. Follow a well-defined process for actively mitigating security risks arising as assets/components approach their end-of-life. Regularly review and update your process, to reflect lessons learned.
+            Évaluez régulièrement l'étape du cycle de vie et le statut de support de tous les actifs logiciels et composants d'infrastructure sous-jacents et estimez leur fin de vie. Suivez un processus bien défini pour atténuer activement les risques de sécurité qui surviennent lorsque les actifs / composants approchent de leur fin de vie. Examinez et mettez à jour régulièrement votre processus afin de refléter les leçons tirées de l'expérience.
 
-            Establish a product support plan, providing clear timelines for ending support on older product versions. Limit product versions in active use to only a small number (e.g., N.x.x and N-1.x.x only). Establish and publicize timelines for discontinuing support on prior versions, and proactively engage with customers and user groups to prevent disruption of service or support.
+Établissez un plan de support produit fournissant des échéanciers clairs pour la fin de support des versions antérieures du produit. Limitez les versions de produits en cours d'utilisation à un petit nombre (par exemple, N.x.x et N-1 seulement). Établissez et diffusez des échéanciers pour la fin de support des versions antérieures, et engagez-vous de façon proactive avec les clients et les groupes d'utilisateurs afin d'éviter les perturbations de service ou de support.
 
-        question: Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end of life?
+        question: Évaluez-vous régulièrement l'état du cycle de vie et le statut de maintenance de chaque logiciel et de chaque composant d'infrastructure sous-jacent et estimez-vous leur fin de vie?
         quality_criteria:
-            - Your end of life management process is agreed upon
-            - You inform customers and user groups of product timelines to prevent disruption of service or support
-            - You review the process at least annually
+            - Votre processus de gestion de fin de vie est validé
+            - Vous informez les clients et les groupes d'utilisateurs des échéanciers des produits afin d'éviter toute perturbation du service ou du support
+            - Vous passez en revue le processus au moins une fois par an
 
         answers:
             - "No"
-            - Yes, for some of the assets
-            - Yes, for at least half of the assets
-            - Yes, for most or all of the assets
+            - Oui, pour certains des actifs
+            - Oui, pour au moins la moitié des actifs
+            - Oui, pour la plupart ou la totalité des actifs
 
 ---

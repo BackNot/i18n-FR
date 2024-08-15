@@ -1,35 +1,33 @@
 ---
-title: Strategy and Metrics
+title: Stratégie & Métriques
 url: ./model/governance/strategy-metrics/
-business_function: "Governance"
+business_function: "Gouvernance"
 business_function_url: "governance"
-keywords: ["Business function", "Practice", "Strategy and Metrics"]
+keywords: ["Business function", "Practice", "Stratégie & Métriques"]
 aliases:
     - /model/G-SM
 type: practice
 
-practice_maturity_1_description: Identify objectives and means of measuring effectiveness of the security program.
-practice_maturity_2_description: Establish a unified strategic roadmap for software security within the organization.
-practice_maturity_3_description: Align security efforts with the relevant organizational indicators and asset values.
+practice_maturity_1_description: Identifier les objectifs et les moyens de mesurer l'efficacité du programme de sécurité.
+practice_maturity_2_description: Établir une feuille de route stratégique unifiée pour la sécurité des logiciels au sein de l'organisation.
+practice_maturity_3_description: Aligner les efforts en sécurité sur les indicateurs organisationnels pertinents et la valeur des actifs.
 
-stream_a: Create and Promote
-stream_a_url: model/governance/strategy-metrics/stream-a
+stream_a: Créer et Promouvoir
 
-stream_a_maturity_1_activity: Identify organization drivers as they relate to the organization's risk tolerance.
-stream_a_maturity_2_activity: Publish a unified strategy for application security.
-stream_a_maturity_3_activity: Align the application security program to support the organization's growth.
+stream_a_maturity_1_activity: Identifier les motivations de l'organisation en ce qui concerne la tolérance au risque.
+stream_a_maturity_2_activity: Publier une stratégie unifiée pour la sécurité des applications.
+stream_a_maturity_3_activity: Aligner le programme de sécurité des applications pour soutenir la croissance de l’entreprise.
 
-stream_b: Measure and Improve
-stream_b_url: model/governance/strategy-metrics/stream-b
+stream_b: Mesurer et Améliorer
 
-stream_b_maturity_1_activity: Define metrics with insight into the effectiveness and efficiency of the Application Security Program.
-stream_b_maturity_2_activity: Set targets and KPI's for measuring the program effectiveness.
-stream_b_maturity_3_activity: Influence the strategy based on the metrics and organizational needs.
+stream_b_maturity_1_activity: Définir des métriques donnant des informations sur l'efficacité et la mise en œuvre du Programme de Sécurité Applicative.
+stream_b_maturity_2_activity: Fixer des objectifs et des indicateurs clés de performance pour mesurer l’efficacité du programme.
+stream_b_maturity_3_activity: Influencer la stratégie en fonction des métriques et des besoins organisationnels.
 ---
 
-Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counterproductive. The goal of the Strategy and Metrics (SM) practice is to build an efficient and effective plan for realizing your software security objectives within your organization.
+L'assurance logicielle comprend de nombreuses activités et préoccupations différentes. Sans un plan global, vous pourriez dépenser beaucoup d'énergie pour incorporer la sécurité, alors qu'en fait vos efforts pourraient être mal alignés, disproportionnés ou même contre-productifs. Le but de la pratique Stratégie et Métriques (SM) est de construire un plan efficace et concret pour réaliser vos objectifs de sécurité logicielle au sein de votre organisation.
 
-A software security program, that selects and prioritizes activities of the rest of the model, serves as the foundation for your efforts. The practice works on building the plan, maintaining and disseminating it.
+Un programme de sécurité logicielle qui sélectionne et établit des priorités sur les activités du reste du modèle sert de base à vos efforts. La pratique vise à la construction du plan, à son maintien et à sa diffusion.
 
-At the same time, you want to keep track of your security posture and program improvements. A metrics-driven approach is included to ensure an accurate view on your activities. To measure is to know.
+En même temps, vous souhaitez garder une trace de votre posture de sécurité et des améliorations de votre programme. Une approche axée sur les métriques est incluse pour assurer une vision précise de vos activités. Mesurer est savoir.
 

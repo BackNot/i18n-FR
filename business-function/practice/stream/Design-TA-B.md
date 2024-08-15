@@ -1,13 +1,13 @@
 ---
-title: Threat Modeling
+title: Modélisation des Menaces
 type: stream
 url: ./model/design/threat-assessment/stream-b/
-business_function: FRENCHDesignn
+business_function: Conception
 business_function_url: design
-practice: French Threat Assessment
+practice: Évaluation de la menace
 stream: B
-description: FRENCHDesignn / French Threat Assessment
-keywords: ["Business function", "Practice", "FRENCHDesignn", "French Threat Assessment"]
+description: Conception / Évaluation de la menace
+keywords: ["Business function", "Practice", "Conception", "Évaluation de la menace"]
 aliases:
     - /model/D-TA-B-1
     - /model/D-TA-B-2
@@ -18,75 +18,75 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Identification of architectural design flaws in your applications
+            Identification des défauts de conception architecturale dans vos applications
         activity: |
-            Threat modeling is a structured activity for identifying, evaluating, and managing system threats, architectural design flaws, and recommended security mitigations. It is typically done as part of the design phase or as part of a security assessment.
+            La modélisation des menaces est une activité structurée qui a pour but d'identifier, d'évaluer et de gérer les menaces du système, les défauts de conception de l'architecture et de recommander des mesures de sécurité. Elle est généralement effectuée dans le cadre de la phase de conception ou dans le cadre d'une évaluation de sécurité.
 
-            Threat modeling is a team exercise, including product owners, architects, security champions, and security testers. At this maturity level, expose teams and stakeholders to threat modeling to increase security awareness and to create a shared vision on the security of the system.
+            La modélisation de menace est un exercice d'équipe, incluant les product owners, les architectes, les champions de la sécurité et les testeurs de la sécurité. À ce niveau de maturité, exposer les équipes et les parties prenantes à la modélisation des menaces afin d'accroître leur sensibilisation à la sécurité et de créer une vision partagée de la sécurité du système.
 
-            At maturity level 1, you perform threat modeling ad-hoc for high-risk applications and use simple threat checklists, such as STRIDE. Avoid lengthy workshops and overly detailed lists of low-relevant threats. Perform threat modeling iteratively to align to more iterative development paradigms. If you add new functionality to an existing application, look only into the newly added functions instead of trying to cover the entire scope. A good starting point is the existing diagrams that you annotate during discussion workshops. Always persist the outcome of a threat modeling discussion for later use.
+            Au niveau de maturité 1, vous réalisez la modélisation des menaces de façon ad hoc pour les applications à haut risque et utilisez de simples listes de contrôle de menaces, telles que STRIDE. Évitez de longs ateliers et des listes trop détaillées de menaces peu pertinentes. Effectuez la modélisation des menaces de manière itérative pour vous aligner sur les paradigmes de développement plus itératifs. Si vous ajoutez de nouvelles fonctionnalités à une application existante, n'examinez que les fonctions nouvellement ajoutées au lieu d'essayer de couvrir l'ensemble du périmètre. Un bon point de départ est les diagrammes existants que vous annotez lors des ateliers de discussion. Assurez-vous de toujours sauvegarder le résultat d'une discussion sur la modélisation des menaces pour une utilisation ultérieure.
 
-            Your most important tool to start threat modeling is a whiteboard, smartboard, or a piece of paper. Aim for security awareness, a simple process, and actionable outcomes that you agree upon with your team.
+            Votre outil le plus important pour démarrer la modélisation des menaces est un tableau blanc, un tableau intelligent ou un bout de papier. Visez la sensibilisation à la sécurité, un processus simple et des résultats réalisables sur lesquels vous vous mettez d'accord avec votre équipe.
 
-        question: Do you identify and manage architectural design flaws with threat modeling?
+        question: Identifiez-vous et gérez-vous les défauts de conception architecturaux avec la modélisation des menaces?
         quality_criteria:
-            - You perform threat modeling for high-risk applications
-            - You use simple threat checklists, such as STRIDE
-            - You persist the outcome of a threat model for later use
+            - Vous réalisez la modélisation des menaces pour les applications à haut risque
+            - Vous utilisez des listes de contrôle de menace simples, telles que STRIDE
+            - Vous archivez le résultat d'un modèle de menace pour une utilisation ultérieure
 
         answers:
             - "No"
-            - Yes, some of them
-            - Yes, at least half of them
-            - Yes, most or all of them
+            - Oui, certains d'entre eux
+            - Oui, au moins la moitié d'entre eux
+            - Oui, la plupart ou tous
 
     level2:
         level: 2
         benefit: |
-            Clear expectations of the quality of threat modeling activities
+            Des attentes claires quant à la qualité des activités de modélisation des menaces
         activity: |
-            Use a standardized threat modeling methodology for your organization and align this on your application risk levels. Think about ways to support the scaling of threat modeling throughout the organization.
+            Utilisez une méthodologie standardisée de modélisation des menaces pour votre organisation et alignez-la sur les niveaux de risque de votre application. Pensez à des moyens de permettre la mise à l'échelle de la modélisation des menaces pour l'ensemble de l'organisation.
 
-            Train your architects, security champions, and other stakeholders on how to do practical threat modeling.  Threat modeling requires understanding, clear playbooks and templates, organization-specific examples, and experience, which is hard to automate.
+            Formez vos architectes, vos champions de sécurité et autres parties prenantes sur la manière de faire opérationnellement la modélisation des menaces. La modélisation de la menace nécessite de la connaissance, des manuels et des modèles clairs, des exemples spécifiques à l'organisation et de l'expérience, ce qui est difficile à automatiser.
 
-            Your threat modeling methodology includes at least diagramming, threat identification, design flaw mitigations, and how to validate your threat model artifacts. Your threat model diagram allows a detailed understanding of the environment and the mechanics of the application. You discover threats to your application with checklists, such as STRIDE or more organization-specific threats. For identified design flaws (ranked according to risk for your organization), you add mitigating controls to support stakeholders in dealing with particular threats. Define what triggers updating a threat model, for example, a technology change or deployment of an application in a new environment.
+            Votre méthodologie de modélisation des menaces comprend au moins l'établissement de diagrammes, l'identification des menaces, l'atténuation des défauts de conception et la façon de valider les artéfacts de vos modèles de menaces. Votre diagramme de modélisation des menaces permet une compréhension détaillée de l'environnement et de la mécanique de l'application. Vous découvrez les menaces envers votre application ou d'autres menaces spécifiques à votre organisation avec des listes de contrôle telles que STRIDE. Pour les défauts de conception identifiés (classés en fonction du risque envers votre organisation), vous ajoutez des contrôles d'atténuation pour aider les parties prenantes à faire face à des menaces particulières. Définissez ce qui déclenche la mise à jour d'un modèle de menace, par exemple un changement de technologie ou le déploiement d'une application dans un nouvel environnement.
 
-            Feed the output of threat modeling to the defect management process for adequate follow-up. Capture the threat modeling artifacts with tools used by your application teams.
+            Stockez les sorties de la modélisation des menaces au sein du processus de gestion des défauts pour un suivi adéquat. Capturez les artefacts de modélisation des menaces avec des outils qui sont utilisés par vos équipes applicatives.
 
-        question: Do you use a standard methodology, aligned with your application risk levels?
+        question: Utilisez-vous une méthodologie standard, en phase avec le niveau de risque de votre application ?
         quality_criteria:
-            - You train your architects, security champions, and other stakeholders on how to do practical threat modeling
-            - Your threat modeling methodology includes at least diagramming, threat identification, design flaw mitigations, and how to validate your threat model artifacts
-            - Changes in the application or business context trigger a review of the relevant threat models
-            - You capture the threat modeling artifacts with tools used by your application teams
+            - Vous formez vos architectes, vos champions de sécurité et les autres parties prenantes sur la manière de modéliser les menaces de façon pratique
+            - Votre méthodologie de modélisation des menaces comprend au moins la réalisation de diagrammes, l'identification des menaces, l'atténuation des défauts de conception et la validation des artefacts de votre modèle de menace
+            - Les changements dans le contexte de l'application ou de l'entreprise déclenchent un examen des modèles de menace pertinents
+            - Vous capturez les artefacts de modélisation des menaces avec des outils qui sont utilisés par vos équipes d'application
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level3:
         level: 3
         benefit: |
-            Assurance of continuous improvement of threat modeling activities
+            Assurance de l'amélioration continue des activités de modélisation des menaces
         activity: |
-            Threat modeling is integrated into your SDLC and has become part of the developer security culture.  Reusable risk patterns, comprising related threat libraries, design flaws, and security mitigations, are created and improved, based on the organization's threat models. You regularly (e.g., yearly) review the existing threat models to verify that no new threats are relevant for your applications.
+            La modélisation des menaces est intégrée dans votre SDLC et fait partie de la culture de sécurité des développeurs. Des modèles de risque réutilisables, composé de bibliothèques de menaces, de défauts de conception et de mesures d'atténuation, sont créés et améliorés, en fonction des modèles de menace propres à l'organisation. Vous revoyez régulièrement (p. ex. annuellement) les modèles de menace existants pour vérifier qu’aucune nouvelle menace n’est devenue pertinente pour vos applications.
 
-            You optimize your threat modeling methodology. You capture lessons learned from threat models and use these to improve your threat modeling methodology.  You review the threat categories relevant to your organization and update your methodology appropriately. From time to time, you evaluate the quality of your threat models independently.
+            Vous optimisez votre méthodologie de modélisation des menaces. Vous retenez les leçons tirées des modèles de menace et les utilisez pour améliorer votre méthodologie de modélisation des menaces. Vous examinez les catégories de menaces pertinentes à votre organisation et mettez à jour votre méthodologie en conséquence. De temps en temps, vous évaluez la qualité de vos modèles de menace de façon indépendante.
 
-            You automate parts of your threat modeling process with threat modeling tools. You integrate your threat modeling tools with other security tools, such as security verification tools and risk tracking tools. You consider "threat modeling as code" practices to integrate threat modeling artifacts with application code.
+            Vous automatisez des parties de votre processus de modélisation des menaces avec des outils de modélisation des menaces. Vous intégrez vos outils de modélisation des menaces avec d'autres outils de sécurité, tels que les outils de vérification de la sécurité et les outils de suivi des risques. Vous étudiez la pratique de "modélisation des menaces en tant que code" pour intégrer des artefacts de modélisation des menaces au code de l'application.
 
-        question: Do you regularly review and update the threat modeling methodology for your applications?
+        question: Revoyez-vous et mettez-vous à jour régulièrement la méthodologie de modélisation des menaces pour vos applications ?
         quality_criteria:
-            - The threat model methodology considers historical feedback for improvement
-            - You regularly (e.g., yearly) review the existing threat models to verify that no new threats are relevant for your applications
-            - You automate parts of your threat modeling process with threat modeling tools
+            - La méthodologie de modélisation des menaces prend en compte les retours d'expérience passés pour s'enrichir
+            - Vous réexaminez régulièrement (par exemple annuellement) les modèles de menace existants pour vérifier qu'aucune nouvelle menace n'est pertinente pour vos applications
+            - Vous automatisez des parties de votre processus de modélisation des menaces avec des outils de modélisation des menaces
 
         answers:
             - "No"
-            - Yes, but review is ad-hoc
-            - Yes, we review it at regular times
-            - Yes, we review it at least annually
+            - Oui, mais la revue est ad-hoc
+            - Oui, nous le revoyons régulièrement
+            - Oui, nous le revoyons au moins une fois par an
 
 ---

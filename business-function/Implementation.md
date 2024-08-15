@@ -1,19 +1,19 @@
 ---
-title: Implementation
+title: Implémentation
 url: ./model/implementation/
-description: Implementation business function
+description: Implémentation business function
 
-practice_1: Secure Build
+practice_1: Génération Sécurisée
 practice_1_url: secure-build
-practice_2: Secure Deployment
+practice_2: Déploiement Sécurisé
 practice_2_url: secure-deployment
-practice_3: Defect Management
+practice_3: Gestion des Défauts
 practice_3_url: defect-management
 
 keywords: ["Business function"]
 ---
 
-Implementation is focused on the processes and activities related to how an organization builds and deploys software components and its related defects.
+L'implémentation se focalise sur les processus et les activités liés à la façon dont une organisation construit et déploie des composants logiciels et les défauts associés.
 
-Activities within the Implementation function have the most impact on the daily life of developers. The joint goal is to ship reliably working software with minimum defects.
+Les activités au sein de la fonction Implémentation ont le plus d'impact sur la vie quotidienne des développeurs. L'objectif commun est de livrer un logiciel fonctionnant de manière fiable avec un minimum de défauts.
 

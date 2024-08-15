@@ -1,31 +1,29 @@
 ---
-title: French Secure Architecture
-url: ./model/design/secure-architecture/
-business_function: "FRENCHDesignn"
+title: Architecture de Sécurité
+url: ./model/design/security-architecture/
+business_function: "Conception"
 business_function_url: "design"
-keywords: ["Business function", "Practice", "French Secure Architecture"]
+keywords: ["Business function", "Practice", "Architecture de Sécurité"]
 aliases:
     - /model/D-SA
 type: practice
 
-practice_maturity_1_description: Insert consideration of proactive security guidance into the software design process.
-practice_maturity_2_description: Direct the software design process toward known secure services and secure-by-default designs.
-practice_maturity_3_description: Formally control the software design process and validate utilization of secure components.
+practice_maturity_1_description: Inclure la considération de conseils de sécurité proactifs dans le processus de conception logicielle.
+practice_maturity_2_description: Amener le processus de conception de logiciels vers des services sécurisés reconnus et la conception sécurisée par défaut.
+practice_maturity_3_description: Contrôler formellement le processus de conception de logiciels et valider l'utilisation de composants sécurisés.
 
-stream_a: French Architecture Designn
-stream_a_url: model/design/secure-architecture/stream-a
+stream_a: Conception d'architecture
 
-stream_a_maturity_1_activity: Teams are trained on the use of basic security principles during design.
-stream_a_maturity_2_activity: Establish common design patterns and security solutions for adoption.
-stream_a_maturity_3_activity: Reference architectures are utilized and continuously evaluated for adoption and appropriateness.
+stream_a_maturity_1_activity: Les équipes sont formées sur l'utilisation des principes de base de la sécurité durant la phase de conception
+stream_a_maturity_2_activity: Etablir des modèles de conception et des solutions de sécurité communs.
+stream_a_maturity_3_activity: Les architectures de référence sont utilisées et évaluées continuellement en vue de leur adoption et par rapport à leur pertinence.
 
-stream_b: French Technology Management
-stream_b_url: model/design/secure-architecture/stream-b
+stream_b: Gestion de la technologie
 
-stream_b_maturity_1_activity: Elicit technologies, frameworks and integrations within the overall solution to identify risk.
-stream_b_maturity_2_activity: Standardize technologies and frameworks to be used throughout the different applications.
-stream_b_maturity_3_activity: Impose the use of standard technologies on all software development.
+stream_b_maturity_1_activity: Enumérer les technologies, les cadres et les outils d'intégration de la solution globale pour identifier les risques.
+stream_b_maturity_2_activity: Standardisez les technologies et les frameworks à utiliser pour les différentes applications
+stream_b_maturity_3_activity: Imposer l’utilisation de technologies standards sur tous les développements logiciels.
 ---
 
-The Secure Architecture (SA) practice focuses on the security linked to components and technology you deal with during the architectural design of your software. Secure Architecture Design looks at the selection and composition of components that form the foundation of your solution, focusing on its security properties. Technology Management looks at the security of supporting technologies used during development, deployment and operations, such as development stacks and tooling, deployment tooling, and operating systems and tooling.
+La pratique Architecture de Sécurité (SA) se concentre sur la sécurité liée aux composants et à la technologie que vous utilisez pendant la conception architecturale de votre logiciel. La Conception d'Architecture de Sécurité se penche sur la sélection et la composition des composants qui constituent la base de votre solution, en se concentrant sur ses propriétés de sécurité. La gestion de la technologie examine la sécurité des technologies sous-jacentes utilisées pendant le développement, le déploiement et l'exploitation, tels que les piles de développement et l'outillage, les outils de déploiement, les systèmes d'exploitation et les outils associés.
 

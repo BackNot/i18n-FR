@@ -1,13 +1,13 @@
 ---
-title: Create and Promote
+title: Créer et Promouvoir
 type: stream
 url: ./model/governance/strategy-metrics/stream-a/
-business_function: Governance
+business_function: Gouvernance
 business_function_url: governance
-practice: Strategy and Metrics
+practice: Stratégie & Métriques
 stream: A
-description: Governance / Strategy and Metrics
-keywords: ["Business function", "Practice", "Governance", "Strategy and Metrics"]
+description: Gouvernance / Stratégie & Métriques
+keywords: ["Business function", "Practice", "Gouvernance", "Stratégie & Métriques"]
 aliases:
     - /model/G-SM-A-1
     - /model/G-SM-A-2
@@ -18,74 +18,74 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Common understanding of your organization's security posture
+            Compréhension partagée de la posture de sécurité de votre organisation
         activity: |
-            Understand, based on application risk exposure, what threats exist or may exist, as well as how tolerant executive leadership is of these risks. This understanding is a key component of determining software security assurance priorities. To ascertain these threats, interview business owners and stakeholders and document drivers specific to industries where the organization operates as well as drivers specific to the organization. Gathered information includes worst-case scenarios that could impact the organization, as well as opportunities where an optimized software development lifecycle and more secure applications could provide a market-differentiator or create additional opportunities.
+            Comprenez, en fonction de l’exposition au risque de l’application, quelles menaces existent ou peuvent exister, et à quel point la direction est tolérante face à ces risques. Cette compréhension est un élément clé pour déterminer les priorités en matière d'assurance sécurité des logiciels. Pour valider ces menaces, interviewez les dirigeants d'entreprise et les autres parties prenantes documentez les motivations propres à l'industrie dans laquelle l'organisme opère ainsi que les motivations propres à l'organisation. Les informations collectées incluent les scénarios les plus pessimistes qui pourraient avoir un impact sur l'organisation, de même que les occasions où un cycle de vie optimisé du développement de logiciels et des applications plus sécurisées pourraient fournir un différentiateur de marché ou créer des opportunités supplémentaires.
 
-            Gathered information provides a baseline for the organization to develop and promote its application security program. Items in the program are prioritized to address threats and opportunities most important to the organization. The baseline is split into several risk factors and drivers linked directly to the organization's priorities and used to help build a risk profile of each custom-developed application by documenting how they can impact the organization if they are compromised.
+            Les informations collectées fournissent une base de référence permettant à l'organisation de développer et de promouvoir son programme de sécurité applicative. Les éléments du programme sont rangés par ordre de priorité pour traiter d'abord les menaces et les opportunités les plus importantes pour l'organisation. La base de référence est divisée en plusieurs facteurs de risque et de motivation liés directement aux priorités de l’organisation et utilisés pour aider à établir un profil de risque pour chaque application développée sur mesure en documentant comment elle peut avoir un impact sur l’organisation si elle est compromise.
 
-            The baseline and individual risk factors should be published and made available to application development teams to ensure a more transparent process of creating application risk profiles and incorporating the organization's priorities into the program. Additionally, these goals should provide a set of objectives which should be used to ensure all application security program enhancements provide direct support of the organization's current and future needs.
+            La base de référence et les facteurs de risque individuels devraient être publiés et mis à la disposition des équipes de développement d'applications afin d'assurer un processus plus transparent de création de profils de risque d'application et d'intégrer les priorités de l'organisation dans le programme. De plus, ces buts devraient fournir un ensemble d'objectifs qui devraient être utilisés pour garantir que toutes les améliorations au programme de sécurité des applications fournissent un soutien direct aux besoins actuels et futurs de l'organisation.
 
-        question: Do you understand the enterprise-wide risk appetite for your applications?
+        question: Avez-vous une bonne compréhension de l'appétit de risque pour vos applications à travers l'entreprise?
         quality_criteria:
-            - You capture the risk appetite of your organization's executive leadership
-            - The organization's leadership vet and approve the set of risks
-            - You identify the main business and technical threats to your assets and data
-            - You document risks and store them in an accessible location
+            - Vous capturez l'appétit envers le risque des dirigeants de votre organisation
+            - Les dirigeants de l'organisation valident et approuvent l'ensemble des risques
+            - Vous identifiez les principales menaces métier et techniques pour vos actifs et vos données
+            - Vous documentez les risques et les stockez dans un endroit accessible
 
         answers:
             - "No"
-            - Yes, it covers general risks
-            - Yes, it covers organization-specific risks
-            - Yes, it covers risks and opportunities
+            - Oui, il couvre les risques courants
+            - Oui, il couvre les risques propres à l'organisation
+            - Oui, il couvre les risques et les opportunités
 
     level2:
         level: 2
         benefit: |
-            Available and agreed upon roadmap of your AppSec program
+            Feuille de route disponible et validée de votre programme AppSec
         activity: |
-            Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address business priorities around application security. The plan covers 1 to 3 years and includes milestones consistent with the organization's business drivers and risks. It provides tactical and strategic initiatives and follows a roadmap that makes its alignment with business priorities and needs visible.
+            En fonction de l’ampleur des actifs, des menaces et de la tolérance aux risques, développez un plan stratégique et un budget pour traiter les priorités commerciales en matière de sécurité applicative. Le plan couvre 1 à 3 années et comprend des jalons conformes aux missions et aux risques de l’entreprise. Il fournit des initiatives tactiques et stratégiques et suit une feuille de route qui rend visible son alignement sur les priorités et les besoins de l'entreprise.
 
-            In the roadmap, reach a balance between changes requiring financial expenditures, changes of processes and procedures, and changes impacting the organization's culture. This balance helps accomplish multiple milestones concurrently and without overloading or exhausting available resources or development teams. The milestones are frequent enough to help monitor program success and trigger timely roadmap adjustments.
+            Dans la feuille de route, vous équilibrez les changements nécessitant des dépenses financières avec les changements de processus et de procédures et les changements affectant la culture de l'organisation. Cet équilibre permet de réaliser de multiples étapes simultanément sans surcharger ou épuiser les ressources disponibles ou les équipes de développement. Les jalons sont suffisamment fréquents pour aider à surveiller la réussite du programme et à déclencher les ajustements opportuns de la feuille de route.
 
-            For the program to be successful, the application security team obtains buy-in from the organization's stakeholders and application development teams. A published plan is available to anyone who is required to support or participate in its implementation.
+            Pour que le programme soit couronné de succès, l'équipe de sécurité applicative obtient le soutien des parties prenantes au sein de l'organisation et celui des équipes de développement d'applications. Un plan publié est à la disposition de toute personne qui est tenue de le soutenir ou de participer à sa mise en œuvre.
 
-        question: Do you have a strategic plan for application security and use it to make decisions?
+        question: Avez-vous un plan stratégique concernant la sécurité des applications et l'utilisez-vous pour prendre des décisions?
         quality_criteria:
-            - The plan reflects the organization's business priorities and risk appetite
-            - The plan includes measurable milestones and a budget
-            - The plan is consistent with the organization's business drivers and risks
-            - The plan lays out a roadmap for strategic and tactical initiatives
-            - You have buy-in from stakeholders, including development teams
+            - Le plan reflète les priorités métier de l'organisation et l'appétit envers le risque
+            - Le plan comprend des jalons mesurables et un budget
+            - Le plan est cohérent avec les intentions de l'entreprise et les risques
+            - Le plan établit une feuille de route pour les initiatives stratégiques et tactiques
+            - Les parties-prenantes adhèrent au projet, y compris les équipes de développement
 
         answers:
             - "No"
-            - Yes, we review it annually
-            - Yes, we consult the plan before making significant decisions
-            - Yes, we consult the plan often, and it is aligned with our application security strategy
+            - Oui, nous le revoyons chaque année
+            - Oui, nous consultons le plan avant de prendre des décisions significatives
+            - {'Yes, we consult the plan often, and it is aligned with our application security strategy value': {'1 weight': {'1 order': 3}}}
 
     level3:
         level: 3
         benefit: |
-            Continuous AppSec program alignment with the organization's business goals
+            Alignement continu du programme AppSec par rapport aux objectifs de l'organisation
         activity: |
-            You review the application security plan periodically for ongoing applicability and support of the organization's evolving needs and future growth. To do this, you repeat the steps from the first two maturity levels of this Security Practice at least annually. The goal is for the plan to always support the current and future needs of the organization, which ensures the program is aligned with the business.
+            Vous examinez périodiquement le programme de sécurité des applications afin de déterminer son applicabilité continue et son apport aux besoins en évolution de l’organisation et à sa croissance future. Pour ce faire, vous réitérez les deux étapes correspondant aux deux premiers niveaux de maturité de cette pratique de sécurité au moins annuellement. L'objectif est que le programme réponde toujours aux besoins actuels et futurs de l'organisation, ce qui garantit que le programme est aligné sur l'entreprise.
 
-            In addition to reviewing the business drivers, the organization closely monitors the success of the implementation of each of the roadmap milestones. You evaluate the success of the milestones based on a wide range of criteria, including completeness and efficiency of the implementation, budget considerations, and any cultural impacts or changes resulting from the initiative. You review missed or unsatisfactory milestones and evaluate possible changes to the overall program.
+            En plus de passer en revue les missions de l'entreprise, l'organisation surveille de près le succès de la mise en œuvre de chacune des étapes de la feuille de route. Vous évaluez le succès des jalons en fonction d'un large éventail de critères, y compris l'exhaustivité et l'efficacité de la mise en œuvre, les considérations budgétaires, ainsi que tout impact culturel ou changement résultant de l'initiative. Vous passez en revue les étapes manquées ou insatisfaisantes et évaluez les changements possibles au programme dans son ensemble.
 
-            The organization develops dashboards and measurements for management and teams responsible for software development to monitor the implementation of the roadmap. These dashboards are detailed enough to identify individual projects and initiatives and provide a clear understanding of whether the program is successful and aligned with the organization's needs.
+            L'organisation développe des tableaux de bord et des mesures pour la gestion et les équipes responsables du développement logiciel afin de surveiller la mise en œuvre de la feuille de route. Ces tableaux de bord sont suffisamment détaillés pour identifier les projets et les initiatives individuels et pour permettre de comprendre clairement si le programme est une réussite et est conforme aux besoins de l’organisme.
 
-        question: Do you regularly review and update the Strategic Plan for Application Security?
+        question: Examinez-vous et mettez-vous à jour régulièrement le Plan Stratégique pour la sécurité applicative?
         quality_criteria:
-            - You review and update the plan in response to significant changes in the business environment, the organization, or its risk appetite
-            - Plan update steps include reviewing the plan with all the stakeholders and updating the business drivers and strategies
-            - You adjust the plan and roadmap based on lessons learned from completed roadmap activities
-            - You publish progress information on roadmap activities, making sure they are available to all stakeholders
+            - Vous revoyez et mettez à jour le plan en réponse à des changements significatifs dans l'environnement d'affaire, dans l'organisation ou dans son appétence envers le risque
+            - Les étapes de mise à jour du plan comprennent la revue du plan avec toutes les parties prenantes et la mise à jour des facteurs de motivation et de la stratégie de l'entreprise
+            - Vous ajustez le plan et la feuille de route en fonction des leçons tirées des activités terminées de la feuille de route
+            - Vous publiez des informations sur l'état d'avancement des activités de la feuille de route, en vous assurant qu'elles sont accessibles à toutes les parties prenantes
 
         answers:
             - "No"
-            - Yes, but review is ad-hoc
-            - Yes, we review it at regular times
-            - Yes, we review it at least annually
+            - Oui, mais la revue est ad-hoc
+            - Oui, nous le revoyons régulièrement
+            - Oui, nous le revoyons au moins une fois par an
 
 ---

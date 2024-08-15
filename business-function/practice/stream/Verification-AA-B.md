@@ -1,13 +1,13 @@
 ---
-title: Architecture Mitigation
+title: Réduction de risques architecturale
 type: stream
 url: ./model/verification/architecture-assessment/stream-b/
-business_function: Verification
+business_function: Vérification
 business_function_url: verification
-practice: Architecture Assessment
+practice: Évaluation de l'architecture
 stream: B
-description: Verification / Architecture Assessment
-keywords: ["Business function", "Practice", "Verification", "Architecture Assessment"]
+description: Vérification / Évaluation de l'architecture
+keywords: ["Business function", "Practice", "Vérification", "Évaluation de l'architecture"]
 aliases:
     - /model/V-AA-B-1
     - /model/V-AA-B-2
@@ -18,66 +18,66 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Assures that the architecture protects against typical security threats.
+            S'assure que l'architecture protège des menaces de sécurité typiques.
         activity: |
-            Review the architecture for typical security threats. Security-savvy technical staff conduct this analysis with input from architects, developers, managers, and business owners as needed, to ensure the architecture addresses all common threats which development teams lacking specialised security expertise may have overlooked.
+            Examinez l'architecture pour trouver des menaces de sécurité typiques. Le personnel technique compétent en matière de sécurité conduit cette analyse avec les commentaires des architectes, des développeurs, des gestionnaires et des représentants du client en fonction du besoin pour s'assurer que l'architecture prend en compte toutes les menaces courantes que les équipes de développement qui n'ont pas d'expertise spécialisée en sécurité peuvent avoir négligées.
 
-            Typical threats in an architecture can relate to incorrect assumptions in, or overly reliance on, the provisioning of security mechanisms such as authentication, authorization, user and rights management, secure communication, data protection, key management and log management. Threats, on the other hand, can also relate to known limitations of, or issues in, technological components or frameworks that are part of the solution and for which insufficient mitigation has been put in place.
+            Les menaces typiques dans une architecture peuvent être liées à des hypothèses incorrectes ou à une dépendance trop forte envers des mécanismes de sécurité tels que l'authentification, la gestion des autorisations, des utilisateurs et des droits, la communication sécurisée, la protection des données, la gestion des clés ou la gestion des journaux. A l'opposé, les menaces peuvent être liées à des limitations ou des problèmes connus dans des composants ou des environnements technologiques qui font partie de la solution et pour lesquels une atténuation insuffisante a été mise en place.
 
-        question: Do you review the application architecture for mitigations of typical threats on an ad-hoc basis?
+        question: Passez-vous en revue l'architecture de l'application afin d'atténuer les menaces typiques de manière ponctuelle ?
         quality_criteria:
-            - You have an agreed upon model of the overall software architecture
-            - Security savvy staff conduct the review
-            - You consider different types of threats, including insider and data-related ones
+            - Vous avez un modèle validé de l'architecture globale du logiciel
+            - Le personnel compétent en matière de sécurité conduit l'examen
+            - Vous considérez différents types de menaces, y compris celles venant de l'intérieur et celles liées aux données
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level2:
         level: 2
         benefit: |
-            All identified threats to the application are adequately handled.
+            Toutes les menaces identifiées envers l'application sont traitées de manière adéquate.
         activity: |
-            Systematically review each threat identified during the Threat Assessment activities and examine how the architecture mitigates them. Use a standardised process for analyzing system architectures and the flow of data within them. This is typically linked to the threat model used (e.g. STRIDE) in order to identify the relevant security objectives which address each type of threat. For each threat, identify the design-level features of the architecture which counter it and assess their effectiveness in doing so.
+            Examinez systématiquement chaque menace identifiée lors des activités d'évaluation des menaces et vérifiez la manière dont l'architecture les atténue. Utilisez un processus standardisé pour analyser les architectures systèmes et le flux de données à l'intérieur de celles-ci. Ceci est généralement lié au modèle de menace utilisé (par ex. STRIDE) afin d’identifier les objectifs de sécurité pertinents qui répondent à chaque type de menace. Pour chaque menace, identifiez les fonctionnalités de niveau conception de l'architecture qui la contrecarrent et évaluez son efficacité.
 
-            Where available, review architectural decision records to understand the architectural constraints and tradeoffs made during design. Take their impact into consideration along with any security assumptions on which the safe operation of the system relies and re-evaluate them.
+            Lorsqu'elles sont disponibles, revoyez les informations concernant les décisions architecturales afin de comprendre les contraintes d'architecture et les compromis réalisés lors de la conception. Tenez compte de leurs impacts ainsi que de toutes les hypothèses liées à la sécurité sur lesquelles le fonctionnement sûr du système repose et réévaluez-les.
 
-            Enrich your previously created threat model such that each threat and its estimated impact are linked to the corresponding counter measure. Produce a mapping document, or dashboard in a specialized tool, to make the information available and visible to the relevant stakeholders.
+            Enrichissez votre modèle de menace précédemment créé de telle sorte que chaque menace et l'impact estimé associé soient liés au contrôle correspondant. Produisez un document de cartographie ou un tableau de bord dans un outil spécialisé afin de rendre l'information disponible et visible aux parties prenantes concernées.
 
-        question: Do you regularly evaluate the threats to your architecture?
+        question: Évaluez-vous régulièrement les menaces qui pèsent sur votre architecture ?
         quality_criteria:
-            - You systematically review each threat identified in the Threat Assessment
-            - Trained or experienced people lead review exercise
-            - You identify mitigating design-level features for each identified threat
-            - You log unhandled threats as defects
+            - Vous examinez systématiquement chaque menace identifiée lors de l'évaluation des menaces
+            - Des personnes formées ou expérimentées mènent l'exercice de revue
+            - Vous identifiez des fonctionnalités d'atténuation de niveau conception pour chaque menace identifiée
+            - Vous enregistrez les menaces non prises en compte comme des défauts
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level3:
         level: 3
         benefit: |
-            Continuous improvement of enterprise architecture based on architecture reviews
+            Amélioration continue de l'architecture d'entreprise basée sur les revues d'architecture
         activity: |
-            As an organization, you can further improve your software security posture by understanding which threats remain unaddressed in the software architectures and adapting your tactics to prevent this. Formalize a process to use recurring architecture findings as a trigger to identify the causes of gaps in the security assessment and deal with them. Feed findings back to the Design phase by creating, or updating relevant reference architectures, existing security solutions, or organisation design principles and patterns.
+            En tant qu'organisation, vous pouvez encore améliorer votre posture de sécurité logicielle en comprenant les menaces qui ne sont pas traitées dans les architectures logicielles et en adaptant vos tactiques pour éviter cela. Formalisez un processus pour utiliser les identifications de problèmes d'architecture récurrents comme déclencheur afin d'identifier les causes des lacunes dans l'évaluation de la sécurité et y faire face. Renvoyez les résultats vers la phase de conception en créant ou en mettant à jour les architectures de référence pertinentes, les solutions de sécurité existantes ou les principes et modèles de conception de l'organisation.
 
-        question: Do you regularly update your reference architectures based on architecture assessment findings?
+        question: Mettez-vous régulièrement à jour vos architectures de référence en fonction des résultats de l'évaluation de l'architecture ?
         quality_criteria:
-            - You assess your architectures in a standardized, documented manner
-            - You use recurring findings to trigger a review of reference architectures
-            - You independently review the quality of the architecture assessments on an ad-hoc basis
-            - You use reference architecture updates to trigger reviews of relevant shared solutions, in a risk-based manner
+            - Vous évaluez vos architectures de manière standardisée et documentée
+            - Vous utilisez les découvertes récurrentes pour déclencher une révision des architectures de référence
+            - Vous examinez de façon indépendante la qualité des revues d'architecture de manière ponctuelle
+            - Vous utilisez les mises à jour de l'architecture de référence pour déclencher des examens des solutions partagées pertinentes, en fonction des risques.
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
 ---

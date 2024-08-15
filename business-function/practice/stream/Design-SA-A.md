@@ -1,13 +1,13 @@
 ---
-title: French Architecture Designn
+title: Conception d'architecture
 type: stream
-url: ./model/design/secure-architecture/stream-a/
-business_function: FRENCHDesignn
+url: ./model/design/security-architecture/stream-a/
+business_function: Conception
 business_function_url: design
-practice: French Secure Architecture
+practice: Architecture de Sécurité
 stream: A
-description: FRENCHDesignn / French Secure Architecture
-keywords: ["Business function", "Practice", "FRENCHDesignn", "French Secure Architecture"]
+description: Conception / Architecture de Sécurité
+keywords: ["Business function", "Practice", "Conception", "Architecture de Sécurité"]
 aliases:
     - /model/D-SA-A-1
     - /model/D-SA-A-2
@@ -18,74 +18,74 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Sets of security basic principles available to product teams
+            L'ensemble des principes de base de la sécurité à la disposition des équipes produit
         activity: |
-            During design, technical staff on the product team use a short checklist of security principles. Typically, security principles include defense in depth, securing the weakest link, use of secure defaults, simplicity in design of security functionality, secure failure, balance of security and usability, running with least privilege, avoidance of security by obscurity, etc.
+            Lors de la phase de conception, le personnel technique de l'équipe produit utilise une courte checklist des principes de sécurité. Généralement, les principes de sécurité incluent : la défense en profondeur, la sécurisation du plus faible maillon, l'utilisation de valeurs par défaut sécurisées, éviter une conception complexe des fonctionnalités de sécurité, la bascule en mode dégradé en cas d'échec, l'équilibre entre sécurité et ergonomie, l'exécution avec le moindre privilège, proscrire la sécurité par l'obscurité, etc.
 
-            For perimeter interfaces, the team considers each principle in the context of the overall system and identifies features that can be added to bolster security at each such interface. Limit these such that they only take a small amount of extra effort beyond the normal implementation cost of functional requirements. Note anything larger, and schedule it for future releases.
+            Pour les interfaces, l'équipe considère chaque principe dans le contexte global du système et identifie les fonctionnalités qui peuvent renforcer la sécurité de chacune de ces interfaces. Il faut limiter ces fonctionnalités à celles qui ne demandent qu'un petit effort supplémentaire au-delà du coût de mise en œuvre normal des exigences fonctionnelles. Notez les fonctionnalités plus coûteuses et planifiez-les pour les versions futures.
 
-            Train each product team with security awareness before this process, and incorporate more security-savvy staff to aid in making design decisions.
+            Dispensez à chaque équipe produit une formation de sensibilisation à la sécurité en amont de ce processus et intégrez plus de personnel averti en matière de sécurité pour aider aux prises de décision lors de la phase de conception.
 
-        question: Do teams use security principles during design?
+        question: Les équipes utilisent-elles les principes de sécurité au cours de la conception ?
         quality_criteria:
-            - You have an agreed upon checklist of security principles
-            - You store your checklist in an accessible location
-            - Relevant stakeholders understand security principles
+            - Vous avez une liste de contrôle validée des principes de sécurité
+            - Vous stockez votre liste de contrôle dans un endroit accessible
+            - Les parties prenantes concernées comprennent les principes de sécurité
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level2:
         level: 2
         benefit: |
-            Reusable security services available for product teams
+            Mutualiser des services de sécurité avec les équipes produit
         activity: |
-            Identify shared infrastructure or services with security functionality. These typically include single-sign-on services, access control or entitlements services, logging and monitoring services or application-level firewalling. Collect and evaluate reusable systems to assemble a list of such resources and categorize them by the security mechanism they fulfill. Consider each resource in terms of why a product team would want to integrate with it, i.e. the benefits of using the shared resource.
+            Identifiez l'infrastructure ou les services partagés présentant des fonctionnalités de sécurité. Ceux-ci incluent généralement des systèmes d'authentification unique, des services de contrôle d'accès ou d'autorisation, des services de journalisation et de surveillance ou un pare-feu applicatif. Enumérer et évaluer ces services partagés pour dresser une liste de ces ressources et les catégoriser selon la fonction de sécurité qu'elles remplissent. Envisagezr chaque ressource en fonction de son utilité et ses bénéfices pour l'équipe produit.
 
-            If multiple resources exist in each category, select and standardize on one or more shared services per category. Because future software development will rely on these services, review each thoroughly to ensure understanding of the baseline security posture. For each selected service, create design guidance for product teams to understand how to integrate with the system. Make the guidance available through training, mentorship, guidelines, and standards.
+            S'il existe plusieurs ressources dans chaque catégorie, sélectionnez un ou plusieurs services partagés à standariser par catégorie. Étant donné que le développement futur des logiciels s'appuiera sur ces services, examinez-les soigneusement pour vous assurer de maitriser comment leur sécurité évoluera dans le temps. Pour chaque service sélectionné, créez des recommandation pour la conception afin que les équipes produit sachent comment les intégrer au système. Partager ces recommandations par le biais de la formation, du mentorat, des lignes directrices et des standards.
 
-            Establish a set of best practices representing sound methods of implementing security functionality. You can research them or purchase them, and it is often more effective if you customize them so they are more specific to your organization. Example patterns include a single-sign-on subsystem, a cross-tier delegation model, a separation-of-duties authorization model, a centralized logging pattern, etc.
+Établissez les meilleures pratiques pour implémenter les fonctionnalités de sécurité. Rendez-les disponibles par des fonctions de recherche et/ou d'achat et pensez à les personnaliser pour les faire correspondre à la charte graphique de votre organisation pour une meilleure intégration. Des exemples de modèles incluent un sous-système d'authentification unique, un modèle de délégation à plusieurs niveaux, un modèle d'autorisation de séparation des tâches, un modèle de journalisation centralisé, etc.
 
-            These patterns can originate from specific projects or applications, but make sure you share them between different teams across the organization for efficient and consistent application of appropriate security solutions.
+            Ces modèles peuvent provenir de projets ou d'applications spécifiques, mais assurez-vous de les partager entre les différentes équipes de l'organisation pour une application efficace et cohérente des solutions de sécurité appropriées.
 
-            To increase adoption of these patterns, link them to the shared security services, or implement them into actual component solutions that can be easily integrated into an application during development. Support the key technologies within the organization, for instance in case of different development stacks. Treat these solutions as actual applications with proper support in case of questions or issues.
+            Pour augmenter l'adoption de ces modèles, interfacez-les avec les services de sécurité partagés ou implémentez-les sous forme de composants qui peuvent être facilement intégrées dans une application. Soutenez les technologies clés au sein de l'organisation, par exemple dans le cas de différents environnements de développement. Gérez ces solutions comme de véritables applications avec un support approprié.
 
-        question: Do you use shared security services during design?
+        question: Utilisez-vous des services de sécurité partagés au cours de la conception ?
         quality_criteria:
-            - You have a documented list of reusable security services, available to relevant stakeholders
-            - You have reviewed the baseline security posture for each selected service
-            - Your designers are trained to integrate each selected service following available guidance
+            - Vous avez une liste documentée de services de sécurité réutilisables, à la disposition des parties prenantes concernées
+            - Vous avez vérifié la posture de sécurité de base pour chaque service sélectionné
+            - Vos concepteurs sont formés à l'intégration de chaque service sélectionné selon les conseils disponibles
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level3:
         level: 3
         benefit: |
-            Full transparency of quality and usability of centrally provided security solutions
+            Transparence totale de la qualité et de l'utilisabilité des solutions de sécurité tierces centralisées
         activity: |
-            Build a set of reference architectures that select and combine a verified set of security components to ensure a proper design of security. Reference platforms have advantages in terms of shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead. Continuously maintain and improve the reference architecture based on new insights in the organization and within the community. Have architects, senior developers and other technical stakeholders participate in design and creation of reference platforms. After creation, teams maintain ongoing support and updates.
+            Construisez un ensemble d'architectures de référence qui sélectionne et combine un ensemble de composants de sécurité validés afin de garantir une conception appropriée de la sécurité. Les plateformes de référence ont l'avantage de raccourcir les audits et les revues de sécurité, d'améliorer l'efficacité lors du développement et de diminuer la charge de maintenance. Maintenez et améliorez continuellement l'architecture de référence en fonction des retours au sein de l'organisation et de la communauté. Faites participer les architectes, les développeurs seniors et tout autre intervenant technique à la conception et à la création des plateformes de référence. Après la phase de création, les équipes doivent continuer à fournir du support et des mises à jour.
 
-            Reference architectures may materialize into a set of software libraries and tools upon which project teams build their software. They serve as a starting point that standardizes the configuration-driven, security-by-default security approach. You can bootstrap the framework by selecting a particular project early in the lifecycle and having security-savvy staff work with them to build the security functionality in a generic way so that it can be extracted from the project and used elsewhere in the organization.
+            Les architectures de référence peuvent se matérialiser sous la forme d'un ensemble de librairies logicielles et d'outils avec lesquels les équipes projet construisent les logiciels. Ils sont le point de départ pour la standardisation d'une approche par la configuration sécurisée et la sécurité par défaut. Il est possible d'amorcer la construction de l'environnement en sélectionnant un projet donné tôt dans le cycle de vie et d'impliquer une équipe compétente en sécurité en renfort pour construire la fonctionnalité de sécurité de façon générique pour qu'il soit possible de l'extraire ultérieurement du projet et de l'utiliser ailleurs dans l'organisation. 
 
-            Monitor weaknesses or gaps in the set of security solutions available in your organization continuously in the context of discussions on architecture, development, or operations. This serves as an input to improve the appropriateness and effectiveness of the reference architectures that you have in place.
+            Suivez continuellement les faiblesses ou les écarts dans l'ensemble de solutions de sécurité disponibles au sein de l'organisation lors des discussions concernant l'architecture, le développement ou l'exploitation. Ceci constitue un entrant pour l'amélioration de la pertinence et de l'efficacité des architectures de référence en place.
 
-        question: Do you base your design on available reference architectures?
+        question: Basez-vous votre conception sur des architectures de référence disponibles?
         quality_criteria:
-            - You have one or more approved reference architectures documented and available to stakeholders
-            - You improve the reference architectures continuously based on insights and best practices
-            - You provide a set of components, libraries, and tools to implement each reference architecture
+            - Vous avez une ou plusieurs architectures de référence approuvées et documentées et qui sont à la disposition des parties prenantes
+            - Vous améliorez continuellement les architectures de référence en fonction des connaissances et des bonnes pratiques
+            - Vous fournissez un ensemble de composants, bibliothèques et outils pour implémenter chaque architecture de référence
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
 ---

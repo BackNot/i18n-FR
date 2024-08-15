@@ -1,13 +1,13 @@
 ---
-title: Control Verification
+title: Vérification des contrôles
 type: stream
 url: ./model/verification/requirements-testing/stream-a/
-business_function: Verification
+business_function: Vérification
 business_function_url: verification
-practice: Requirements-driven Testing
+practice: Tests axés sur les exigences
 stream: A
-description: Verification / Requirements-driven Testing
-keywords: ["Business function", "Practice", "Verification", "Requirements-driven Testing"]
+description: Vérification / Tests axés sur les exigences
+keywords: ["Business function", "Practice", "Vérification", "Tests axés sur les exigences"]
 aliases:
     - /model/V-RT-A-1
     - /model/V-RT-A-2
@@ -18,66 +18,66 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Verified effectiveness of your standard security controls
+            Efficacité vérifiée de vos contrôles de sécurité standards
         activity: |
-            Conduct security tests to verify that the standard software security controls operate as expected. At a high level, this means testing the correct functioning of the confidentiality, integrity, and availability controls of the data as well as the service. Security tests at least include testing for authentication, access control, input validation, encoding, and escaping data and encryption controls. The test objective is to validate that the security controls are correctly implemented.
+            Effectuez des tests de sécurité pour vérifier que les contrôles standards de sécurité logiciels fonctionnent comme prévu. À un haut niveau, cela signifie tester le bon fonctionnement des contrôles liés à la confidentialité, à l'intégrité et à la disponibilité des données ainsi que du service. Les tests de sécurité comprennent au moins des tests d'authentification, de contrôle d'accès, de validation des entrées, d'encodage, d'échappement des données et de chiffrement. L'objectif des tests est de valider que les contrôles de sécurité sont correctement implémentés.
 
-            The security testing validates the relevant software security controls. Perform control-verification security tests manually or with tools, each time the application changes its use of the controls. Techniques such as feature toggles and A/B testing can be used to progressively expose features to broader audiences as they are sufficiently validated. Software control verification is mandatory for all software that is part of the SAMM program.
+            Les tests de sécurité valident les contrôles de sécurité logiciels nécessaires. Effectuez des tests de sécurité de vérification des contrôles manuellement ou avec des outils à chaque fois que l'application change son utilisation des contrôles. Les techniques telles que les basculements de fonctionnalités et les tests A/B peuvent être utilisées pour exposer progressivement des fonctionnalités à un public plus large au fur et à mesure qu'elles sont suffisamment validées. La vérification des contrôles logiciels est obligatoire pour tous les logiciels qui font partie du programme SAMM.
 
-        question: Do you test applications for the correct functioning of standard security controls?
+        question: Testez-vous les applications quant au bon fonctionnement des contrôles de sécurité standards?
         quality_criteria:
-            - Security testing at least verifies the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls
-            - Security testing executes whenever the application changes its use of the controls
+            - Les tests de sécurité vérifient au moins l'implémentation de l'authentification, du contrôle d'accès, de la validation des entrées, de l'encodage et de l'échappement des données et des contrôles de chiffrement
+            - Les tests de sécurité s'exécutent chaque fois que l'application change son utilisation des contrôles
 
         answers:
             - "No"
-            - Yes, some of them
-            - Yes, at least half of them
-            - Yes, most or all of them
+            - Oui, certains d'entre eux
+            - Oui, au moins la moitié d'entre eux
+            - Oui, la plupart ou tous
 
     level2:
         level: 2
         benefit: |
-            Integration of security requirements into test scenarios
+            Intégration des exigences de sécurité dans les scénarios de test
         activity: |
-            From the security requirements, identify and implement a set of security test cases to check the software for correct functionality. To have a successful testing program, you must know the testing objectives, specified by the security requirements.
+            À partir des exigences de sécurité, identifiez et implémentez un ensemble de scénarios de tests de sécurité afin de vérifier si le fonctionnement du logiciel est correct. Pour avoir un programme de test réussi, il est impératif de connaître les objectifs de test, spécifiés par les exigences de sécurité.
 
-            Derive security test cases for the applications in scope from the security requirements created as part of the "Security Requirements" SAMM security practice. To validate security requirements with security tests, security requirements are function-driven and highlight the expected functionality (the what) and, implicitly, the implementation (the how). These requirements are also referred to as "positive requirements", since they state the expected functionality that can be validated through security tests. Examples of positive requirements include "the application will lockout the user after six failed login attempts" or "passwords need to be a minimum of six alphanumeric characters". The validation of positive requirements consists of asserting the expected functionality. You can do it re-creating the testing conditions and running the test according to predefined inputs. Show the results as as a fail or pass condition.
+            Dérivez les cas de tests de sécurité pour les applications visées à partir des exigences de sécurité créées dans le cadre de la pratique "Exigences de Sécurité" du SAMM. Pour valider les exigences de sécurité avec des tests de sécurité, les exigences de sécurité sont basées sur des actions et mettent en évidence les fonctionnalités attendues (le quoi) et, implicitement, l'implémentation (le comment). Ces exigences sont également appelées « exigences positives », car elles indiquent les fonctionnalités attendues qui peuvent être validées par le biais de tests de sécurité. Parmi les exemples de conditions positives, citons : « l'application va verrouiller la session de l'utilisateur après six tentatives de connexion invalides» ou « les mots de passe doivent comporter au moins six caractères alphanumériques ». La validation des exigences positives consiste à confirmer la fonctionnalité attendue. Vous pouvez faire cela en recréant les conditions de test et en exécutant le test selon des entrées prédéfinies. Affichez les résultats sous la forme d'échec ou de réussite.
 
-            Often, it is most effective to use the project team's time to build application-specific test cases, and publicly available resources or purchased knowledge bases to select applicable general test cases for security. Relevant development, security, and quality assurance staff review candidate test cases for applicability, efficacy, and feasibility. Derive the test cases during the requirements and/or design phase of the functionality. Testing the security requirements is part of the functional testing of the software.
+            Souvent, il est plus efficace d'utiliser du temps de l'équipe du projet pour construire des cas de test spécifiques à une application et d'employer des ressources disponibles au public ou des bases de connaissances achetées à l'extérieur pour sélectionner les cas de tests généraux applicables à la sécurité. Le personnel compétent en matière de développement, de sécurité et d'assurance qualité examine les cas de test candidats pour leur applicabilité, leur efficacité et leur faisabilité. Etablissez les cas de test pendant la rédaction des exigences et / ou la phase de conception de la fonctionnalité. Tester les exigences de sécurité fait partie des tests fonctionnels du logiciel.
 
-        question: Do you consistently write and execute test scripts to verify the functionality of security requirements?
+        question: Écrivez-vous et exécutez-vous de façon cohérente des scripts de test pour vérifier la bonne mise en place des exigences de sécurité?
         quality_criteria:
-            - You tailor tests to each application and assert expected security functionality
-            - You capture test results as a pass or fail condition
-            - Tests use a standardized framework or DSL
+            - Vous adaptez les tests à chaque application et confirmez les fonctionnalités de sécurité attendues
+            - Vous capturez les résultats de test comme une condition de réussite ou d'échec
+            - Les tests utilisent un cadre standardisé ou DSL
 
         answers:
             - "No"
-            - Yes, some of them
-            - Yes, at least half of them
-            - Yes, most or all of them
+            - Oui, certains d'entre eux
+            - Oui, au moins la moitié d'entre eux
+            - Oui, la plupart ou tous
 
     level3:
         level: 3
         benefit: |
-            Timely and reliable detection of violations to security requirements
+            Détection rapide et fiable des violations des exigences de sécurité
         activity: |
-            Write and automate regression tests for all identified (and fixed) bugs to ensure that these become a test harness preventing similar issues being introduced during later releases. Security unit tests should verify dynamically (i.e., at run time) that the components function as expected and should validate that code changes are properly implemented.
+            Écrivez et automatisez les tests de régression pour tous les bogues identifiés (et corrigés) afin de vous assurer que ceux-ci forment un harnais de tests empêchant des problèmes similaires d'être introduits dans les versions ultérieures. Les tests unitaires de sécurité devraient vérifier dynamiquement (à savoir au moment de l'exécution) que les composants fonctionnent comme prévu et devraient valider que les changements de code sont correctement implémentés.
 
-            A good practice for developers is to build security test cases as a generic security test suite that is part of the existing unit testing framework. A generic security test suite might include security test cases to validate both positive and negative requirements for security controls such as Identity, Authentication and Access Control, Input Validation and Encoding, User and Session Management, Error and Exception Handling, Encryption, and Auditing and Logging. Verify the correct execution of the security tests as early as possible. If feasible for example, consider the passing of security tests as part of merge requirements before allowing new code to enter the main code base. Alternatively, consider their passing a requirement for validating a build.
+            Une bonne pratique pour les développeurs est de construire des cas de tests de sécurité sous la forme d'une suite de tests de sécurité génériques faisant partie de l'environnement de tests unitaires existant. Une suite de tests de sécurité génériques peut inclure des cas de tests de sécurité pour valider les exigences à la fois positives et négatives pour les contrôles de sécurité tels que l'Identification, l'Authentification & le Contrôle d'accès, la Validation et l'Encodage des entrées, la Gestion des utilisateurs et des sessions, la Gestion des erreurs et des exceptions, le Chiffrement et l'Audit et la Journalisation. Vérifiez la bonne exécution des tests de sécurité aussi tôt que possible. Si possible par exemple, envisagez d'exécuter les tests de sécurité dans le cadre des exigences d'intégration avant de permettre à du nouveau code d'entrer dans la base de code principale. Sinon, envisagez leur exécution comme condition à la validation d"une génération.
 
-            For security functional tests, use unit level tests for the functionality of security controls at the software component level, such as functions, methods, or classes. For example, a test case could check input and output validation (e.g., variable sanitation) and boundary checks for variables by asserting the expected functionality of the component.
+            Pour les tests fonctionnels de sécurité, utilisez des tests de niveau unitaire pour les fonctionnalités de contrôle de sécurité au niveau des composants logiciels, comme les fonctions, les méthodes ou les classes. Par exemple, un cas de test pourrait vérifier la validation des entrées et des sorties (par ex., l'assainissement des variables) et vérifier les limites des variables en confirmant les fonctionnalités attendues du composant.
 
-        question: Do you automatically test applications for security regressions?
+        question: Testez-vous automatiquement les applications pour les régressions de sécurité ?
         quality_criteria:
-            - You consistently write tests for all identified bugs (possibly exceeding a pre-defined severity threshold)
-            - You collect security tests in a test suite that is part of the existing unit testing framework
+            - Vous écrivez systématiquement des tests pour tous les bogues identifiés (dépassant éventuellement un seuil de sévérité prédéfini)
+            - Vous rassemblez les tests de sécurité dans une suite de tests qui fait partie du cadre de référence des tests unitaires existants
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
 ---

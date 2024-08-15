@@ -1,13 +1,13 @@
 ---
-title: Compliance Management
+title: Gestion de la Conformité
 type: stream
 url: ./model/governance/policy-compliance/stream-b/
-business_function: Governance
+business_function: Gouvernance
 business_function_url: governance
-practice: Policy and Compliance
+practice: Politique & Conformité
 stream: B
-description: Governance / Policy and Compliance
-keywords: ["Business function", "Practice", "Governance", "Policy and Compliance"]
+description: Gouvernance / Politique & Conformité
+keywords: ["Business function", "Practice", "Gouvernance", "Politique & Conformité"]
 aliases:
     - /model/G-PC-B-1
     - /model/G-PC-B-2
@@ -18,66 +18,66 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Security policies and standards aligned with external compliance drivers
+            Politiques et normes de sécurité en phase avec les facteurs de conformité externes
         activity: |
-            Create a comprehensive list of all compliance requirements, including any triggers that could help determine which applications are in scope. Compliance requirements may be considered in scope based on factors such as geographic location, types of data, or contractual obligations with clients or business partners. Review each identified compliance requirement with the appropriate experts and legal, to ensure the obligation is understood. Since many compliance obligations vary in applicability based on how the data is processed, stored, or transmitted across the computing environment, compliance drivers should always indicate opportunities for lowering the overall compliance burden by changing how the data is handled.
+            Créez une liste complète de toutes les exigences de conformité, y compris les déclencheurs qui pourraient aider à déterminer quelles applications sont concernées. Les exigences de conformité peuvent s'appliquer en fonction de facteurs tels que l'emplacement géographique, les types de données ou les obligations contractuelles avec les clients ou les partenaires commerciaux. Examinez chaque exigence de conformité identifiée avec les experts compétents et le département en charge des aspects législatifs afin de s'assurer que cette obligation est comprise. Étant donné que de nombreuses obligations de conformité varient en fonction de la manière dont les données sont traitées, stockées ou transmises à travers l'environnement informatique, les facteurs de conformité devraient toujours indiquer les possibilités de réduire la charge globale de conformité en modifiant la façon dont les données sont manipulées.
 
-            Evaluate publishing a compliance matrix to help identify which factors could put an application in scope for a specific regulatory requirement. Have the matrix indicate which compliance requirements are applicable at the organization level and do not depend on individual applications. The matrix provides at least a basic understanding of useful compliance requirements to review obligations around different applications.
+            Envisagez la publication d'une matrice de conformité pour aider à identifier quels facteurs pourraient déclencher une exigence réglementaire spécifique pour une application donnée. Faites en sorte que la matrice indique quelles exigences de conformité s'appliquent au niveau de l'organisation et non au niveau d'une application donnée. La matrice fournit au moins une compréhension de base des exigences de conformité utiles pour examiner les obligations entourant différentes applications.
 
-            Since many compliance standards are focused around security best-practices, many compliance requirements may already be a part of the Policy and Standards library published by the organization. Therefore, once you review compliance requirements, map them to any applicable existing policies and standards. Whenever there are discrepancies, update the policies and standards to include organization-wide compliance requirements. Then, begin creating compliance-specific standards only applicable to individual compliance requirements. The goal is to have a compliance matrix that indicates which policies and standards have more detailed information about compliance requirements, as well as ensure individual policies and standards reference applicable compliance requirements.
+Étant donné que de nombreuses normes de conformité sont axées sur les bonnes pratiques de sécurité, il est possible que de nombreuses exigences en matière de conformité fassent déjà partie de la bibliothèque de politique et de normes publiée par l'organisation. Par conséquent, une fois que vous avez examiné les exigences de conformité, mettez-les en correspondance avec les politiques et normes existantes applicables. Lorsqu’il y a des divergences, mettez à jour les politiques et les normes pour inclure les exigences de conformité à l’échelle de l’organisme. Puis seulement, commencez à créer des normes spécifiques de conformité qui ne s’appliquent qu’aux exigences individuelles de conformité. L'objectif est d'avoir une matrice de conformité qui indique quelles politiques et normes ont des informations plus détaillées sur les exigences de conformité. en plus de veiller à ce que les politiques et les normes individuelles fassent référence aux exigences de conformité applicables.
 
-        question: Do you have a complete picture of your external compliance obligations?
+        question: Avez-vous une image complète de vos obligations de conformité externe?
         quality_criteria:
-            - You have identified all sources of external compliance obligations
-            - You have captured and reconciled compliance obligations from all sources
+            - Vous avez identifié toutes les sources d'obligations de conformité externe
+            - Vous avez capturé et harmonisé les obligations de conformité depuis toutes les sources
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level2:
         level: 2
         benefit: |
-            Common understanding how to reach compliance with external compliance drivers for product teams
+            Compréhension partagée avec les équipes produit de la manière d'être en conformité avec les facteurs externes
         activity: |
-            Develop a library of application requirements and test scripts to establish and verify regulatory compliance of applications. Some of these are tied to individual compliance requirements like PCI or GDPR, while others are more general in nature and address global compliance requirements such as ISO. The library is available to all application development teams. It includes guidance for determining all applicable requirements including considerations for reducing the compliance burden and scope. Implement a process to periodically re-assess each application's compliance requirements. Re-assessment includes reviewing all application functionality and opportunities to reduce scope to lower the overall cost of compliance.
+            Élaborez une bibliothèque d'exigences d'application et de scripts de tests afin d'établir et de vérifier la conformité réglementaire des applications. Certaines d'entre elles sont liées à des exigences de conformité ciblées telles qu'au PCI ou au RGPD, alors que d'autres sont de nature plus générale et répondent à des exigences de portée mondiale en matière de conformité telles que l'ISO. La bibliothèque est disponible à toutes les équipes de développement d'applications. Elle comprend des conseils pour déterminer toutes les exigences applicables, y compris les considérations visant à réduire la charge et la portée de la conformité. Mettez en œuvre un processus pour réévaluer périodiquement les exigences de conformité de chaque application. La nouvelle évaluation comprend l’examen de toutes les fonctionnalités de l’application et les possibilités de réduire la portée afin de minimiser le coût global de la conformité.
 
-            Requirements include enough information for developers to understand functional and non-functional requirements of the different compliance obligations. They include references to policies and standards, and provide explicit references to regulations. If there are questions about the implementation of a particular requirement, the original text of the regulation can help interpret the intent more accurately. Each requirement includes a set of test scripts for verifying compliance. In addition to assisting QA with compliance verification, these can help clarify compliance requirements for developers and make the compliance process transparent. Requirements have a format that allows importing them into individual requirements repositories. further clarify compliance requirements for developers and ensure the process of achieving compliance is fully transparent.
+            Les exigences incluent suffisamment d'informations pour que les développeurs comprennent les exigences fonctionnelles et non-fonctionnelles des différentes obligations de conformité. Elles contiennent des références aux politiques et aux normes et font explicitement référence à la réglementation. S'il reste des interrogations au sujet de la mise en œuvre d'une exigence particulière, le texte original du règlement peut aider à interpréter l'exigence de manière plus précise. Chaque exigence comprend un ensemble de scripts de test pour vérifier la conformité. En plus de permettre à l'Assurance Qualité de faciliter la vérification de la conformité, ils peuvent aider à clarifier les exigences de conformité pour les développeurs et à rendre le processus de conformité transparent. Les exigences ont un format qui permet de les importer dans les référentiels individuels d'exigences. Clarifiez davantage pour les développeurs les exigences de conformité et veillez à ce que le processus de conformité soit totalement transparent.
 
-        question: Do you have a standard set of security requirements and verification procedures addressing the organization's external compliance obligations?
+        question: Avez-vous un ensemble standard d'exigences de sécurité et de procédures de vérification qui traitent des obligations externes de conformité de l'organisation?
         quality_criteria:
-            - You map each external compliance obligation to a well-defined set of application requirements
-            - You define verification procedures, including automated tests, to verify compliance with compliance-related requirements
+            - Vous associez chaque obligation de conformité externe à un ensemble bien défini d'exigences applicatives
+            - Vous définissez des procédures de vérification, y compris des tests automatiques, pour vérifier la conformité aux exigences de conformité
 
         answers:
             - "No"
-            - Yes, for some obligations
-            - Yes, for at least half of the obligations
-            - Yes, for most or all of the obligations
+            - Oui, pour certaines obligations
+            - Oui, pour au moins la moitié des obligations
+            - Oui, pour la plupart ou toutes les obligations
 
     level3:
         level: 3
         benefit: |
-            Understanding of your organization's compliance with external compliance drivers
+            Comprendre la conformité de votre organisation avec les facteurs externes
         activity: |
-            Develop a program for measuring and reporting on the status of compliance between different applications. Application requirements and test scripts help determine the status of compliance. Leverage testing automation to promptly detect compliance regressions in frequently updated applications and ensure compliance is maintained through the different application versions. Whenever fully automated testing is not possible, QA, Internal Audit, or Information Security teams assess compliance periodically through a combination of manual testing and interview.
+            Élaborez un programme de mesure et d'établissement de rapport sur l'état de la conformité entre les différentes applications. Les exigences des application et les scripts de test aident à déterminer le statut de la conformité. Tirez parti de l'automatisation des tests pour détecter rapidement les régressions dans la conformité des applications fréquemment mises à jour et assurez-vous que la conformité est maintenue à travers les différentes versions des applications. Chaque fois que les tests entièrement automatisés ne sont pas envisageables, les équipes d'assurance qualité, d'audit interne ou de sécurité de l'information évaluent périodiquement la conformité grâce à une combinaison de tests manuels et d'entrevues.
 
-            While full compliance is always the ultimate goal, include tracking remediation actions and periodic updates in the program. Review compliance remediation activities periodically to check teams are making appropriate progress, and that remediation strategies will be effective in achieving compliance. To further improve the process, develop a series of standard reports and compliance scorecards. These help individual teams understand the current state of compliance, and the organization manage assistance for remediating compliance gaps more effectively.
+            Tandis que la conformité totale est toujours l'objectif ultime, incluez le suivi des actions de correction et des mises à jour périodiques dans le programme. Examinez périodiquement les activités d'amélioration de la conformité pour vérifier que les équipes progressent de façon appropriée et que les stratégies de corection seront efficaces pour atteindre la conformité. Pour améliorer davantage le processus, élaborez une série de rapports types et de fiches d'évaluation de la conformité. Ces mesures aident les différentes équipes à comprendre l’état actuel de la conformité et l’organisation à gérer plus efficacement l’aide pour combler les lacunes en matière de conformité.
 
-            Review compliance gaps requiring significant expenses or development with the subject-matter experts and compare them against the cost of reducing the application's functionality, minimizing scope or eliminating the compliance requirement. longterm compliance gaps require management approval and a formal compliance risk acceptance, so they receive appropriate attention and scrutiny from the organization's leadership.
+            Examinez les écarts par rapport à la conformité nécessitant des dépenses ou un développement importants avec les experts en la matière et comparez-les au coût lié à la réduction des fonctionnalités de l'application, à la réduction du périmètre ou à la suppression des exigences de conformité. Les écarts à long terme en matière de conformité requièrent une approbation du management et une acceptation formelle des risques liés à la conformité, de sorte qu’ils reçoivent l’attention appropriée de la part de la direction de l’organisation.
 
-        question: Do you regularly report on adherence to external compliance obligations and use that information to guide efforts to close compliance gaps?
+        question: Faites-vous une analyse régulière du respect des obligations de conformité externes et utilisez-vous cette information pour guider les efforts visant à combler les lacunes en matière de conformité?
         quality_criteria:
-            - You have established, well-defined compliance metrics
-            - You measure and report on applications' compliance metrics regularly
-            - Stakeholders use the reported compliance status information to identify compliance gaps and prioritize gap remediation efforts
+            - Vous avez des métriques établis et bien définis de conformité
+            - Vous mesurez et partagez régulièrement les métriques de conformité des applications
+            - Les parties prenantes utilisent les informations remontées sur l'état de conformité pour identifier les lacunes en matière de conformité et mettre des priorités sur les actions de réduction des écarts
 
         answers:
             - "No"
-            - Yes, but reporting is ad-hoc
-            - Yes, we report at regular times
-            - Yes, we report at least annually
+            - Oui, mais la remontée d'information est ad-hoc
+            - Oui, nous remontons les informations régulièrement
+            - Oui, nous remontons les informations au moins une fois par an
 
 ---

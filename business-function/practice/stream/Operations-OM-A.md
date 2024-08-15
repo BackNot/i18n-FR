@@ -1,13 +1,13 @@
 ---
-title: Data Protection
+title: Protection des Données
 type: stream
 url: ./model/operations/operational-management/stream-a/
-business_function: Operations
+business_function: Opérations
 business_function_url: operations
-practice: Operational Management
+practice: Gestion opérationnelle
 stream: A
-description: Operations / Operational Management
-keywords: ["Business function", "Practice", "Operations", "Operational Management"]
+description: Opérations / Gestion opérationnelle
+keywords: ["Business function", "Practice", "Opérations", "Gestion opérationnelle"]
 aliases:
     - /model/O-OM-A-1
     - /model/O-OM-A-2
@@ -18,71 +18,71 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Understanding of sensitivity of processed data with derived quick-win measures
+            Compréhension de la sensibilité des données traitées avec des mesures dérivées à impact rapide
         activity: |
-            Understand the types and sensitivity of data stored and processed by your applications, and maintain awareness of the fate of processed data (e.g., backups, sharing with external partners). At this level of maturity, the information gathered may be captured in varying forms and different places; no organization-wide data catalog is assumed to exist. Protect and handle all data associated with a given application according to protection requirements applying to the most sensitive data stored and processed.
+            Comprenez les types et la sensibilité des données stockées et traitées par vos applications et garantissez la bonne compréhension du devenir des données traitées (par ex. sauvegardes, partage avec des partenaires externes). À ce niveau de maturité, les informations recueillies peuvent être saisies sous différentes formes et dans différents endroits ; aucun catalogue de données à l'échelle de l'organisation n'est supposé exister. Protégez et gérez toutes les données associées à une application donnée conformément aux exigences de protection applicables aux données stockées et traitées les plus sensibles.
 
-            Implement basic controls, to prevent propagation of unsanitized sensitive data from production environments to lower environments. By ensuring unsanitized production data are never propagated to lower (non-production) environments, you can focus data protection policies and activities on production.
+            Mettez en place des contrôles de base pour empêcher la propagation de données sensibles non assainies depuis les environnements de production vers des environnements de plus bas niveau. En veillant à ce que les données de production non assainies ne soient jamais propagées vers des environnements de plus bas niveau (non-production), vous pouvez concentrer les politiques et les activités de protection des données sur la production.
 
-        question: Do you protect and handle information according to protection requirements for data stored and processed on each application?
+        question: Protégez-vous et gérez-vous les informations stockées et traitées par chaque application selon les exigences de protection des données?
         quality_criteria:
-            - You know the data elements processed and stored by each application
-            - You know the type and sensitivity level of each identified data element
-            - You have controls to prevent propagation of unsanitized sensitive data from production to lower environments
+            - Vous connaissez les éléments de données traités et stockés par chaque application
+            - Vous connaissez le type et le niveau de sensibilité de chaque élément de données identifié
+            - Vous avez des contrôles pour empêcher la propagation de données sensibles non assainies de l'environnement de production vers les environnements inférieurs
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level2:
         level: 2
         benefit: |
-            Standardized handling of different classes of sensitive data
+            Gestion standardisée des différentes classes de données sensibles
         activity: |
-            At this maturity level, Data Protection activities focus on actively managing your stewardship of data. Establish technical and administrative controls to protect the confidentiality of sensitive data, and the integrity and availability of all data in your care, from its initial creation/receipt through the destruction of backups at the end of their retention period.
+            À ce niveau de maturité, les activités de protection de données se concentrent sur votre façon de gérer les données en votre possession. Établissez des contrôles techniques et administratifs pour protéger la confidentialité des données sensibles ainsi que l'intégrité et la disponibilité de toutes les données en votre possession, de leur création / réception initiale jusqu'à la destruction des sauvegardes à la fin de leur période de rétention.
 
-            Identify the data stored, processed, and transmitted by applications, and capture information regarding their types, sensitivity (classification) levels, and storage location(s) in your data catalog. Clearly identify records or data elements subject to specific regulation. Establishing a single source of truth regarding the data you work with supports finer-grained selection of controls for their protection. Collecting this information enhances the accuracy, timeliness, and efficiency of your responses to data-related queries (e.g., from auditors, incident response teams, or customers), and supports threat modeling and compliance activities.
+            Identifiez les données stockées, traitées et transmises par des applications et enregistrez les informations concernant leur type, leur niveau de sensibilité (classification) et leur(s) lieu(x) de stockage dans votre catalogue de données. Identifiez clairement les enregistrements ou les éléments de données soumis à une réglementation spécifique. Établir une source de référence concernant les données avec lesquelles vous travaillez permet une sélection plus fine de contrôles pour leur protection. La collecte de ces informations améliore l'exactitude, la pertinence et l'efficacité de vos réponses aux requêtes liées aux données (par ex. de la part des auditeurs, des équipes de réponse à incident ou des clients) et facilite les activités de modélisation des menaces et de conformité.
 
-            Based on your Data Protection Policy, establish processes and procedures for protecting and preserving data throughout their lifetime, whether at rest, while being processed, or in transit. Pay particular attention to the handling and protection of sensitive data outside the active processing system, including, but not limited to: storage, retention, and destruction of backups; and the labeling, encryption, and physical protection of offline storage media. Your processes and procedures cover the implementation of all controls adopted to comply with regulatory, contractual, or other restrictions on storage locations, personnel access, and other factors.
+            Sur la base de votre politique de protection des données, établissez des processus et des procédures pour la protection et la conservation des données tout au long de leur cycle de vie, que ce soit au repos, en cours de traitement, ou en transit. Portez une attention particulière à la manipulation et à la protection des données sensibles en dehors du système de traitement actif, incluant, mais sans s'y limiter, le stockage, la rétention et la destruction des sauvegardes, et l'étiquetage, le chiffrement et la protection physique des supports de stockage hors ligne. Vos processus et procédures couvrent la mise en œuvre de tous les contrôles adoptés pour se conformer à la réglementation, aux restrictions contractuelles ou autres sur les lieux de stockage, l'accès de la part du personnel et autres facteurs.
 
-        question: Do you maintain a data catalog, including types, sensitivity levels, and processing and storage locations?
+        question: Maintenez-vous un catalogue de données incluant les types, les niveaux de sensibilité et les emplacements de traitement et de stockage ?
         quality_criteria:
-            - The data catalog is stored in an accessible location
-            - You know which data elements are subject to specific regulation
-            - You have controls for protecting and preserving data throughout its lifetime
-            - You have retention requirements for data, and you destroy backups in a timely manner after the relevant retention period ends
+            - Le catalogue de données est stocké dans un endroit accessible
+            - Vous savez quels éléments de données sont soumis à une réglementation spécifique
+            - Vous avez des contrôles pour protéger et préserver les données tout au long de leur durée de vie
+            - Vous avez des exigences de rétention des données et vous détruisez les sauvegardes en temps voulu à la fin de la période de rétention
 
         answers:
             - "No"
-            - Yes, for some of our data
-            - Yes, for at least half of our data
-            - Yes, for most or all of our data
+            - Oui, pour certaines de nos données
+            - Oui, pour au moins la moitié de nos données
+            - Oui, pour la plupart ou toutes nos données
 
     level3:
         level: 3
         benefit: |
-            Technically enforced compliance with your data protection policy
+            Conformité par la technique de votre politique de protection des données
         activity: |
-            Activities at this maturity level are focused on automating data protection, reducing your reliance on human effort to assess and manage compliance with policies. There is a focus on feedback mechanisms and proactive reviews, to identify and act on opportunities for process improvement.
+            Les activités à ce niveau de maturité sont axées sur l'automatisation de la protection des données, ce qui réduit votre dépendance à l'égard des efforts humains pour l'évaluation et la gestion de la conformité aux politiques. L’accent est mis sur les mécanismes de retours d'expérience et les examens proactifs, afin d’identifier et d’agir sur les possibilités d’amélioration des processus.
 
-            Implement technical controls to enforce compliance with your Data Protection Policy, and put monitoring in place to detect attempted or actual violations. You may use a variety of available tools for data loss prevention, access control and tracking, or anomalous behavior detection.
+            Mettez en œuvre des contrôles techniques pour rendre le respect de votre politique de protection des données obligatoire et rendez opérationnel un suivi automatique pour détecter les infractions potentielles ou avérées. Vous pouvez utiliser une palette d'outils disponibles concernant la prévention des pertes de données, le contrôle d'accès et le suivi, ou la détection de comportements anormaux.
 
-            Regularly audit compliance with established administrative controls, and closely monitor performance and operation of automated mechanisms, including backups and record deletions. Monitoring tools quickly detect and report failures in automation, permitting you to take timely corrective action.
+            Vérifiez régulièrement la conformité aux contrôles administratifs en vigueur et surveillez de près les performances et le fonctionnement opérationnel des mécanismes automatisés, y compris les sauvegardes et les suppressions d'enregistrements. Surveiller les outils permet de détecter et de signaler rapidement les pannes de l'automatisation, ce qui permet de prendre des mesures correctives efficacement.
 
-            Reviews and update the data catalog regularly, to maintain its accurate reflection of your data landscape. Regular reviews and updates of processes and procedures maintain their alignment with your policies and priorities.
+            Révisez et mettez à jour régulièrement le catalogue de données afin de maintenir son exacte réflexion de votre jeu de données. Des examens et des mises à jour régulières des processus et des procédures maintiennent leur alignement sur vos politiques et vos priorités.
 
-        question: Do you regularly review and update the data catalog and your data protection policies and procedures?
+        question: Examinez-vous et mettez-vous à jour régulièrement le catalogue de données et vos politiques et procédures en matière de protection des données?
         quality_criteria:
-            - You have automated monitoring to detect attempted or actual violations of the Data Protection Policy
-            - You have tools for data loss prevention, access control and tracking, or anomalous behavior detection
-            - You periodically audit the operation of automated mechanisms, including backups and record deletions
+            - Vous avez une surveillance automatisée pour détecter les violations potentielles ou réelles de la politique de protection des données
+            - Vous avez des outils pour la prévention des pertes de données, le contrôle d'accès et la journalisation, ou la détection de comportements anormaux
+            - Vous contrôlez périodiquement le bon fonctionnement des mécanismes automatisés, y compris les sauvegardes et les suppressions d'enregistrements
 
         answers:
             - "No"
-            - Yes, we do it when requested
-            - Yes, we do it every few years
-            - Yes, we do it at least annually
+            - Oui, nous le faisons à la demande
+            - Oui, nous le faisons toutes les quelques années
+            - Oui, nous le faisons au moins une fois par an
 
 ---

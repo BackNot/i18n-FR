@@ -1,13 +1,13 @@
 ---
-title: Application Risk Profile
+title: Profil de risque de l'application
 type: stream
 url: ./model/design/threat-assessment/stream-a/
-business_function: FRENCHDesignn
+business_function: Conception
 business_function_url: design
-practice: French Threat Assessment
+practice: Évaluation de la menace
 stream: A
-description: FRENCHDesignn / French Threat Assessment
-keywords: ["Business function", "Practice", "FRENCHDesignn", "French Threat Assessment"]
+description: Conception / Évaluation de la menace
+keywords: ["Business function", "Practice", "Conception", "Évaluation de la menace"]
 aliases:
     - /model/D-TA-A-1
     - /model/D-TA-A-2
@@ -18,71 +18,71 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Ability to classify applications according to risk
+            Possibilité de classer les applications selon les risques
         activity: |
-            Use a simple method to evaluate the application risk per application, estimating the potential business impact that it poses for the organization in case of an attack. To achieve this, evaluate the impact of a breach in the confidentiality, integrity and availability of the data or service. Consider using a set of 5-10 questions to understand important application characteristics, such as whether the application processes financial data, whether it is internet facing, or whether privacy-related data is involved. The application risk profile tells you whether these factors are applicable and if they could significantly impact the organization.
+            Utilisez une méthode simple pour évaluer le risque associé à une application par application, tout en estimant l'impact potentiel que cela peut avoir sur l'entreprise en cas d'attaque. Pour y parvenir, évaluez l'impact d'une violation de la confidentialité, de l'intégrité et de la disponibilité des données ou du service. Envisagez d'utiliser un ensemble de 5 à 10 questions pour comprendre les caractéristiques importantes de l'application, par exemple si l'application traite des données financières, si elle est connectée à Internet ou si des données liées à la vie privée sont concernées. Le profil de risque de l'application vous indique si ces facteurs sont applicables et s'ils peuvent avoir un impact significatif sur l'organisation.
 
-            Next, use a scheme to classify applications according to this risk. A simple, qualitative scheme (e.g. high/medium/low) that translates these characteristics into a value is often effective. It is important to use these values to represent and compare the risk of different applications against each other. Mature highly risk-driven organizations might make use of more quantitative risk schemes. Don't invent a new risk scheme if your organization already has one that works well.
+            Ensuite, utilisez un schéma pour classer les applications en fonction de ce risque. Un schéma simple et qualitatif (par exemple haut / moyen / bas) qui traduit ces caractéristiques en une valeur est souvent efficace. Il est important d'utiliser ces valeurs pour représenter et comparer le risque de différentes applications les unes par rapport aux autres. Les organisations matures utilisant fortement l'approche par les risques pourraient utiliser davantage de systèmes de risque quantitatifs. N’inventez pas un nouveau système de risque si votre organisation en a déjà un qui fonctionne bien.
 
-        question: Do you classify applications according to business risk based on a simple and predefined set of questions?
+        question: Classifiez-vous les applications en fonction du risque métier en fonction d'un ensemble de questions simple et prédéfini ?
         quality_criteria:
-            - An agreed-upon risk classification exists
-            - The application team understands the risk classification
-            - The risk classification covers critical aspects of business risks the organization is facing
-            - The organization has an inventory for the applications in scope
+            - Une classification des risques validée existe
+            - L'équipe applicative comprend la classification des risques
+            - La classification des risques couvre les aspects critiques des risques commerciaux auxquels l'entreprise est confrontée
+            - L'organisation a un inventaire des applications dans son périmètre
 
         answers:
             - "No"
-            - Yes, some of them
-            - Yes, at least half of them
-            - Yes, most or all of them
+            - Oui, certains d'entre eux
+            - Oui, au moins la moitié d'entre eux
+            - Oui, la plupart ou tous
 
     level2:
         level: 2
         benefit: |
-            Solid understanding of the risk level of your application portfolio
+            Bien comprendre le niveau de risque de votre portefeuille d'applications
         activity: |
-            The goal of this activity is to thoroughly understand the risk level of all applications within the organization, to focus the effort of your software assurance activities where it really matters.
+            Le but de cette activité est de bien comprendre le niveau de risque de toutes les applications au sein d'une organisation et de focaliser les efforts de vos activités d'assurance logicielle là où elles sont vraiment pertinentes.
 
-            From a risk evaluation perspective, the basic set of questions is not enough to thoroughly evaluate the risk of all applications. Create an extensive and standardized way to evaluate the risk of the application, among others via their impact on information security (confidentiality, integrity and availability of data). Next to security, you also want to evaluate the privacy risk of the application. Understand the data that the application processes and what potential privacy violations are relevant. Finally, study the impact that this application has on other applications within the organization (e.g., the application might be modifying data that was considered read-only in another context). Evaluate all applications within the organization, including all existing and legacy ones.
+            Du point de vue de l'évaluation des risques, le jeu de questions de base n'est pas suffisant pour bien évaluer le risques de l'ensemble des applications. Créez une manière uniforme et évolutive d'évaluer le risque d'une application (par exemple via leur impact sur la sécurité de l'information confidentialité, intégrite et disponibilité des données). Au delà de la sécurité, vous pouvez aussi évaluer le risque de l'application sur la vie privée. Comprenez les données que l'application traite et les potentielles violations de la vie privée. Enfin, étudiez l'impact que cette application peut avoir sur d'autres applications au sein de l'organisation (par exemple, l'application pourrait modifier des données qui ont été considérées comme étant en écriture seule dans un autre contexte). Evaluez toutes les applications au sein d'une organisation, y compris celles faisant partie de l'existant ou non-encore décommissionées.
 
-            Leverage business impact analysis to quantify and classify application risk. A simple qualitative scheme (such as high/medium/low) is not enough to effectively manage and compare applications on an enterprise-wide level.
+            Tirez parti de l'analyse d'impact sur les affaires pour quantifier le risque applicatif et établir une classification. Un simple schéma qualitatif (tel que haut / moyen / bas) n'est pas suffisant pour gérer et comparer efficacement les applications au niveau de l'entreprise.
 
-            Based on this input, Security Officers leverage the classification to define the risk profile to build a centralized inventory of risk profiles and manage accountability. This inventory gives Product Owners, Managers, and other organizational stakeholders an aligned view of the risk level of an application in order to assign appropriate priority to security-related activities.
+            En se basant sur ces éléments, les Officiers de Sécurité utilisent la classification pour définir le profile de risque afin de construire un inventaire centralisé de profils de risque et gérer la responsabilité. Cet inventaire donne aux propriétaires de produits, aux gestionnaires et aux autres parties prenantes de l'organisation une compréhension unique du niveau de risque d'une application dans le but d'assigner une priorité appropriée aux activités liées à la sécurité.
 
-        question: Do you use centralized and quantified application risk profiles to evaluate business risk?
+        question: Utilisez-vous des profils de risque d'applications centralisés et quantifiés pour évaluer les risques pour l'entreprise?
         quality_criteria:
-            - The application risk profile is in line with the organizational risk standard
-            - The application risk profile covers impact to security and privacy
-            - You validate the quality of the risk profile manually and/or automatically
-            - The application risk profiles are stored in a central inventory
+            - Le profil de risque de l'application est conforme au niveau de risque défini par l'organisation
+            - Le profil de risque de l'application couvre l'impact sur la sécurité et la vie privée
+            - Vous validez la qualité du profil de risque manuellement et/ou automatiquement
+            - Les profils de risque de l'application sont stockés dans un inventaire central
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level3:
         level: 3
         benefit: |
-            Timely update of the application classification in case of changes
+            Mise à jour rapide de la classification de l'application en cas de changement
         activity: |
-            The application portfolio of an organization changes, as well as the conditions and constraints in which an application lives (e.g., driven by the company strategy). Periodically review the risk inventory to ensure correctness of the risk evaluations of the different applications.
+            Le portefeuille d'applications d'une organisation évolue, tout comme les conditions et les contraintes dans lesquelles une application vit (p. ex. en fonction de la stratégie de l'entreprise). Revoyez périodiquement l’inventaire des risques pour garantir l’exactitude de l'évaluations des risques des différentes applications.
 
-            Have a periodic review at an enterprise-wide level. Also, as your enterprise matures in software assurance, stimulate teams to continuously question which changes in conditions might impact the risk profile. For instance, an internal application might become exposed to the internet by a business decision. This should trigger the teams to rerun the risk evaluation and update the application risk profile accordingly.
+            Faites un examen périodique à l'échelle de l'entreprise. De plus, au fur et à mesure que votre entreprise mûrit dans le domaine de l'assurance logicielle, encouragez les équipes à s'interroger continuellement sur les changements de conditions qui pourraient affecter le profil de risque. Par exemple, une application interne peut devenir exposée sur Internet suite à une décision commerciale. Cela devrait inciter les équipes à refaire l'évaluation de risque et à mettre à jour le profil de risque de l'application en conséquence.
 
-            In a mature implementation of this practice, train and continuously update teams on lessons learned and best practices from these risk evaluations. This leads to a better execution and a more accurate representation of the application risk profile.
+            Dans une mise en œuvre mûre de cette pratique, formez et informez continuellement les équipes sur les retours d'expérience et les bonnes pratiques d'évaluations des risques. Cela amène à une meilleure exécution et à une meilleure représentation du profil de risque de l'application.
 
-        question: Do you regularly review and update the risk profiles for your applications?
+        question: Examinez-vous et mettez-vous à jour régulièrement les profils de risque de vos applications?
         quality_criteria:
-            - The organizational risk standard considers historical feedback to improve the evaluation method
-            - Significant changes in the application or business context trigger a review of the relevant risk profiles
+            - Le standard organisationnel pour le risque prend en compte les retours historiques afin d'améliorer la méthode d'évaluation
+            - Des changements dans le contexte de l'application ou de l'entreprise déclenchent une revue des modèles de menace pertinents
 
         answers:
             - "No"
-            - Yes, sporadically
-            - Yes, upon change of the application
-            - Yes, at least annually
+            - Oui, sporadiquement
+            - Oui, sur modification de l'application
+            - Oui, au moins une fois par an
 
 ---

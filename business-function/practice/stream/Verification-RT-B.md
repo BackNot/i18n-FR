@@ -1,13 +1,13 @@
 ---
-title: Misuse/Abuse Testing
+title: Tests de Mauvaise Utilisation / d'Abus
 type: stream
 url: ./model/verification/requirements-testing/stream-b/
-business_function: Verification
+business_function: Vérification
 business_function_url: verification
-practice: Requirements-driven Testing
+practice: Tests axés sur les exigences
 stream: B
-description: Verification / Requirements-driven Testing
-keywords: ["Business function", "Practice", "Verification", "Requirements-driven Testing"]
+description: Vérification / Tests axés sur les exigences
+keywords: ["Business function", "Practice", "Vérification", "Tests axés sur les exigences"]
 aliases:
     - /model/V-RT-B-1
     - /model/V-RT-B-2
@@ -18,65 +18,65 @@ maturity_levels:
     level1:
         level: 1
         benefit: |
-            Insight into behaviour of your applications when dealing with unexpected input
+            Aperçu du comportement de vos applications lorsque elles traitent des entrées inattendues
         activity: |
-            Perform fuzzing, sending random or malformed data to the test subject in an attempt to make it crash. Fuzz testing or Fuzzing is a Black Box software testing technique, which consists of finding implementation bugs using automated malformed or semi-malformed data injection. Cover at least a minimum fuzzing for vulnerabilities against the main input parameters of the application.
+            Effectuez des tests en envoyant des données aléatoires ou malformées au sujet du test dans le but de le faire planter. Le test de génération aléatoire ou Fuzzing est une technique de test du logiciel en boîte noire qui consiste à trouver des bogues d'implémentation à l'aide de l'injection de données malformées ou semi-malformées de manière automatique. Faites au moins un fuzzing minimal pour découvrir les vulnérabilités liées aux paramètres d'entrée principaux de l'application.
 
-            The advantage of fuzz testing is the simplicity of the test design, and its lack of preconceptions about system behavior. The stochastic approach results in bugs that human eyes or structured testing would often miss. It is also one of the few means of assessing the quality of a closed system (such as a SIP phone). The simplicity of fuzzing a target is offset by the difficulty in accurately detecting and triaging crashes. Favour existing fuzzing tools and frameworks to leverage their supporting tooling.
+            L'avantage des tests de fuzzing est sa simplicité de conception et son absence de supposition sur le comportement du système. Son approche stochastique permet la découverte de bugs que les humains ou des tests structurés manqueraient souvent. C'est aussi l'un des rares moyens d'évaluer la qualité d'un système fermé (comme un téléphone SIP). La simplicité du fuzzing est contrebalancée par la difficulté de détecter et de caractériser les plantages avec précision. Préférez les outils et les environnements de fuzzing existants afin de tirer parti des outils associés.
 
-        question: Do you test applications using randomization or fuzzing techniques?
+        question: Testez-vous les applications en utilisant des techniques de génération aléatoire?
         quality_criteria:
-            - Testing covers most or all of the application's main input parameters
-            - You record and inspect all application crashes for security impact on a best-effort basis
+            - Les tests couvrent la plupart ou l'ensemble des paramètres d'entrée de l'application
+            - Vous enregistrez et inspectez tous les plantages de l'application dans le but d'évaluer l'impact sur la sécurité en fonction de vos capacités
 
         answers:
             - "No"
-            - Yes, for some applications
-            - Yes, for at least half of the applications
-            - Yes, for most or all of the applications
+            - Oui, pour certaines applications
+            - Oui, pour au moins la moitié des applications
+            - Oui, pour la plupart ou toutes les applications
 
     level2:
         level: 2
         benefit: |
-            Detection of application business logic flaws
+            Détection des défauts de la logique métier de l'application
         activity: |
-            Misuse and abuse cases describe unintended and malicious use scenarios of the application, describing how an attacker could do this. Create misuse and abuse cases to misuse or exploit the weaknesses of controls in software features to attack an application. Use abuse-case models for an application to serve as fuel for identification of concrete security tests that directly or indirectly exploit the abuse scenarios.
+            Les cas de mauvaise utilisation et d'utilisation abusive décrivent des scénarios d'utilisation non intentionnée ou malveillante de l'application, explicitant la manière dont un attaquant pourrait faire. Créez des cas de mauvaise utilisation et d’utilisation abusive pour mal utiliser ou exploiter les faiblesses des contrôles dans les fonctionnalités du logiciel dans le but d'attaquer une application. Utilisez des modèles de cas d'abus pour une application afin de permettre l'identification de tests de sécurité concrets qui exploitent directement ou indirectement les scénarios d'abus.
 
-            Abuse of functionality, sometimes referred to as a "business logic attack", depends on the design and implementation of application functions and features. An example is using a password reset flow to enumerate accounts. As part of business logic testing, identify the business rules that are important for the application and turn them into experiments to verify whether the application properly enforces the business rule. For example, on a stock trading application, is the attacker allowed to start a trade at the beginning of the day and lock in a price, hold the transaction open until the end of the day, then complete the sale if the stock price has risen or cancel if the price dropped?
+            L'abus de fonctionnalité, parfois appelé "attaque logique métier", est lié à la conception et la mise en œuvre des fonctionnalités de l'application. Un exemple est l'utilisation d'un canal de réinitialisation de mot de passe pour énumérer les comptes. Dans le cadre des tests de logique métier, identifiez les règles métier qui sont importantes pour l'application et faites des expérimentations afin de vérifier si l'application met en oeuvre correctement la règle métier. Par exemple, sur une application de transaction boursière, est-ce que l'attaquant est autorisé à démarrer une transaction au début de la journée et à verrouiller un prix, à maintenir la transaction ouverte jusqu'à la fin de la journée, puis accomplir la vente si le cours de l'action a augmenté ou l'annuler si le prix a baissé?
 
-        question: Do you create abuse cases from functional requirements and use them to drive security tests?
+        question: Créez-vous des cas d'abus à partir des exigences fonctionnelles et utilisez-vous celles-ci pour piloter les tests de sécurité?
         quality_criteria:
-            - Important business functionality has corresponding abuse cases
-            - You build abuse stories around relevant personas with well-defined motivations and characteristics
-            - You capture identified weaknesses as security requirements
+            - Les fonctionnalités métiers importantes ont des cas d'abus correspondants
+            - Vous construisez des cas d'abus de la sécurité autour d'acteurs types pertinents ayant des motivations et des caractéristiques bien définies
+            - Vous capturez les faiblesses identifiées comme des exigences de sécurité
 
         answers:
             - "No"
-            - Yes, some of the time
-            - Yes, at least half of the time
-            - Yes, most or all of the time
+            - Oui, une partie du temps
+            - Oui, au moins la moitié du temps
+            - Oui, la majeure partie du temps ou tout le temps
 
     level3:
         level: 3
         benefit: |
-            Transparency of resilience against denial of service attacks
+            Transparence de la résilience envers les attaques par déni de service
         activity: |
-            Applications are particularly susceptible to denial of service attacks. Perform denial of service and security stress testing against them in controlled conditions, preferably on application acceptance environments.
+            Les applications sont particulièrement susceptibles de subir des attaques par déni de service. Effectuez des tests de résistance de sécurité sur elles par déni de service dans des conditions contrôlées, de préférence dans les environnements d'acceptation utilisateurs.
 
-            Load testing tools generate synthetic traffic, allowing you to test the application's performance under heavy load. One important test is how many requests per second an application can handle while remaining within its performance requirements. Testing from a single IP address is still useful as it gives an indication of how many requests an attacker must generate to impact the application.
+            Les outils de test de charge génèrent du trafic artificiel, vous permettant de tester les performances de l'application sous une charge élevée. Un test important est le nombre de requêtes par seconde qu'une application peut gérer tout en respectant ses exigences de performance. Tester à partir d'une seule adresse IP est toujours utile car cela donne une indication du nombre de requêtes qu'un attaquant doit générer pour avoir un impact sur l'application.
 
-            Denial of service attacks typically result in application resource starvation or exhaustion. To determine if any resources can be used to create a denial of service, analyze each application resource to see how it can be exhausted. Prioritise actions unauthenticated user can do. Complement overall denial of service tests with security stress tests to perform actions or create conditions which cause delays, disruptions, or failures of the application under test.
+            Les attaques par déni de service entraînent généralement un amoindrissement ou un épuisement des ressources de l'application. Pour déterminer si des ressources peuvent être victimes d'un déni de service, analysez chaque ressource de l'application pour voir comment elle peut être épuisée. Hiérarchisez les actions qu'un utilisateur non authentifié peut accomplir. Complétez l'ensemble des tests de déni de service par des tests de contraintes de sécurité pour effectuer des actions ou créer les conditions qui causent des retards, des interruptions ou des défaillances de l'application en train d'être testée.
 
-        question: Do you perform denial of service and security stress testing?
+        question: Effectuez-vous des tests de déni de service et de mise sous tension de la sécurité?
         quality_criteria:
-            - Stress tests target specific application resources (e.g. memory exhaustion by saving large amounts of data to a user session)
-            - You design tests around relevant personas with well-defined capabilities (knowledge, resources)
-            - You feed the results back to the Design practices
+            - Les tests sous contraintes ciblent les ressources spécifiques de l'application (par ex : éviter l'épuisement de la quantité de mémoire en évitant d'utiliser de grandes quantités de données lors d'une session utilisateur)
+            - Vous concevez des tests autour d'acteurs pertinents ayant des caractéristiques bien définies (connaissances, ressources)
+            - Vous ajoutez les résultats aux pratiques de conception
 
         answers:
             - "No"
-            - Yes, some of the time
-            - Yes, at least half of the time
-            - Yes, most or all of the time
+            - Oui, une partie du temps
+            - Oui, au moins la moitié du temps
+            - Oui, la majeure partie du temps ou tout le temps
 
 ---
