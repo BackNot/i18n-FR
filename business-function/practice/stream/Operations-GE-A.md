@@ -24,7 +24,7 @@ maturity_levels:
 
             Identifiez les éléments clés des piles technologiques communes et établissez des normes de configuration pour celles-ci, en vous basant sur les expériences des équipes de ce qui fonctionne.
 
-À ce niveau de maturité, vous n'avez pas encore de processus formel pour la gestion des bases de référence des configurations. Les configurations peuvent ne pas être appliquées de manière uniforme à travers les applications et les déploiements, et le suivi de la conformité est probablement absent.
+            À ce niveau de maturité, vous n'avez pas encore de processus formel pour la gestion des bases de référence des configurations. Les configurations peuvent ne pas être appliquées de manière uniforme à travers les applications et les déploiements, et le suivi de la conformité est probablement absent.
 
         question: Durcissez-vous les configurations des composants clés de vos piles technologiques?
         quality_criteria:

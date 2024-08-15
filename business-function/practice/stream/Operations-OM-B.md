@@ -65,7 +65,7 @@ maturity_levels:
         activity: |
             Évaluez régulièrement l'étape du cycle de vie et le statut de support de tous les actifs logiciels et composants d'infrastructure sous-jacents et estimez leur fin de vie. Suivez un processus bien défini pour atténuer activement les risques de sécurité qui surviennent lorsque les actifs / composants approchent de leur fin de vie. Examinez et mettez à jour régulièrement votre processus afin de refléter les leçons tirées de l'expérience.
 
-Établissez un plan de support produit fournissant des échéanciers clairs pour la fin de support des versions antérieures du produit. Limitez les versions de produits en cours d'utilisation à un petit nombre (par exemple, N.x.x et N-1 seulement). Établissez et diffusez des échéanciers pour la fin de support des versions antérieures, et engagez-vous de façon proactive avec les clients et les groupes d'utilisateurs afin d'éviter les perturbations de service ou de support.
+            Établissez un plan de support produit fournissant des échéanciers clairs pour la fin de support des versions antérieures du produit. Limitez les versions de produits en cours d'utilisation à un petit nombre (par exemple, N.x.x et N-1 seulement). Établissez et diffusez des échéanciers pour la fin de support des versions antérieures, et engagez-vous de façon proactive avec les clients et les groupes d'utilisateurs afin d'éviter les perturbations de service ou de support.
 
         question: Évaluez-vous régulièrement l'état du cycle de vie et le statut de maintenance de chaque logiciel et de chaque composant d'infrastructure sous-jacent et estimez-vous leur fin de vie?
         quality_criteria:

@@ -22,7 +22,7 @@ maturity_levels:
         activity: |
             Identifiez les applications et les composants tiers qui doivent être mis à jour ou corrigés, y compris les systèmes d'exploitation sous-jacents, les serveurs d'applications et les bibliothèques de codes provenant de tiers.
 
-À ce niveau de maturité, vos activités d'identification et de correction sont en fonction de vos moyens et ad hoc, sans processus géré pour le suivi des versions des composants, des disponibilités des mises à jour et du statut des correctifs. Cependant, des exigences de haut niveau pour les activités liées aux correctifs (p. ex. tester les correctifs avant de les déployer en production) peuvent exister, les équipes produits faisant de leur mieux pour se conformer à ces exigences.
+            À ce niveau de maturité, vos activités d'identification et de correction sont en fonction de vos moyens et ad hoc, sans processus géré pour le suivi des versions des composants, des disponibilités des mises à jour et du statut des correctifs. Cependant, des exigences de haut niveau pour les activités liées aux correctifs (p. ex. tester les correctifs avant de les déployer en production) peuvent exister, les équipes produits faisant de leur mieux pour se conformer à ces exigences.
 
             Sauf pour les mises à jour de sécurité critiques (par ex. une preuve de concept pour un composant tiers publiquement publiée), les équipes tirent parti des fenêtres de maintenance en place à d'autres fins pour appliquer les correctifs des composants. Pour les logiciels développés par l'organisation, les correctifs des composants sont livrés aux clients et aux solutions gérées par l'organisation uniquement dans le cadre des versions contenant des fonctionnalités.
 
