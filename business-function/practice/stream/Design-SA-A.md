@@ -43,7 +43,7 @@ maturity_levels:
         benefit: |
             Mutualiser des services de sécurité avec les équipes produit
         activity: |
-            Identifiez l'infrastructure ou les services partagés présentant des fonctionnalités de sécurité. Ceux-ci incluent généralement des systèmes d'authentification unique, des services de contrôle d'accès ou d'autorisation, des services de journalisation et de surveillance ou un pare-feu applicatif. Enumérer et évaluer ces services partagés pour dresser une liste de ces ressources et les catégoriser selon la fonction de sécurité qu'elles remplissent. Envisagezr chaque ressource en fonction de son utilité et ses bénéfices pour l'équipe produit.
+            "Identifiez l'infrastructure ou les services partagés présentant des fonctionnalités de sécurité. Ceux-ci incluent généralement des systèmes d'authentification unique, des services de contrôle d'accès ou d'autorisation, des services de journalisation et de surveillance ou un pare-feu applicatif. Enumérer et évaluer ces services partagés pour dresser une liste de ces ressources et les catégoriser selon la fonction de sécurité qu'elles remplissent. Envisagezr chaque ressource en fonction de son utilité et ses bénéfices pour l'équipe produit.
 
             S'il existe plusieurs ressources dans chaque catégorie, sélectionnez un ou plusieurs services partagés à standariser par catégorie. Étant donné que le développement futur des logiciels s'appuiera sur ces services, examinez-les soigneusement pour vous assurer de maitriser comment leur sécurité évoluera dans le temps. Pour chaque service sélectionné, créez des recommandation pour la conception afin que les équipes produit sachent comment les intégrer au système. Partager ces recommandations par le biais de la formation, du mentorat, des lignes directrices et des standards.
 
@@ -51,7 +51,7 @@ maturity_levels:
 
             Ces modèles peuvent provenir de projets ou d'applications spécifiques, mais assurez-vous de les partager entre les différentes équipes de l'organisation pour une application efficace et cohérente des solutions de sécurité appropriées.
 
-            Pour augmenter l'adoption de ces modèles, interfacez-les avec les services de sécurité partagés ou implémentez-les sous forme de composants qui peuvent être facilement intégrées dans une application. Soutenez les technologies clés au sein de l'organisation, par exemple dans le cas de différents environnements de développement. Gérez ces solutions comme de véritables applications avec un support approprié.
+            Pour augmenter l'adoption de ces modèles, interfacez-les avec les services de sécurité partagés ou implémentez-les sous forme de composants qui peuvent être facilement intégrées dans une application. Soutenez les technologies clés au sein de l'organisation, par exemple dans le cas de différents environnements de développement. Gérez ces solutions comme de véritables applications avec un support approprié."
 
         question: Utilisez-vous des services de sécurité partagés au cours de la conception ?
         quality_criteria:
