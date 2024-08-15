@@ -1,7 +1,7 @@
 ---
 title: Mesurer et Améliorer
 type: stream
-url: ./model/governance/strategy-metrics/stream-b/
+url: ./model/governance/strategy-and-metrics/stream-b/
 business_function: Gouvernance
 business_function_url: governance
 practice: Stratégie & Métriques

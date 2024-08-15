@@ -1,6 +1,6 @@
 ---
 title: Stratégie & Métriques
-url: ./model/governance/strategy-metrics/
+url: ./model/governance/strategy-and-metrics/
 business_function: "Gouvernance"
 business_function_url: "governance"
 keywords: ["Business function", "Practice", "Stratégie & Métriques"]

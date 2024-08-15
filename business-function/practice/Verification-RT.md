@@ -1,6 +1,6 @@
 ---
 title: Tests axés sur les exigences
-url: ./model/verification/requirements-testing/
+url: ./model/verification/requirements-driven-testing/
 business_function: "Vérification"
 business_function_url: "verification"
 keywords: ["Business function", "Practice", "Tests axés sur les exigences"]

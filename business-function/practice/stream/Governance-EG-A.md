@@ -1,7 +1,7 @@
 ---
 title: Formation et Sensibilisation
 type: stream
-url: ./model/governance/education-guidance/stream-a/
+url: ./model/governance/education-and-guidance/stream-a/
 business_function: Gouvernance
 business_function_url: governance
 practice: Éducation & Orientation

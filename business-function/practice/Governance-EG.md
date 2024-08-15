@@ -1,6 +1,6 @@
 ---
 title: Éducation & Orientation
-url: ./model/governance/education-guidance/
+url: ./model/governance/education-and-guidance/
 business_function: "Gouvernance"
 business_function_url: "governance"
 keywords: ["Business function", "Practice", "Éducation & Orientation"]

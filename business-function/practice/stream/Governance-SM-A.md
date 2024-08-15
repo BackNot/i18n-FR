@@ -1,7 +1,7 @@
 ---
 title: Créer et Promouvoir
 type: stream
-url: ./model/governance/strategy-metrics/stream-a/
+url: ./model/governance/strategy-and-metrics/stream-a/
 business_function: Gouvernance
 business_function_url: governance
 practice: Stratégie & Métriques

@@ -1,7 +1,7 @@
 ---
 title: Organisation et Culture
 type: stream
-url: ./model/governance/education-guidance/stream-b/
+url: ./model/governance/education-and-guidance/stream-b/
 business_function: Gouvernance
 business_function_url: governance
 practice: Éducation & Orientation

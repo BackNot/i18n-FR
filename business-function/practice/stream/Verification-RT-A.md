@@ -1,7 +1,7 @@
 ---
 title: Vérification des contrôles
 type: stream
-url: ./model/verification/requirements-testing/stream-a/
+url: ./model/verification/requirements-driven-testing/stream-a/
 business_function: Vérification
 business_function_url: verification
 practice: Tests axés sur les exigences
