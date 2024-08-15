@@ -20,11 +20,11 @@ maturity_levels:
         benefit: |
             L'ensemble des principes de base de la sécurité à la disposition des équipes produit
         activity: |
-            Lors de la phase de conception, le personnel technique de l'équipe produit utilise une courte checklist des principes de sécurité. Généralement, les principes de sécurité incluent : la défense en profondeur, la sécurisation du plus faible maillon, l'utilisation de valeurs par défaut sécurisées, éviter une conception complexe des fonctionnalités de sécurité, la bascule en mode dégradé en cas d'échec, l'équilibre entre sécurité et ergonomie, l'exécution avec le moindre privilège, proscrire la sécurité par l'obscurité, etc.
+            "Lors de la phase de conception, le personnel technique de l'équipe produit utilise une courte checklist des principes de sécurité. Généralement, les principes de sécurité incluent : la défense en profondeur, la sécurisation du plus faible maillon, l'utilisation de valeurs par défaut sécurisées, éviter une conception complexe des fonctionnalités de sécurité, la bascule en mode dégradé en cas d'échec, l'équilibre entre sécurité et ergonomie, l'exécution avec le moindre privilège, proscrire la sécurité par l'obscurité, etc.
 
             Pour les interfaces, l'équipe considère chaque principe dans le contexte global du système et identifie les fonctionnalités qui peuvent renforcer la sécurité de chacune de ces interfaces. Il faut limiter ces fonctionnalités à celles qui ne demandent qu'un petit effort supplémentaire au-delà du coût de mise en œuvre normal des exigences fonctionnelles. Notez les fonctionnalités plus coûteuses et planifiez-les pour les versions futures.
 
-            Dispensez à chaque équipe produit une formation de sensibilisation à la sécurité en amont de ce processus et intégrez plus de personnel averti en matière de sécurité pour aider aux prises de décision lors de la phase de conception.
+            Dispensez à chaque équipe produit une formation de sensibilisation à la sécurité en amont de ce processus et intégrez plus de personnel averti en matière de sécurité pour aider aux prises de décision lors de la phase de conception."
 
         question: Les équipes utilisent-elles les principes de sécurité au cours de la conception ?
         quality_criteria:
