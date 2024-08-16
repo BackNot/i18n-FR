@@ -5,7 +5,7 @@ business_function: "Gouvernance"
 business_function_url: "governance"
 keywords: ["Business function", "Practice", "Politique & Conformité"]
 aliases:
-    - /model/G-PC
+    - fr/model/G-PC
 type: practice
 
 practice_maturity_1_description: Identifier et documenter les facteurs de gouvernance et de conformité pertinents pour l'organisation.

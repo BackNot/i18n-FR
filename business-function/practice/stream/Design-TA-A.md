@@ -9,10 +9,10 @@ stream: A
 description: Conception / Évaluation de la menace
 keywords: ["Business function", "Practice", "Conception", "Évaluation de la menace"]
 aliases:
-    - /model/D-TA-A-1
-    - /model/D-TA-A-2
-    - /model/D-TA-A-3
-    - /model/D-TA-A
+    - fr/model/D-TA-A-1
+    - fr/model/D-TA-A-2
+    - fr/model/D-TA-A-3
+    - fr/model/D-TA-A
 
 maturity_levels:
     level1:

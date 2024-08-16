@@ -5,7 +5,7 @@ business_function: "Opérations"
 business_function_url: "operations"
 keywords: ["Business function", "Practice", "Gestion de l'environnement"]
 aliases:
-    - /model/O-EM
+    - fr/model/O-EM
 type: practice
 
 practice_maturity_1_description: Mise à jour et durcissement au meilleur de vos capacités

@@ -9,10 +9,10 @@ stream: B
 description: Gouvernance / Stratégie & Métriques
 keywords: ["Business function", "Practice", "Gouvernance", "Stratégie & Métriques"]
 aliases:
-    - /model/G-SM-B-1
-    - /model/G-SM-B-2
-    - /model/G-SM-B-3
-    - /model/G-SM-B
+    - fr/model/G-SM-B-1
+    - fr/model/G-SM-B-2
+    - fr/model/G-SM-B-3
+    - fr/model/G-SM-B
 
 maturity_levels:
     level1:

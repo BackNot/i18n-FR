@@ -5,7 +5,7 @@ business_function: "Implémentation"
 business_function_url: "implementation"
 keywords: ["Business function", "Practice", "Gestion des Défauts"]
 aliases:
-    - /model/I-DM
+    - fr/model/I-DM
 type: practice
 
 practice_maturity_1_description: Tous les défauts sont suivis dans chaque projet.

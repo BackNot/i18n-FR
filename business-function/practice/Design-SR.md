@@ -5,7 +5,7 @@ business_function: "Conception"
 business_function_url: "design"
 keywords: ["Business function", "Practice", "Exigences de Sécurité"]
 aliases:
-    - /model/D-SR
+    - fr/model/D-SR
 type: practice
 
 practice_maturity_1_description: Traiter la sécurité explicitement pendant le processus d'exigences logicielles.

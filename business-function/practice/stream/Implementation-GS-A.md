@@ -9,10 +9,10 @@ stream: A
 description: Implémentation / Génération Sécurisée
 keywords: ["Business function", "Practice", "Implémentation", "Génération Sécurisée"]
 aliases:
-    - /model/I-SB-A-1
-    - /model/I-SB-A-2
-    - /model/I-SB-A-3
-    - /model/I-SB-A
+    - fr/model/I-SB-A-1
+    - fr/model/I-SB-A-2
+    - fr/model/I-SB-A-3
+    - fr/model/I-SB-A
 
 maturity_levels:
     level1:

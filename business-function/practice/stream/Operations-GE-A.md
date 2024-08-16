@@ -9,10 +9,10 @@ stream: A
 description: Opérations / Gestion de l'environnement
 keywords: ["Business function", "Practice", "Opérations", "Gestion de l'environnement"]
 aliases:
-    - /model/O-EM-A-1
-    - /model/O-EM-A-2
-    - /model/O-EM-A-3
-    - /model/O-EM-A
+    - fr/model/O-EM-A-1
+    - fr/model/O-EM-A-2
+    - fr/model/O-EM-A-3
+    - fr/model/O-EM-A
 
 maturity_levels:
     level1:

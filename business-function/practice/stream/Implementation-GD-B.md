@@ -9,10 +9,10 @@ stream: B
 description: Implémentation / Gestion des Défauts
 keywords: ["Business function", "Practice", "Implémentation", "Gestion des Défauts"]
 aliases:
-    - /model/I-DM-B-1
-    - /model/I-DM-B-2
-    - /model/I-DM-B-3
-    - /model/I-DM-B
+    - fr/model/I-DM-B-1
+    - fr/model/I-DM-B-2
+    - fr/model/I-DM-B-3
+    - fr/model/I-DM-B
 
 maturity_levels:
     level1:

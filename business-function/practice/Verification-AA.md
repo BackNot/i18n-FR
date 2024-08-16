@@ -5,7 +5,7 @@ business_function: "Vérification"
 business_function_url: "verification"
 keywords: ["Business function", "Practice", "Évaluation de l'architecture"]
 aliases:
-    - /model/V-A
+    - fr/model/V-A
 type: practice
 
 practice_maturity_1_description: Revoir l'architecture pour s'assurer que les mesures de réduction de risque élémentaires sont en place pour les risques typiques.

@@ -9,10 +9,10 @@ stream: A
 description: Implémentation / Gestion des Défauts
 keywords: ["Business function", "Practice", "Implémentation", "Gestion des Défauts"]
 aliases:
-    - /model/I-DM-A-1
-    - /model/I-DM-A-2
-    - /model/I-DM-A-3
-    - /model/I-DM-A
+    - fr/model/I-DM-A-1
+    - fr/model/I-DM-A-2
+    - fr/model/I-DM-A-3
+    - fr/model/I-DM-A
 
 maturity_levels:
     level1:
