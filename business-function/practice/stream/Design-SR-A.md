@@ -9,10 +9,10 @@ stream: A
 description: Conception / Exigences de Sécurité
 keywords: ["Business function", "Practice", "Conception", "Exigences de Sécurité"]
 aliases:
-    - fr/model/D-SR-A-1
-    - fr/model/D-SR-A-2
-    - fr/model/D-SR-A-3
-    - fr/model/D-SR-A
+    - /fr/model/D-SR-A-1
+    - /fr/model/D-SR-A-2
+    - /fr/model/D-SR-A-3
+    - /fr/model/D-SR-A
 
 maturity_levels:
     level1:

@@ -9,10 +9,10 @@ stream: A
 description: Implémentation / Déploiement Sécurisé
 keywords: ["Business function", "Practice", "Implémentation", "Déploiement Sécurisé"]
 aliases:
-    - fr/model/I-SD-A-1
-    - fr/model/I-SD-A-2
-    - fr/model/I-SD-A-3
-    - fr/model/I-SD-A
+    - /fr/model/I-SD-A-1
+    - /fr/model/I-SD-A-2
+    - /fr/model/I-SD-A-3
+    - /fr/model/I-SD-A
 
 maturity_levels:
     level1:

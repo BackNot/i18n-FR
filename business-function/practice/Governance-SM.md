@@ -5,7 +5,7 @@ business_function: "Gouvernance"
 business_function_url: "governance"
 keywords: ["Business function", "Practice", "Stratégie & Métriques"]
 aliases:
-    - fr/model/G-SM
+    - /fr/model/G-SM
 type: practice
 
 practice_maturity_1_description: Identifier les objectifs et les moyens de mesurer l'efficacité du programme de sécurité.

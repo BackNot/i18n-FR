@@ -9,10 +9,10 @@ stream: B
 description: Conception / Exigences de Sécurité
 keywords: ["Business function", "Practice", "Conception", "Exigences de Sécurité"]
 aliases:
-    - fr/model/D-SR-B-1
-    - fr/model/D-SR-B-2
-    - fr/model/D-SR-B-3
-    - fr/model/D-SR-B
+    - /fr/model/D-SR-B-1
+    - /fr/model/D-SR-B-2
+    - /fr/model/D-SR-B-3
+    - /fr/model/D-SR-B
 
 maturity_levels:
     level1:

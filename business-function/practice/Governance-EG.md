@@ -5,7 +5,7 @@ business_function: "Gouvernance"
 business_function_url: "governance"
 keywords: ["Business function", "Practice", "Éducation & Orientation"]
 aliases:
-    - fr/model/G-EG
+    - /fr/model/G-EG
 type: practice
 
 practice_maturity_1_description: Offrir au personnel un accès aux ressources autour des thèmes du développement et du déploiement sécurisés.

@@ -5,7 +5,7 @@ business_function: "Implémentation"
 business_function_url: "implementation"
 keywords: ["Business function", "Practice", "Génération Sécurisée"]
 aliases:
-    - fr/model/I-SB
+    - /fr/model/I-SB
 type: practice
 
 practice_maturity_1_description: Le processus de génération est répétable et cohérent.

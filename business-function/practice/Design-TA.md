@@ -5,7 +5,7 @@ business_function: "Conception"
 business_function_url: "design"
 keywords: ["Business function", "Practice", "Évaluation de la menace"]
 aliases:
-    - fr/model/D-T
+    - /fr/model/D-T
 type: practice
 
 practice_maturity_1_description: Identification des menaces de haut niveau pour l'organisation et les projets individuels au mieux de vos capacités.

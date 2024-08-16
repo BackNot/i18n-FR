@@ -9,10 +9,10 @@ stream: A
 description: Vérification / Tests axés sur les exigences
 keywords: ["Business function", "Practice", "Vérification", "Tests axés sur les exigences"]
 aliases:
-    - fr/model/V-RT-A-1
-    - fr/model/V-RT-A-2
-    - fr/model/V-RT-A-3
-    - fr/model/V-RT-A
+    - /fr/model/V-RT-A-1
+    - /fr/model/V-RT-A-2
+    - /fr/model/V-RT-A-3
+    - /fr/model/V-RT-A
 
 maturity_levels:
     level1:
