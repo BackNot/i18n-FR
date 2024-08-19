@@ -2,12 +2,12 @@
 title: Conception d'architecture
 type: stream
 url: ./model/design/security-architecture/stream-a/
-business_function: Conception
+business_function: Conceptionn
 business_function_url: design
 practice: Architecture de Sécurité
 stream: A
-description: Conception / Architecture de Sécurité
-keywords: ["Business function", "Practice", "Conception", "Architecture de Sécurité"]
+description: Conceptionn / Architecture de Sécurité
+keywords: ["Business function", "Practice", "Conceptionn", "Architecture de Sécurité"]
 aliases:
     - /fr/model/D-SA-A-1
     - /fr/model/D-SA-A-2

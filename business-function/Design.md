@@ -1,7 +1,7 @@
 ---
-title: Conception
+title: Conceptionn
 url: ./model/design/
-description: Conception business function
+description: Conceptionn business function
 
 practice_1: Évaluation de la menace
 practice_1_url: threat-assessment

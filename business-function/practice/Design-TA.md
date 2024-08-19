@@ -1,7 +1,7 @@
 ---
 title: Évaluation de la menace
 url: ./model/design/threat-assessment/
-business_function: "Conception"
+business_function: "Conceptionn"
 business_function_url: "design"
 keywords: ["Business function", "Practice", "Évaluation de la menace"]
 aliases:

@@ -2,12 +2,12 @@
 title: Sécurité du Fournisseur
 type: stream
 url: ./model/design/security-requirements/stream-b/
-business_function: Conception
+business_function: Conceptionn
 business_function_url: design
 practice: Exigences de Sécurité
 stream: B
-description: Conception / Exigences de Sécurité
-keywords: ["Business function", "Practice", "Conception", "Exigences de Sécurité"]
+description: Conceptionn / Exigences de Sécurité
+keywords: ["Business function", "Practice", "Conceptionn", "Exigences de Sécurité"]
 aliases:
     - /fr/model/D-SR-B-1
     - /fr/model/D-SR-B-2
