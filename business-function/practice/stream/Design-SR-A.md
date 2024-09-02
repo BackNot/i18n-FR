@@ -2,17 +2,17 @@
 title: Exigences Logicielles
 type: stream
 url: ./model/design/security-requirements/stream-a/
-business_function: Conceptionn
+business_function: Conception
 business_function_url: design
 practice: Exigences de Sécurité
 stream: A
-description: Conceptionn / Exigences de Sécurité
-keywords: ["Business function", "Practice", "Conceptionn", "Exigences de Sécurité"]
+description: Conception / Exigences de Sécurité
+keywords: ["Business function", "Practice", "Conception", "Exigences de Sécurité"]
 aliases:
-    - /fr/model/D-SR-A-1
-    - /fr/model/D-SR-A-2
-    - /fr/model/D-SR-A-3
-    - /fr/model/D-SR-A
+    - /es/model/D-SR-A-1
+    - /es/model/D-SR-A-2
+    - /es/model/D-SR-A-3
+    - /es/model/D-SR-A
 
 maturity_levels:
     level1:

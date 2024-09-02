@@ -5,7 +5,7 @@ business_function: "Implémentation"
 business_function_url: "implementation"
 keywords: ["Business function", "Practice", "Déploiement Sécurisé"]
 aliases:
-    - /fr/model/I-SD
+    - /es/model/I-SD
 type: practice
 
 practice_maturity_1_description: Les processus de déploiement sont entièrement documentés.

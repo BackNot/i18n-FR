@@ -1,14 +1,14 @@
 ---
-title: Conceptionn
+title: Conception
 url: ./model/design/
-description: Conceptionn business function
+description: Conception business function
 
 practice_1: Évaluation de la menace
 practice_1_url: threat-assessment
 practice_2: Exigences de Sécurité
 practice_2_url: security-requirements
 practice_3: Architecture de Sécurité
-practice_3_url: security-architecture
+practice_3_url: secure-architecture
 
 keywords: ["Business function"]
 ---

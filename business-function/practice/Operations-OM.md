@@ -5,7 +5,7 @@ business_function: "Opérations"
 business_function_url: "operations"
 keywords: ["Business function", "Practice", "Gestion opérationnelle"]
 aliases:
-    - /fr/model/O-OM
+    - /es/model/O-OM
 type: practice
 
 practice_maturity_1_description: Pratiques fondamentales

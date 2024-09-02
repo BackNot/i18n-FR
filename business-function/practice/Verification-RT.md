@@ -5,7 +5,7 @@ business_function: "Vérification"
 business_function_url: "verification"
 keywords: ["Business function", "Practice", "Tests axés sur les exigences"]
 aliases:
-    - /fr/model/V-RT
+    - /es/model/V-RT
 type: practice
 
 practice_maturity_1_description: Profiter des opportunités pour trouver des vulnérabilités simples et autres problèmes de sécurité.

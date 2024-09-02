@@ -2,17 +2,17 @@
 title: Modélisation des Menaces
 type: stream
 url: ./model/design/threat-assessment/stream-b/
-business_function: Conceptionn
+business_function: Conception
 business_function_url: design
 practice: Évaluation de la menace
 stream: B
-description: Conceptionn / Évaluation de la menace
-keywords: ["Business function", "Practice", "Conceptionn", "Évaluation de la menace"]
+description: Conception / Évaluation de la menace
+keywords: ["Business function", "Practice", "Conception", "Évaluation de la menace"]
 aliases:
-    - /fr/model/D-TA-B-1
-    - /fr/model/D-TA-B-2
-    - /fr/model/D-TA-B-3
-    - /fr/model/D-TA-B
+    - /es/model/D-TA-B-1
+    - /es/model/D-TA-B-2
+    - /es/model/D-TA-B-3
+    - /es/model/D-TA-B
 
 maturity_levels:
     level1:

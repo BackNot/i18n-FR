@@ -9,10 +9,10 @@ stream: B
 description: Gouvernance / Éducation & Orientation
 keywords: ["Business function", "Practice", "Gouvernance", "Éducation & Orientation"]
 aliases:
-    - /fr/model/G-EG-B-1
-    - /fr/model/G-EG-B-2
-    - /fr/model/G-EG-B-3
-    - /fr/model/G-EG-B
+    - /es/model/G-EG-B-1
+    - /es/model/G-EG-B-2
+    - /es/model/G-EG-B-3
+    - /es/model/G-EG-B
 
 maturity_levels:
     level1:

@@ -1,18 +1,18 @@
 ---
 title: Gestion de la technologie
 type: stream
-url: ./model/design/security-architecture/stream-b/
-business_function: Conceptionn
+url: ./model/design/secure-architecture/stream-b/
+business_function: Conception
 business_function_url: design
 practice: Architecture de Sécurité
 stream: B
-description: Conceptionn / Architecture de Sécurité
-keywords: ["Business function", "Practice", "Conceptionn", "Architecture de Sécurité"]
+description: Conception / Architecture de Sécurité
+keywords: ["Business function", "Practice", "Conception", "Architecture de Sécurité"]
 aliases:
-    - /fr/model/D-SA-B-1
-    - /fr/model/D-SA-B-2
-    - /fr/model/D-SA-B-3
-    - /fr/model/D-SA-B
+    - /es/model/D-SA-B-1
+    - /es/model/D-SA-B-2
+    - /es/model/D-SA-B-3
+    - /es/model/D-SA-B
 
 maturity_levels:
     level1:

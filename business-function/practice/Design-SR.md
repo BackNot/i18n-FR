@@ -1,11 +1,11 @@
 ---
 title: Exigences de Sécurité
 url: ./model/design/security-requirements/
-business_function: "Conceptionn"
+business_function: "Conception"
 business_function_url: "design"
 keywords: ["Business function", "Practice", "Exigences de Sécurité"]
 aliases:
-    - /fr/model/D-SR
+    - /es/model/D-SR
 type: practice
 
 practice_maturity_1_description: Traiter la sécurité explicitement pendant le processus d'exigences logicielles.

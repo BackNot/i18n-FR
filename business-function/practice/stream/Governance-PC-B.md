@@ -9,10 +9,10 @@ stream: B
 description: Gouvernance / Politique & Conformité
 keywords: ["Business function", "Practice", "Gouvernance", "Politique & Conformité"]
 aliases:
-    - /fr/model/G-PC-B-1
-    - /fr/model/G-PC-B-2
-    - /fr/model/G-PC-B-3
-    - /fr/model/G-PC-B
+    - /es/model/G-PC-B-1
+    - /es/model/G-PC-B-2
+    - /es/model/G-PC-B-3
+    - /es/model/G-PC-B
 
 maturity_levels:
     level1:

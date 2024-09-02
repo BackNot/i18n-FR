@@ -2,17 +2,17 @@
 title: Profil de risque de l'application
 type: stream
 url: ./model/design/threat-assessment/stream-a/
-business_function: Conceptionn
+business_function: Conception
 business_function_url: design
 practice: Évaluation de la menace
 stream: A
-description: Conceptionn / Évaluation de la menace
-keywords: ["Business function", "Practice", "Conceptionn", "Évaluation de la menace"]
+description: Conception / Évaluation de la menace
+keywords: ["Business function", "Practice", "Conception", "Évaluation de la menace"]
 aliases:
-    - /fr/model/D-TA-A-1
-    - /fr/model/D-TA-A-2
-    - /fr/model/D-TA-A-3
-    - /fr/model/D-TA-A
+    - /es/model/D-TA-A-1
+    - /es/model/D-TA-A-2
+    - /es/model/D-TA-A-3
+    - /es/model/D-TA-A
 
 maturity_levels:
     level1:

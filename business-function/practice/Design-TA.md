@@ -1,11 +1,11 @@
 ---
 title: Évaluation de la menace
 url: ./model/design/threat-assessment/
-business_function: "Conceptionn"
+business_function: "Conception"
 business_function_url: "design"
 keywords: ["Business function", "Practice", "Évaluation de la menace"]
 aliases:
-    - /fr/model/D-T
+    - /es/model/D-TA
 type: practice
 
 practice_maturity_1_description: Identification des menaces de haut niveau pour l'organisation et les projets individuels au mieux de vos capacités.

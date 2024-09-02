@@ -9,10 +9,10 @@ stream: B
 description: Vérification / Tests de sécurité
 keywords: ["Business function", "Practice", "Vérification", "Tests de sécurité"]
 aliases:
-    - /fr/model/V-ST-B-1
-    - /fr/model/V-ST-B-2
-    - /fr/model/V-ST-B-3
-    - /fr/model/V-ST-B
+    - /es/model/V-ST-B-1
+    - /es/model/V-ST-B-2
+    - /es/model/V-ST-B-3
+    - /es/model/V-ST-B
 
 maturity_levels:
     level1:
