@@ -39,7 +39,7 @@ maturity_levels:
             - Vous avez analysé, traité et documenté les dépendances au moins une fois au cours des trois derniers mois
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications
@@ -72,7 +72,7 @@ maturity_levels:
             - Vous détectez et supprimez du logiciel de manière fiable les dépendances inutiles
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications
@@ -96,7 +96,7 @@ maturity_levels:
             - L'utilisation d'une nouvelle dépendance non évaluée pour des risques de sécurité entraîne l'échec de la génération
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications

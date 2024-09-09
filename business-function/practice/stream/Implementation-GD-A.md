@@ -39,7 +39,7 @@ maturity_levels:
             - Le système de gestion des défauts couvre les défauts provenant de diverses sources et activités
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications
@@ -62,7 +62,7 @@ maturity_levels:
             - Vous partagez régulièrement des données sur la conformité aux SLA
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications
@@ -85,7 +85,7 @@ maturity_levels:
             - Vous intégrez les outils pertinents (par exemple pour la surveillance, la génération, le déploiement) avec le système de gestion des défauts
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications

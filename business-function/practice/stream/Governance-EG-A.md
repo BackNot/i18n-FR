@@ -35,7 +35,7 @@ maturity_levels:
             - La formation est obligatoire lors du processus d'intégration des employés
 
         answers:
-            - "No"
+            - Non
             - Oui, certains d'entre eux
             - Oui, au moins la moitié d'entre eux
             - Oui, la plupart ou tous
@@ -68,7 +68,7 @@ maturity_levels:
             - Vous utilisez les commentaires pour améliorer la formation et la rendre plus pertinente pour l'avenir
 
         answers:
-            - "No"
+            - Non
             - Oui, pour une partie de la formation
             - Oui, pour au moins la moitié de la formation
             - Oui, pour la majeure partie ou la totalité de la formation
@@ -93,7 +93,7 @@ maturity_levels:
             - Vous utilisez des programmes de certification ou des preuves de présence pour donner accès aux systèmes de développement et aux ressources
 
         answers:
-            - "No"
+            - Non
             - Oui, pour une partie de la formation
             - Oui, pour au moins la moitié de la formation
             - Oui, pour la majeure partie ou la totalité de la formation

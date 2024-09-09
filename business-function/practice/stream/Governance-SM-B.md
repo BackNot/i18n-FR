@@ -45,7 +45,7 @@ maturity_levels:
             - Les équipes de sécurité des applications et de développement publient des métriques
 
         answers:
-            - "No"
+            - Non
             - Oui, pour une catégorie de métriques
             - Oui, pour deux catégories de métriques
             - Oui, pour les trois catégories de métriques
@@ -69,7 +69,7 @@ maturity_levels:
             - Le succès du programme de sécurité applicative est sans ambigüité selon les KPIs définis
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certains métriques
             - Oui, pour au moins la moitié des métriques
             - Oui, pour la plupart ou toutes les métriques
@@ -94,7 +94,7 @@ maturity_levels:
             - Les indicateurs clés de performance et les métriques de sécurité applicative sont la cause de la plupart des changements de la stratégie de sécurité applicative
 
         answers:
-            - "No"
+            - Non
             - Oui, mais la revue est ad-hoc
             - Oui, nous le revoyons régulièrement
             - Oui, nous le revoyons au moins une fois par an

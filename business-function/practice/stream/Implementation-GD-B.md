@@ -36,7 +36,7 @@ maturity_levels:
             - Vous avez identifié et réalisé au moins une activité d'amélioration rapide basée sur les données
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications
@@ -68,7 +68,7 @@ maturity_levels:
             - Vous partagez régulièrement des détails techniques sur les défauts de sécurité entre les équipes
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications
@@ -97,7 +97,7 @@ maturity_levels:
             - Vous avez tiré au moins une initiative stratégique des indicateurs au cours de l'année écoulée.
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications

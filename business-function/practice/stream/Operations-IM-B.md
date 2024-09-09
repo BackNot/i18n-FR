@@ -32,7 +32,7 @@ maturity_levels:
             - Vous documentez les incidents de sécurité
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certains incidents
             - Oui, pour au moins la moitié des incidents
             - Oui, pour la plupart ou tous les incidents
@@ -59,7 +59,7 @@ maturity_levels:
             - De l'outillage d'analyse forensique est disponible
 
         answers:
-            - "No"
+            - Non
             - Oui, pour certains types d'incident
             - Oui, pour au moins la moitié des types d'incidents
             - Oui, pour la plupart ou tous les types d'incidents
@@ -83,7 +83,7 @@ maturity_levels:
             - Vous réexaminez et mettez à jour le processus de réponse au moins une fois par an
 
         answers:
-            - "No"
+            - Non
             - Oui, une partie du temps
             - Oui, au moins la moitié du temps
             - Oui, la majeure partie du temps ou tout le temps
