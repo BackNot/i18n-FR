@@ -9,10 +9,10 @@ stream: B
 description: Implémentation / Génération Sécurisée
 keywords: ["Business function", "Practice", "Implémentation", "Génération Sécurisée"]
 aliases:
-    - /es/model/I-SB-B-1
-    - /es/model/I-SB-B-2
-    - /es/model/I-SB-B-3
-    - /es/model/I-SB-B
+    - /fr/model/I-SB-B-1
+    - /fr/model/I-SB-B-2
+    - /fr/model/I-SB-B-3
+    - /fr/model/I-SB-B
 
 maturity_levels:
     level1:
@@ -24,7 +24,7 @@ maturity_levels:
 
             Rassemblez les informations suivantes sur chaque dépendance :
 
-                        * quand elle est utilisée ou référencée,
+            * quand elle est utilisée ou référencée,
             * la version utilisée,
             * la licence,
             * les informations liées à sa source (lien vers le référentiel, nom de l'auteur, etc.),
@@ -55,7 +55,7 @@ maturity_levels:
 
             Revoyez régulièrement les dépendances utilisées pour vous assurer que :
 
-                        * elles restent correctement sous licence,
+            * elles restent correctement sous licence,
             * aucune vulnérabilité connue et significative impactant vos applications sont présentes,
             * la dépendance est toujours activement prise en charge et maintenue,
             * vous utilisez une version à jour,

@@ -9,10 +9,10 @@ stream: A
 description: Conception / Architecture de Sécurité
 keywords: ["Business function", "Practice", "Conception", "Architecture de Sécurité"]
 aliases:
-    - /es/model/D-SA-A-1
-    - /es/model/D-SA-A-2
-    - /es/model/D-SA-A-3
-    - /es/model/D-SA-A
+    - /fr/model/D-SA-A-1
+    - /fr/model/D-SA-A-2
+    - /fr/model/D-SA-A-3
+    - /fr/model/D-SA-A
 
 maturity_levels:
     level1:

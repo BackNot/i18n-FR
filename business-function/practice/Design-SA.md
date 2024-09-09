@@ -5,7 +5,7 @@ business_function: "Conception"
 business_function_url: "design"
 keywords: ["Business function", "Practice", "Architecture de Sécurité"]
 aliases:
-    - /es/model/D-SA
+    - /fr/model/D-SA
 type: practice
 
 practice_maturity_1_description: Inclure la considération de conseils de sécurité proactifs dans le processus de conception logicielle.

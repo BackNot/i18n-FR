@@ -9,10 +9,10 @@ stream: A
 description: Opérations / Gestion opérationnelle
 keywords: ["Business function", "Practice", "Opérations", "Gestion opérationnelle"]
 aliases:
-    - /es/model/O-OM-A-1
-    - /es/model/O-OM-A-2
-    - /es/model/O-OM-A-3
-    - /es/model/O-OM-A
+    - /fr/model/O-OM-A-1
+    - /fr/model/O-OM-A-2
+    - /fr/model/O-OM-A-3
+    - /fr/model/O-OM-A
 
 maturity_levels:
     level1:

@@ -5,7 +5,7 @@ business_function: "Vérification"
 business_function_url: "verification"
 keywords: ["Business function", "Practice", "Tests de sécurité"]
 aliases:
-    - /es/model/V-ST
+    - /fr/model/V-ST
 type: practice
 
 practice_maturity_1_description: Effectuer des tests de sécurité (à la fois manuels et basés sur des outils) pour découvrir les défauts de sécurité.

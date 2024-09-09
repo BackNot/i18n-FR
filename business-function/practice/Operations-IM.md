@@ -5,7 +5,7 @@ business_function: "Opérations"
 business_function_url: "operations"
 keywords: ["Business function", "Practice", "Gestion des incidents"]
 aliases:
-    - /es/model/O-IM
+    - /fr/model/O-IM
 type: practice
 
 practice_maturity_1_description: Détection et gestion des incidents au meilleur de vos capacités

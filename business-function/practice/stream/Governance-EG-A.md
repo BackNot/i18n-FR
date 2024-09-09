@@ -9,10 +9,10 @@ stream: A
 description: Gouvernance / Éducation & Orientation
 keywords: ["Business function", "Practice", "Gouvernance", "Éducation & Orientation"]
 aliases:
-    - /es/model/G-EG-A-1
-    - /es/model/G-EG-A-2
-    - /es/model/G-EG-A-3
-    - /es/model/G-EG-A
+    - /fr/model/G-EG-A-1
+    - /fr/model/G-EG-A-2
+    - /fr/model/G-EG-A-3
+    - /fr/model/G-EG-A
 
 maturity_levels:
     level1:
@@ -47,7 +47,7 @@ maturity_levels:
         activity: |
             Menez des formations sur la sécurité en présentiel ou en distanciel spécifiques aux rôles et aux technologies de l'organisation, en commençant par l'équipe de développement principale. L'organisation particularise la formation pour les gestionnaires de produit, les développeurs logiciels, les testeurs et les auditeurs de la sécurité en fonction des besoins techniques de chaque groupe.
 
-                        - les gestionnaires de produit sont formés sur les sujets en lien avec les fonctions d'affaire du SAMM et les pratiques de sécurité, en mettant l'accent sur les exigences de sécurité, la modélisation des menaces et le suivi des défauts.
+            - les gestionnaires de produit sont formés sur les sujets en lien avec les fonctions d'affaire du SAMM et les pratiques de sécurité, en mettant l'accent sur les exigences de sécurité, la modélisation des menaces et le suivi des défauts.
             - les développeurs sont formés sur les normes de codage et les bonnes pratiques en lien avec les technologies avec lesquelles ils travaillent pour garantir que la formation bénéficie directement à la sécurité des applications. Ils devront avoir une bonne compréhension technique des vulnérabilités du Top 10 de l'OWASP ou des faiblesses similaires liées aux technologies et environnements utilisés (p. ex. mobiles) et des stratégies de résolution associées à chaque problème.
             - les testeurs sont formés aux différents outils de test et aux bonnes pratiques liées aux technologies présentes au sein de l'organisation, ainsi qu'aux outils qui permettent d'identifier les défauts de sécurité.
             - les auditeurs de la sécurité sont formés au cycle de vie de développement logiciel, aux mécanismes de sécurité des applications utilisés au sein de l'organisation et au process de soumission de défauts de sécurité en vue de leur correction.

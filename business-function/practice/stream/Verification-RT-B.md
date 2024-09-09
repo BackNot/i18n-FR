@@ -9,10 +9,10 @@ stream: B
 description: Vérification / Tests axés sur les exigences
 keywords: ["Business function", "Practice", "Vérification", "Tests axés sur les exigences"]
 aliases:
-    - /es/model/V-RT-B-1
-    - /es/model/V-RT-B-2
-    - /es/model/V-RT-B-3
-    - /es/model/V-RT-B
+    - /fr/model/V-RT-B-1
+    - /fr/model/V-RT-B-2
+    - /fr/model/V-RT-B-3
+    - /fr/model/V-RT-B
 
 maturity_levels:
     level1:

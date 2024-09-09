@@ -9,10 +9,10 @@ stream: B
 description: Opérations / Gestion des incidents
 keywords: ["Business function", "Practice", "Opérations", "Gestion des incidents"]
 aliases:
-    - /es/model/O-IM-B-1
-    - /es/model/O-IM-B-2
-    - /es/model/O-IM-B-3
-    - /es/model/O-IM-B
+    - /fr/model/O-IM-B-1
+    - /fr/model/O-IM-B-2
+    - /fr/model/O-IM-B-3
+    - /fr/model/O-IM-B
 
 maturity_levels:
     level1:
@@ -44,7 +44,7 @@ maturity_levels:
         activity: |
             Mettez en place et documentez le processus officiel d'intervention en cas d'incident de sécurité. Assurez-vous que la documentation inclut des informations telles que :
 
-                        * les scénarios les plus probables / courants d'incidents de sécurité et des instructions de haut niveau pour les gérer ; pour de tels scénarios, utilisez également les connaissances publiques sur les incidents pertinents étant éventuellement survenus chez les tierces parties,
+            * les scénarios les plus probables / courants d'incidents de sécurité et des instructions de haut niveau pour les gérer ; pour de tels scénarios, utilisez également les connaissances publiques sur les incidents pertinents étant éventuellement survenus chez les tierces parties,
             * les règles pour orienter chaque incident,
             * les règles pour la participation des différentes parties prenantes, y compris la Direction Générale, les Relations Publiques, le Département Juridique, celui en charge de la Confidentialité, les Ressources Humaines, les autorités externes (Forces de l'Ordre) et les clients ; spécifiez le délai obligatoire pour ce faire, si nécessaire,
             * le processus pour effectuer une analyse de la cause racine et la documentation de ses résultats.

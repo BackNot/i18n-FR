@@ -9,10 +9,10 @@ stream: A
 description: Opérations / Gestion des incidents
 keywords: ["Business function", "Practice", "Opérations", "Gestion des incidents"]
 aliases:
-    - /es/model/O-IM-A-1
-    - /es/model/O-IM-A-2
-    - /es/model/O-IM-A-3
-    - /es/model/O-IM-A
+    - /fr/model/O-IM-A-1
+    - /fr/model/O-IM-A-2
+    - /fr/model/O-IM-A-3
+    - /fr/model/O-IM-A
 
 maturity_levels:
     level1:

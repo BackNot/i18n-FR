@@ -9,10 +9,10 @@ stream: B
 description: Vérification / Évaluation de l'architecture
 keywords: ["Business function", "Practice", "Vérification", "Évaluation de l'architecture"]
 aliases:
-    - /es/model/V-AA-B-1
-    - /es/model/V-AA-B-2
-    - /es/model/V-AA-B-3
-    - /es/model/V-AA-B
+    - /fr/model/V-AA-B-1
+    - /fr/model/V-AA-B-2
+    - /fr/model/V-AA-B-3
+    - /fr/model/V-AA-B
 
 maturity_levels:
     level1:
