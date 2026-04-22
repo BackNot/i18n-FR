@@ -1,7 +1,7 @@
 ---
 title: Conception d'architecture
 type: stream
-url: ./model/design/secure-architecture/stream-a/
+url: ./model/design/security-architecture/stream-a/
 business_function: Conception
 business_function_url: design
 practice: Architecture de Sécurité
@@ -33,7 +33,7 @@ maturity_levels:
             - Les parties prenantes concernées comprennent les principes de sécurité
 
         answers:
-            - Non
+            - "No"
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications
@@ -60,7 +60,7 @@ maturity_levels:
             - Vos concepteurs sont formés à l'intégration de chaque service sélectionné selon les conseils disponibles
 
         answers:
-            - Non
+            - "No"
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications
@@ -83,7 +83,7 @@ maturity_levels:
             - Vous fournissez un ensemble de composants, bibliothèques et outils pour implémenter chaque architecture de référence
 
         answers:
-            - Non
+            - "No"
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications

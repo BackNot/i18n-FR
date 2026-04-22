@@ -8,7 +8,7 @@ practice_1_url: threat-assessment
 practice_2: Exigences de Sécurité
 practice_2_url: security-requirements
 practice_3: Architecture de Sécurité
-practice_3_url: secure-architecture
+practice_3_url: security-architecture
 
 keywords: ["Business function"]
 ---

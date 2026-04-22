@@ -1,6 +1,6 @@
 ---
 title: Architecture de Sécurité
-url: ./model/design/secure-architecture/
+url: ./model/design/security-architecture/
 business_function: "Conception"
 business_function_url: "design"
 keywords: ["Business function", "Practice", "Architecture de Sécurité"]

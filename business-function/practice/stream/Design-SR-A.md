@@ -33,7 +33,7 @@ maturity_levels:
             - Les exigences de sécurité sont conformes aux exigences minimales organisationnelles
 
         answers:
-            - Non
+            - "No"
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications
@@ -43,7 +43,8 @@ maturity_levels:
         benefit: |
             Alignement des exigences de sécurité avec d'autres types d'exigences
         activity: |
-            Les exigences de sécurité peuvent provenir d'autres sources, y compris les politiques et la législation, les problèmes connus au sein de l'application, et les enseignements provenant des métriques et des retours de terrain. À ce niveau, une élicitation plus systématique des exigences de sécurité doit être obtenue en analysant différentes sources de ces exigences. Veiller à ce que ces sources fournissent des intrants appropriés pour faciliter l'élicitation des exigences. Par exemple, organisez des entretiens ou des séances de créativité (par exemple dans le cadre de la politique et de la législation), analysez les historiques des journaux ou des systèmes de vulnérabilité.
+            Les exigences de sécurité peuvent provenir d'autres sources, y compris les politiques et la législation, les problèmes connus au sein de l'application, et les enseignements provenant des métriques et des retours de terrain. À ce niveau, une élicitation plus systématique des exigences de sécurité doit être obtenue en analysant différentes sources de ces exigences. Veiller à ce que ces sources fournissent des intrants appropriés pour faciliter l'élicitation des exigences. Par exemple, organisez des entretiens ou des séances de créativité (par exemple dans le cadre de la politique et de la législation), analysez les historiques 
+ des journaux ou des systèmes de vulnérabilité.
 
             Utilisez une notation structurée des exigences de sécurité à travers les applications et un formalisme approprié qui s'intègre bien à la façon dont vous spécifiez d'autres exigences (fonctionnelles) pour le projet. Cela peut signifier, par exemple, étendre les documents d'analyse, écrire des récits, etc.
 
@@ -57,7 +58,7 @@ maturity_levels:
             - Les équipes de développement ont un champion de sécurité dédié à l'examen des exigences et des résultats en matière de sécurité
 
         answers:
-            - Non
+            - "No"
             - Oui, une partie du temps
             - Oui, au moins la moitié du temps
             - Oui, la majeure partie du temps ou tout le temps
@@ -81,7 +82,7 @@ maturity_levels:
             - Le cadre est adaptable aux exigences spécifiques de l'entreprise
 
         answers:
-            - Non
+            - "No"
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications

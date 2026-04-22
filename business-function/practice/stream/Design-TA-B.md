@@ -35,7 +35,7 @@ maturity_levels:
             - Vous archivez le résultat d'un modèle de menace pour une utilisation ultérieure
 
         answers:
-            - Non
+            - "No"
             - Oui, certains d'entre eux
             - Oui, au moins la moitié d'entre eux
             - Oui, la plupart ou tous
@@ -61,7 +61,7 @@ maturity_levels:
             - Vous capturez les artefacts de modélisation des menaces avec des outils qui sont utilisés par vos équipes d'application
 
         answers:
-            - Non
+            - "No"
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications
@@ -84,7 +84,7 @@ maturity_levels:
             - Vous automatisez des parties de votre processus de modélisation des menaces avec des outils de modélisation des menaces
 
         answers:
-            - Non
+            - "No"
             - Oui, mais la revue est ad-hoc
             - Oui, nous le revoyons régulièrement
             - Oui, nous le revoyons au moins une fois par an

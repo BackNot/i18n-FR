@@ -34,7 +34,7 @@ maturity_levels:
             - Vous documentez les risques et les stockez dans un endroit accessible
 
         answers:
-            - Non
+            - "No"
             - Oui, il couvre les risques courants
             - Oui, il couvre les risques propres à l'organisation
             - Oui, il couvre les risques et les opportunités
@@ -59,10 +59,10 @@ maturity_levels:
             - Les parties-prenantes adhèrent au projet, y compris les équipes de développement
 
         answers:
-            - Non
+            - "No"
             - Oui, nous le revoyons chaque année
             - Oui, nous consultons le plan avant de prendre des décisions significatives
-            - Yes, we consult the plan often, and it is aligned with our application security strategy value
+            - {'Yes, we consult the plan often, and it is aligned with our application security strategy value': {'1 weight': {'1 order': 3}}}
 
     level3:
         level: 3
@@ -83,7 +83,7 @@ maturity_levels:
             - Vous publiez des informations sur l'état d'avancement des activités de la feuille de route, en vous assurant qu'elles sont accessibles à toutes les parties prenantes
 
         answers:
-            - Non
+            - "No"
             - Oui, mais la revue est ad-hoc
             - Oui, nous le revoyons régulièrement
             - Oui, nous le revoyons au moins une fois par an

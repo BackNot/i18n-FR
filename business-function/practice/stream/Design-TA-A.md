@@ -32,7 +32,7 @@ maturity_levels:
             - L'organisation a un inventaire des applications dans son périmètre
 
         answers:
-            - Non
+            - "No"
             - Oui, certains d'entre eux
             - Oui, au moins la moitié d'entre eux
             - Oui, la plupart ou tous
@@ -58,7 +58,7 @@ maturity_levels:
             - Les profils de risque de l'application sont stockés dans un inventaire central
 
         answers:
-            - Non
+            - "No"
             - Oui, pour certaines applications
             - Oui, pour au moins la moitié des applications
             - Oui, pour la plupart ou toutes les applications
@@ -80,7 +80,7 @@ maturity_levels:
             - Des changements dans le contexte de l'application ou de l'entreprise déclenchent une revue des modèles de menace pertinents
 
         answers:
-            - Non
+            - "No"
             - Oui, sporadiquement
             - Oui, sur modification de l'application
             - Oui, au moins une fois par an
